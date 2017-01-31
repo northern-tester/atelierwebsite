@@ -21,3 +21,10 @@ button {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
+map-canvas {
+	height: 75%;
+	width: 75%;
+	margin: 0px;
+	padding: 0px;
+}
