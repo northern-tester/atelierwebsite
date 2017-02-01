@@ -3,13 +3,13 @@ var router = express.Router();
 
 /* GET CfP page. */
 router.get('/', function(req, res, next) {
-  res.render('callforpapers', { title: 'Leeds Testing Atelier - Call for Papers' });
+  res.render('previousateliers', { title: 'Previous Testing Ateliers' });
 });
 
-/* Post a new idea */
+/* Give us feedback on previous events */
 router.post('/', function(req, res, next) {
-    console.log(req.body.email);
-    res.send('Post page');
+    console.log(req.body.feedback);
+    res.send('Thanks for your feedback!');
 });
 
 module.exports = router;
