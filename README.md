@@ -15,6 +15,7 @@
 npm version required - 3.10.X and above
 node version required - v6.9.X and above
 Clone this mutha down, cd into atelier website and npm install
+In order for the emailer to work, please add config into config/email.json, there is an example in there 
 
 ```
 
