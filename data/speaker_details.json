@@ -1,0 +1,19 @@
+{"speakers":
+	[
+		{ 
+			"name"	: "Colin Ameigh",
+			"picture" : "public/images/speakers/colin.jpg",
+			"title"   : "Unit Testing for Idiots",
+			"abstract" : "This is my rifle there are many like it but this one is mine",
+			"twitter" : "@colin"
+		},
+			
+		{
+			"name"	: "Dan Rathbone",
+			"picture" : "public/images/speakers/dan.jpg",
+			"title"   : "Performance Testing for Idiots",
+			"abstract" : "This is my rifle there are many like it but this one is mine",
+			"twitter" : "@dan"
+		}
+	]
+}

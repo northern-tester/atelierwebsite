@@ -7,12 +7,21 @@ block content
 	div
 		h2 Sign Up here
 		a(href='http://www.eventbrite.co.uk/e/test-event-tickets-32065109606?ref=ebtnebregn', target='_blank'): img(src='https://www.eventbrite.co.uk/custombutton?eid=32065109606', alt='Eventbrite - Test Event')
+	hr
 	div
 		h2 Our amazing speakers!
+		for speaker in speakers
+			h3 #{speaker.name}
+			img(src='#{speaker.picture}')
+			h3 #{speaker.title}
+			p #{speaker.abstract}
+			p #{speaker.twitter}
+	hr
 	div
 		p We would absolutely love to hear from you, your successes, your learning, everything in between!
 		p This Call for Papers won't close, just submit and we'll get back to you...
 		a(href="/callforpapers"): button(type="button") Submit your awesome idea
+	hr
 	div
 		p For a bit of inspiration, check out our Atelier archive!
 		a(href="/previousateliers"): button(type="button") Peek at previous ateliers

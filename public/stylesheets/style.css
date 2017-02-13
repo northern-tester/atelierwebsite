@@ -39,6 +39,10 @@ map-canvas {
 	padding: 0px;
 }
 
+hr {
+    size: 5px;
+}
+
 .lta-logo {
   position: relative;
   display: block;
