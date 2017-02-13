@@ -24,9 +24,24 @@ button {
     padding-bottom: 1rem;
 }
 
+form {
+    font-size: 24px;
+    display:table;
+    text-align: left;
+    vertical-align: middle;
+    margin: 40px;
+} 
+
 map-canvas {
 	height: 75%;
 	width: 75%;
 	margin: 0px;
 	padding: 0px;
+}
+
+.lta-logo {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
