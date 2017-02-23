@@ -28,7 +28,7 @@ router.post('/', function(req, res, next) {
 	};
     console.log(req.body.email);
     console.log(emailConfig.service);
-    res.send('Thanks for your submission - we love you - The Atelier Gang');
+    res.render('thankyou');
     transporter.sendMail(mailOptions, function(error, info){
 	    if(error){
 	        console.log(error);

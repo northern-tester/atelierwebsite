@@ -12,6 +12,8 @@
     "express": "~4.14.0",
     "google-maps": "^3.2.1",
     "jade": "~1.11.0",
+    "jade-bootstrap": "^1.0.9",
+    "jade-cli": "^0.1.1",
     "morgan": "~1.7.0",
     "nodemailer": "^3.0.2",
     "serve-favicon": "~2.3.0"

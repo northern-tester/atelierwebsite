@@ -4,8 +4,19 @@ block content
 	h1= title
 	div 
 		p Welcome to #{title}
-	div 
-		p Atelier III - Wharf Chambers - Tuesday 20th September 2016
-		img.gwen-intro(src="./images/previousateliers/gwen_intro.jpg")
+
+	div(class=atelierThree) 
+		h2 Atelier III - Wharf Chambers - Tuesday 20th September 2016
+		img(src="./images/previousateliers/gwen_intro.jpg")
+		#blogroll
+			h2 Blog Roll
+				table.blogroll
+					tr
+						td
+							a(href="Ash Winters Blog"): button(type="button") Check out Ash Winters blog!
+						td
+							a(href="Matt Brettons Blog"): button(type="button") Check out Matthew Brettons blog!
+	div
+		h2 Atelier II - Wharf Chambers - 
 	div
 		a(href="/callforpapers"): button(type="button") Inspired? Submit today!
