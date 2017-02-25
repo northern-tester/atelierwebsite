@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  padding: 15px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  width: 700px;
+  margin: auto;
+}
+
+.lta-logo {
+  position: relative;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.eventbrite {
+  position: relative;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  height: 90px;
+  width: 350px;
+}
+
+h1 {
+  font: 48px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 15px;
+}
+
+h2 {
+  font: 32px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 15px;
+  text-align: justify;
+}

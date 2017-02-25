@@ -24,7 +24,7 @@ router.post('/', function(req, res, next) {
 		from: req.body.email,
 		to: emailConfig.receivers,
 		subject: req.body.name + " - " + req.body.title,
-		text: "Abstract\n" + req.body.abstract + "\n\n" + "Speaker Bio\n" req.body.bio
+		text: "Abstract\n" + req.body.abstract + "\n\n" + "Speaker Bio\n" + req.body.bio
 	};
     console.log(req.body.email);
     console.log(emailConfig.service);
