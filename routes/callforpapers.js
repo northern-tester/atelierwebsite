@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
-var emailConfig = require('../config/email');
+var emailConfig = require('../config/email_example.json');
 
 /* GET CfP page. */
 router.get('/', function(req, res, next) {
