@@ -1,9 +1,9 @@
 body {
   background-color: black;
-  padding: 15px;
+  /*padding: 15px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #ffffff;
-  width: 1500px;
+  /*width: 1500px;*/
   margin: auto;
 }
 
@@ -104,6 +104,30 @@ hr {
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
+}
+
+.jumbotron {
+  height: 100vh;
+  width: 100vw;
+  background: url("../images/lta_logo_copy.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.speakertron {
+  padding-top: 100px;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  position: relative;
+}
+
+.welcome-button {
+  position: absolute;
+  bottom: 0;
 }
 
 .speaker-pic {
