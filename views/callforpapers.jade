@@ -2,7 +2,13 @@ include ../node_modules/jade-bootstrap/_bootstrap
 link(rel='stylesheet', href='/stylesheets/style.css')
 
 block content
-    section
+    +navbar-fixed("Leeds Testing Atelier", "navbar-site", "inverse")
+        div.navbar-inner
+                div.container
+                    ul.nav.navbar-nav.navbar-right
+                        +nav_item("/previousateliers") Previous Ateliers
+                        +nav_item("/callforpapers") Submit a paper
+    section(style="padding-top: 50px;")
         .container
             div.row
                 div.col-lg-12.col-md-12.col-sm-12
