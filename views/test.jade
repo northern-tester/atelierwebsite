@@ -3,10 +3,12 @@ include mixins/speaker-carousel
 link(rel='stylesheet', href='/stylesheets/style.css')
 
 block content
-    +navbar-fixed().navbar
-        +nav_item("#") Home
-        +nav_item("/previousateliers") Previous Ateliers
-        +nav_item("/callforpapers") Submit a paper
+    +navbar-fixed("Leeds Testing Atelier", "navbar-site", "inverse")
+        div.navbar-inner
+                div.container
+                    ul.nav.navbar-nav.navbar-right
+                        +nav_item("/previousateliers") Previous Ateliers
+                        +nav_item("/callforpapers") Submit a paper
     .jumbotron
             +a-btn('#speakers', 'default').welcome-button more
         section(id='speakers').speakertron
