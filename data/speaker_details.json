@@ -1,28 +1,19 @@
 {"speakers":
 	[
 		{ 
-			"name"	: "Colin Ameigh",
-			"picture" : "images/speakers/colin.jpg",
-			"title"   : "Unit Testing for Idiots",
-			"abstract" : "You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.",
-			"bio" : "Colin is a muscular blue humanoid with a purple hood over his yellow bare-bone skull, Colin seeks to conquer Castle Grayskull so he can obtain its ancient secrets, which would make him unstoppable and enable him to conquer and rule the fictional world of Eternia. However, the incompetence of his henchmen is always an issue to achieving his ambitions.",
-			"twitter" : "@colin"
-		},
-			
-		{
-			"name"	: "Dan Rathbone",
-			"picture" : "images/speakers/dan.jpg",
-			"title"   : "Performance Testing for Idiots",
-			"abstract" : "The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.",
-			"bio" : "Dan is is the leader and the hereditary Lord of the ThunderCats, Dan, based on the lion, wields the legendary Sword of Omens, which is able to fire bolts of energy and allows Dan to see across great distances with its power of Sight Beyond Sight, as well as the Claw Shield, a gauntlet that launches grappling lines from its claws.",
-			"twitter" : "@dan"
+			"name"	: "Serena Wadsworth",
+			"picture" : "images/speakers/serena.jpg",
+			"title"   : "Docker as a Tool for Testers",
+			"abstract" : "Serena will introduce you to Docker as a technology, what a container is, how they relate to images and their json configuration. With examples of how they use source control concepts with push and pull commands, to enable the creation of test environments on a per model basis, in order to test not only the code, but that it is an operational entity which can stand alone when deployed. Key takeaways are how Docker can be useful for testers and the benefits of using Docker to create disposable test environments",
+			"bio" : "Serena is a Test Engineer at Skybet within the Data Tribe, just getting started after finishing the software academy. Interested in all things testing, big data and technology in general. Has never been known to refuse free beer, and is unlikely to start now.",
+			"twitter" : "@leedsdataninja"
 		},
 		{
 			"name"	: "Ady Stokes",
 			"picture" : "images/speakers/ady.jpg",
-			"title"   : "Building a Community for Idiots",
-			"abstract" : "Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.",
-			"bio" : "Ady wears armor which is slightly different from that of the standard uniform of the royal guards. His moustache was not present on the original figure, having been added by Filmation to make him look older, wiser and more fatherly - although original prototype sketches for the Man-At-Arms figure gave him a goatee beard. He is often pestered by court jester Orko, as Orko's magic tricks often backfire directly at him. Duncan is also one of the three people who know He-Man's secret identity.",
+			"title"   : "Colleagues to Community",
+			"abstract" : "My session will share our journey building a testing community at work.  You’ll learn about and be able to try some of the challenges we’ve done along the way and how we built a risk based backlog of topics. Hopefully you will be inspired to build your own testing community where you work.",
+			"bio" : "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles. I have been published in Testing Experience magazine and The Testing Planet. I’ve also given presentations to Agile and Testing groups in London and Yorkshire and contribute to our internal testing community through talks, discussions, blog posts and challenges.",
 			"twitter" : "@cricketrulz"
 		}
 	]
