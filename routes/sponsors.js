@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var sponsorData = require('../data/sponsor_details');
+var sponsorData = require('../data/sponsor_details.json');
 
 
 /* GET sponsors page. */

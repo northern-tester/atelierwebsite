@@ -1,8 +1,8 @@
-mixin speakerCarousel(id, sponsors)
+mixin sponsorCarousel(id, sponsors)
     .carousel.slide(id="carousel-#{id}",data-ride="carousel")
         //- Indicators
         ol.carousel-indicators
-            each speaker,index in speakers
+            each sponsor,index in sponsors
                 if(index === 0)
                     li.active(data-target="#carousel-#{id}", data-slide-to="#{index}")
                 else
@@ -11,7 +11,7 @@ mixin speakerCarousel(id, sponsors)
 
         //- Wrapper for slides
         .carousel-inner(role="listbox")
-            each speaker,index in speakers
+            each sponsor,index in sponsors
                 if(index === 0)
                     .item.active
                         table
