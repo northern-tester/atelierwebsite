@@ -1,0 +1,22 @@
+include ../node_modules/jade-bootstrap/_bootstrap
+link(rel='stylesheet', href='/stylesheets/style.css')
+
+block content
+	+navbar-fixed("Leeds Testing Atelier", "navbar-site", "inverse")
+		div.navbar-inner
+				div.container
+					ul.nav.navbar-nav.navbar-right
+						+nav_item("/previousateliers") Previous Ateliers
+						+nav_item("/callforpapers") Submit a paper
+						+nav_item("/sponsors") Sponsor Us
+
+//Sponsors
+
+
+//Sponsor Us
+
+	div(class=sponsorus)
+		h2 Sponsorship Packages
+		h4 The Atelier is hosted twice a year and has been hosted at Wharf Chambers, a workers co-op in Leeds which fits with the ethics of the Testing Atelier.  We could originally only host 80 attendees but after expanding to the second floor of Wharf Chambers we can now hold 105 attendees.  The feedback has been very positive, from the last Atelier, 42 people filled out feedback forms. 100% enjoyed the day and 100% would attend again.
+		
+		h4 One of the aims of the Atelier is to ensure that we have diversity, therefore we ensure that we have people from different backgrounds speaking, this covers gender as well as job role. The event has a variety of talks, workshops and panels.  Some of the past topics that our talks have covered are; a DBA talking about Database Unit Testing, a Tester talking about Mobile Automation and recruiter about how to hire great Testers. The Atelier is volunteer run by seven people; six testers and a developer and is a day with punk rock vibes by the community for the community. As the event is free, we need sponsors.
