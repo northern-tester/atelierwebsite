@@ -1,16 +1,35 @@
 {"sponsors":
 	[
 		{ 
-			"name"	: "Serena Wadsworth",
-			"picture" : "images/speakers/serena.jpg",
-			"about" : "Serena will introduce you to Docker as a technology, what a container is, how they relate to images and their json configuration. With examples of how they use source control concepts with push and pull commands, to enable the creation of test environments on a per model basis, in order to test not only the code, but that it is an operational entity which can stand alone when deployed. Key takeaways are how Docker can be useful for testers and the benefits of using Docker to create disposable test environments",
-			"twitter" : "@leedsdataninja"
+			"name"	: "Ten10",
+			"picture" : "images/sponsors/ten10-logo.png",
+			"about" : "Ten10 delivers software testing using the best people, processes and technology, enabling organisations to embrace innovation and change with confidence.",
+			"twitter" : "@Ten10_UK"
 		},
 		{
-			"name"	: "Ady Stokes",
-			"picture" : "images/speakers/ady.jpg",
-			"about" : "My session will share our journey building a testing community at work.  You’ll learn about and be able to try some of the challenges we’ve done along the way and how we built a risk based backlog of topics. Hopefully you will be inspired to build your own testing community where you work.",
-			"twitter" : "@cricketrulz"
+			"name"	: "Exit-23",
+			"picture" : "images/sponsors/exit23-logo.jpeg",
+			"about" : "Determined and passionate test professional with experience across multiple domains including working on complex, large-scale enterprise applications in a variety of roles.",
+			"twitter" : "@choibot"
+		},
+		{
+			"name"	: "Skelton Thatcher",
+			"picture" : "images/sponsors/skeltonthatcher-logo.png",
+			"about" : "Skelton Thatcher Consulting specialises in tailored help with technology and teams. We have strong experience with Continuous Delivery, DevOps, and software operability.",
+			"twitter" : "@SkeltonThatcher"
+		},
+		{
+			"name"	: "Ministry of Testing",
+			"picture" : "images/sponsors/ministryoftest-logo.jpg",
+			"about" : "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
+			"twitter" : "@ministryoftesting"
+		},
+		{
+			"name"	: "Infinity Works",
+			"picture" : "images/sponsors/infinityworks-logo.jpg",
+			"about" : "A collective of leading Engineers and Technologists who have the intelligence to devise the right solution, the skills to build it to drive real change in your organisation.",
+			"twitter" : "@InfinityWorks"
 		}
 	]
 }
+
