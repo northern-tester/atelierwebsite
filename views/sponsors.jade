@@ -1,0 +1,68 @@
+include ../node_modules/jade-bootstrap/_bootstrap
+include mixins/sponsor-carousel
+link(rel='stylesheet', href='/stylesheets/style.css')
+link(rel='stylesheet', href='/stylesheets/sponsors.css')
+
+block content
+	+navbar-fixed("Leeds Testing Atelier", "navbar-site", "inverse")
+		div.navbar-inner
+				div.container
+					ul.nav.navbar-nav.navbar-right
+						+nav_item("/previousateliers") Previous Ateliers
+						+nav_item("/callforpapers") Submit a paper
+						+nav_item("/sponsors") Sponsor Us
+	
+	section(style="padding-top: 50px;")
+
+	section(id='amazingsponsors')
+			h2 Our sponsors totally rock! They pay for your learning, beer and swag!
+			section(id='sponsors').sponsortron
+				div.container
+					+sponsorCarousel('a', sponsors)
+
+	section(id='sponsorus')
+
+		h3 What am I getting myself into as a sponsor?
+
+		p 
+			|The Atelier is hosted twice a year and has been hosted at Wharf Chambers, a workers co-op in Leeds which fits with the ethics of the Testing Atelier.  We could originally only host 80 attendees but after expanding to the second floor of Wharf Chambers we can now hold 105 attendees.  The feedback has been very positive, from the last Atelier, 42 people filled out feedback forms. 100% enjoyed the day and 100% would attend again.
+			
+		p
+			|One of the aims of the Atelier is to ensure that we have diversity, therefore we ensure that we have people from different backgrounds speaking, this covers gender as well as job role. The event has a variety of talks, workshops and panels.  Some of the past topics that our talks have covered are; a DBA talking about database unit testing, a tester talking about mobile automation and recruiter about how to hire great testers. The Atelier is volunteer run by seven people; six testers and a developer and is a day with punk rock vibes by the community for the community. 
+
+		p
+			|As the event is free, we need sponsors. Email 
+			a(href='mailto:ash@leedstestingcommunity.co.uk?Subject=Atelier%20Sponsorship') ash@leedstestingcommunity.co.uk 
+			|or tweet 
+			a(href="https://twitter.com/leedstestconf") @leedstestconf 
+			|to get involved!
+
+		h3 What does the event cost?
+
+		div(class="cost-table")
+			+table-bordered(
+					[],
+				[
+					["Venue","£270"],
+					["Food","£300"],
+					["Drinks","£550"],
+					["Website","£50"],
+					["Wristbands","£80"],
+					["Total","£1250"]
+				]
+			)
+
+		h3 What will I get?
+
+		p
+			|We like to keep the event as low cost for us as well as the sponsors so we require 5 sponsors in total for a cost of £250 each. In return for sponsorship, you will receive the following:
+
+		li Logo and mention on the website
+		li Mention on the day
+		li Logo and mention on EventBrite
+		li Shout outs on Twitter and LinkedIn in the lead up to the event
+		li A ticket if you want it, but please turn up. Its so embarassing when people sponsor and don't turn up.
+		
+		p
+			|Besides wristbands, we would really like to offer the attendees merchandise from our sponsors such as stickers, USB drives or any other merchandise that you think is suitable.  
+			|If you could donate some merchandise that would be fantastic!

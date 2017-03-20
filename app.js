@@ -10,6 +10,7 @@ var callforpapers = require('./routes/callforpapers');
 var previousateliers = require('./routes/previousateliers');
 var thankyou = require('./routes/thankyou');
 var test = require('./routes/test');
+var sponsors = require('./routes/sponsors')
 
 var app = express();
 
@@ -30,6 +31,7 @@ app.use('/callforpapers', callforpapers);
 app.use('/previousateliers', previousateliers);
 app.use('/thankyou', thankyou);
 app.use('/test', test);
+app.use('/sponsors', sponsors);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

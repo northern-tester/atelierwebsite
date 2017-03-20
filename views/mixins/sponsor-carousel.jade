@@ -1,0 +1,42 @@
+mixin sponsorCarousel(id, sponsors)
+    .carousel.slide(id="carousel-#{id}",data-ride="carousel")
+        //- Indicators
+        ol.carousel-indicators
+            each sponsor,index in sponsors
+                if(index === 0)
+                    li.active(data-target="#carousel-#{id}", data-slide-to="#{index}")
+                else
+                    li(data-target="#carousel-#{id}", data-slide-to="#{index}")
+
+
+        //- Wrapper for slides
+        .carousel-inner(role="listbox")
+            each sponsor,index in sponsors
+                if(index === 0)
+                    .item.active
+                        table
+                            tr
+                                td.mugshot
+                                    img(src="#{sponsor.picture}")
+                                td.blurb
+                                    h4.sponsor-name #{sponsor.name}
+                                    a.twitter-follow-button(href="https://twitter.com/#{sponsor.twitter}", data-show-count="false"): Follow #{sponsor.twitter}
+                                    p.sponsor-about #{sponsor.about}
+                                    
+                else
+                    .item
+                        table
+                            tr
+                                td.mugshot
+                                    img(src="#{sponsor.picture}")
+                                td.blurb
+                                    h4.sponsor-name #{sponsor.name}
+                                    a.twitter-follow-button(href="https://twitter.com/#{sponsor.twitter}", data-show-count="false"): Follow #{sponsor.twitter}
+                                    p.sponsor-about #{sponsor.about}
+        //-  Controls
+        a.left.carousel-control(href="#carousel-#{id}", role="button", data-slide="prev")
+            +icon("chevron-left")
+            span.sr-only Previous
+        a.right.carousel-control(href="#carousel-#{id}", role="button", data-slide="next")
+            +icon("chevron-right")
+            span.sr-only Next
