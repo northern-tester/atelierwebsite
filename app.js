@@ -4,23 +4,52 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require('fs');
+var rfs = require('rotating-file-stream');
+var session = require('express-session');
+var generateSafeId = require('generate-safe-id');
 
 var index = require('./routes/index');
 var callforpapers = require('./routes/callforpapers');
 var previousateliers = require('./routes/previousateliers');
 var thankyou = require('./routes/thankyou');
 var test = require('./routes/test');
-var sponsors = require('./routes/sponsors')
+var sponsors = require('./routes/sponsors');
 
 var app = express();
+
+//Get the log directory
+var logDirectory = path.join(__dirname, 'logs');
+
+//Create a rotating write stream
+var accessLogStream = rfs('access.log', {
+	interval: '1d', 
+	path: logDirectory
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+//Cookie setup
+app.set('trust proxy', 1) // trust first proxy 
+var sessionId;
+app.use(session({
+  genid: function(req) {
+  	sessionId = generateSafeId();
+    return sessionId; // use UUIDs for session IDs 
+  },
+  secret: 'atelier'
+}));
+
+//Lets set our log stream to have the same token as the cookie
+logger.token('id', function getId(){
+	return sessionId
+});
+
 // uncomment after placing your favicon in /public
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
+app.use(logger(':id :method :url :response-time', {stream:accessLogStream}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());

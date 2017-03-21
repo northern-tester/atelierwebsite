@@ -3,3 +3,4 @@ atelier_website.sublime-workspace
 npm-debug.log
 node_modules/
 config/email.json
+logs/*access.log
