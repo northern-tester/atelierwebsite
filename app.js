@@ -49,7 +49,7 @@ logger.token('id', function getId(){
 
 // uncomment after placing your favicon in /public
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger(':id :method :url :response-time', {stream:accessLogStream}));
+app.use(logger('[:date[clf]] :id :status :method :url :response-time ":user-agent"', {stream:accessLogStream}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
