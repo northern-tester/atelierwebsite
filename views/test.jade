@@ -1,14 +1,14 @@
 include ../node_modules/jade-bootstrap/_bootstrap
 include mixins/speaker-carousel
+include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
 
-block content
-    +navbar-fixed("Leeds Testing Atelier", "navbar-site", "inverse")
-        div.navbar-inner
-                div.container
-                    ul.nav.navbar-nav.navbar-right
-                        +nav_item("/previousateliers") Previous Ateliers
-                        +nav_item("/callforpapers") Submit a paper
+
+
+block 
+    - var navitems = ["Previous Ateliers", "Sponsor Us", "Call for Papers"];
+    +navHeader(navitems)
+
     .jumbotron
             +a-btn('#speakers', 'default').welcome-button more
         section(id='speakers').speakertron
