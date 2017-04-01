@@ -1,6 +1,11 @@
-extends layout
+include ../node_modules/jade-bootstrap/_bootstrap
+include mixins/nav-header
+link(rel='stylesheet', href='/stylesheets/style.css')
 
 block content
+	- var navitems = ["Sponsor Us", "Call for Papers"];
+	+navHeader(navitems)
+	section(style="padding-top: 50px;")
 	div 
 		h1 Check out our illustrious history! Such learning!
 	hr

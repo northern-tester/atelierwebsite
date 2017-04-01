@@ -1,6 +1,11 @@
-extends layout
+include ../node_modules/jade-bootstrap/_bootstrap
+include mixins/nav-header
+link(rel='stylesheet', href='/stylesheets/style.css')
 
 block content
+	- var navitems = ["Sponsor Us", "Call for Papers", "Previous Ateliers"];
+	+navHeader(navitems)
+	section(style="padding-top: 50px;")
 	div 
 		h1 We are back!
 		h1 On the 9th of May 2017, the fully independent, punk, Leeds Testing Atelier returns at the amazing Wharf Chambers for a day of learning, collaboration and laughs! 

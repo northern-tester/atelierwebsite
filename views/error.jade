@@ -1,6 +1,15 @@
-extends layout
+include ../node_modules/jade-bootstrap/_bootstrap
+include mixins/nav-header
+link(rel='stylesheet', href='/stylesheets/style.css')
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+	- var navitems = ["Sponsor Us", "Call for Papers", "Previous Ateliers"];
+	+navHeader(navitems)
+	section(style="padding-top: 50px;")
+	h2 Holy Mackerel. This is embarrassing! 
+	section(style="padding-top: 25px;")
+	|Dude. What did you do? Testers always exposing where systems are broken. Email 
+	a(href='mailto:hi@leedstestingcommunity.co.uk?Subject=Atelier%20Sponsorship') hi@leedstestingcommunity.co.uk 
+	|with all the information you can muster! Just think, what would Cem do?
+	section(style="padding-top: 25px;")
+	img.lta-logo(src="./images/cemkaner.png")
