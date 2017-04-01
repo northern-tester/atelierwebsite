@@ -1,16 +1,12 @@
 include ../node_modules/jade-bootstrap/_bootstrap
 include mixins/sponsor-carousel
+include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
 link(rel='stylesheet', href='/stylesheets/sponsors.css')
 
 block content
-	+navbar-fixed("Leeds Testing Atelier", "navbar-site", "inverse")
-		div.navbar-inner
-				div.container
-					ul.nav.navbar-nav.navbar-right
-						+nav_item("/previousateliers") Previous Ateliers
-						+nav_item("/callforpapers") Submit a paper
-						+nav_item("/sponsors") Sponsor Us
+	- var navitems = ["Call for Papers","Previous Ateliers"];
+	+navHeader(navitems)
 	
 	section(style="padding-top: 50px;")
 
@@ -32,7 +28,7 @@ block content
 
 		p
 			|As the event is free, we need sponsors. Email 
-			a(href='mailto:ash@leedstestingcommunity.co.uk?Subject=Atelier%20Sponsorship') ash@leedstestingcommunity.co.uk 
+			a(href='mailto:hi@leedstestingcommunity.co.uk?Subject=Atelier%20Sponsorship') hi@leedstestingcommunity.co.uk 
 			|or tweet 
 			a(href="https://twitter.com/leedstestconf") @leedstestconf 
 			|to get involved!
