@@ -1,9 +1,9 @@
 mixin navHeader(navitems)
-    +navbar-fixed("", "navbar.brand", "inverse")
-        a(href="/").navbar-brand Leeds Testing Atelier
+    +navbar-fixed("Leeds Testing Atelier", "navbar.brand", "inverse")
         div.navbar-inner
                 div.container
                     ul.nav.navbar-nav.navbar-right
+                        +nav_item("/") Home
                         each navitem in navitems
                             if navitem === "Previous Ateliers"
                                 +nav_item("/previousateliers") #{navitem}
