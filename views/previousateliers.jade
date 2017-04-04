@@ -10,47 +10,33 @@ block content
 		h2 Check out our illustrious history! Such learning!
 	hr
 	div(class=atelierThree) 
-		h3 Atelier III - Wharf Chambers - Tuesday 20th September 2016
+		h4 Atelier III - Wharf Chambers - Tuesday 20th September 2016
 		p We got bigger! But kept our independent feel of course. This time Wharf gave us both floors of their fantastic bar and gig space to fully showcase our two track style, humans upstairs, robots downstairs. Almost 100 keen testers, developers, designers, analysts and operations people packed in to hear Gwen Diagram as rock the days compere, we heard from about mobile test automation, design, usability, how to hire great testers, how testers break developers hearts, testability of teapots, finished with a host of games and presentation karaoke!
-		table.atelierpics
-			tr
-				td
-					img(src="./images/previousateliers/atelier-three-gwen-intro.jpg")
-				td
-					img(src="./images/previousateliers/atelier-three-rich-buttons.jpg")
-			tr
-				td
-					img(src="./images/previousateliers/atelier-three-dt-heartbreak.jpg")
-				td
-					img(src="./images/previousateliers/atelier-three-sarah-humans.jpg")
+		+carousel("AtelierThree",[
+			{image:"./images/previousateliers/atelier-three-gwen-intro.jpg"},
+			{image:"./images/previousateliers/atelier-three-rich-buttons.jpg"},
+			{image:"./images/previousateliers/atelier-three-dt-heartbreak.jpg"},
+			{image:"./images/previousateliers/atelier-three-sarah-humans.jpg"}
+		])
 	hr
 	div(class=atelierTwo)
-		h3 Atelier II - Wharf Chambers - Tuesday 19th April 2016
+		h4 Atelier II - Wharf Chambers - Tuesday 19th April 2016
 		p We got a new name. After many beers, dismissing such gems as 'Yorkshire Testing Days', we googled workshop synonyms et voila! The Atelier was born! And we moved to a new venue! In order to build on the independent vibe we embody, we moved to Wharf Chambers, a workers co-op bar and gig space in central Leeds. The line up included testers turned entrepreneurs, recent "Testing Academy" graduates reflecting on their experiences, recent test managers doing the same about organisational change, plus workshops, games, beers, laughs and a very late night for some. 
-		table.atelierpics
-			tr
-				td
-					img(src="./images/previousateliers/atelier-two-adam-entre.jpg")
-				td
-					img(src="./images/previousateliers/atelier-two-grimmers.jpg")
-			tr
-				td
-					img(src="./images/previousateliers/atelier-two-nick-fred.jpg")
-				td
-					img(src="./images/previousateliers/atelier-two-walkinshaw.jpg")
+		+carousel("AtelierTwo",[
+			{image:"./images/previousateliers/atelier-two-adam-entre.jpg"},
+			{image:"./images/previousateliers/atelier-two-grimmers.jpg"},
+			{image:"./images/previousateliers/atelier-two-nick-fred.jpg"},
+			{image:"./images/previousateliers/atelier-two-walkinshaw.jpg"}
+		])
 	hr
 	div(class=atelierOne)
-		h3 Leeds Testing Unconference - 1 Park Lane, Leeds - Wednesday 23rd September 2015 
+		h4 Leeds Testing Unconference - 1 Park Lane, Leeds - Wednesday 23rd September 2015 
 		p You've got to begin somewhere. This event brought the group together and set the scene for what later become the Atelier. Nevertheless, we had lots of fun, mobile and exploratory testing workshops, discussions on agile heroes, how there are no best practices only good practices in context and many more. And a very, very lengthy version of the dice game...
-		table.atelierpics
-			tr
-				td
-					img(src="./images/previousateliers/atelier-one-crowd.jpg")
-				td
-					img(src="./images/previousateliers/atelier-one-history.jpg")
-			tr
-				td
-					img(src="./images/previousateliers/atelier-one-clem-slide.jpg")
-				td
-					img(src="./images/previousateliers/atelier-one-brainstorm.jpg")
-	hr
+		+carousel("AtelierOne",[
+			{image:"./images/previousateliers/atelier-one-crowd.jpg"},
+			{image:"./images/previousateliers/atelier-one-history.jpg"},
+			{image:"./images/previousateliers/atelier-one-clem-slide.jpg"},
+			{image:"./images/previousateliers/atelier-one-brainstorm.jpg"}
+		])
+	footer
+			p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
