@@ -1,0 +1,28 @@
+.speakertron {
+  padding-top: 25px;
+  background-color: #000;
+  position: relative;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+  top: 0%;
+}
+
+.speaker-name, .speaker-title {
+  font: 28px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.speaker-bio, .speaker-abstract {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h2, h3, p {
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+

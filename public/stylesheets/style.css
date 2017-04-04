@@ -105,40 +105,9 @@ hr {
   border-radius: 8px;
 }
 
-.jumbotron {
-  height: 100vh;
-  width: 100vw;
-  background: url("../images/lta_logo_copy.jpg") no-repeat center center;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: cover;
-  position: relative;
-}
-
-.speakertron {
-  padding-top: 100px;
-  height: 100vh;
-  width: 100vw;
-  background-color: #000;
-  position: relative;
-}
-
 .welcome-button {
   position: absolute;
   bottom: 0;
-}
-
-.speaker-pic {
-  position: relative;
-  display: inline;
-  border-radius: 8px;
-}
-
-.speakers-table {
-  table-layout: auto;
-  padding: 5px;
-  text-align: left;
 }
 
 .blurb {

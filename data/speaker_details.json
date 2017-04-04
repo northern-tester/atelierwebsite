@@ -15,8 +15,31 @@
 			"abstract" : "My session will share our journey building a testing community at work.  You’ll learn about and be able to try some of the challenges we’ve done along the way and how we built a risk based backlog of topics. Hopefully you will be inspired to build your own testing community where you work.",
 			"bio" : "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles. I have been published in Testing Experience magazine and The Testing Planet. I’ve also given presentations to Agile and Testing groups in London and Yorkshire and contribute to our internal testing community through talks, discussions, blog posts and challenges.",
 			"twitter" : "@cricketrulz"
+		},
+		{
+			"name"	: "Colin Ameigh",
+			"picture" : "images/speakers/colin.jpg",
+			"title"   : "What not to do - a guided tour of unit testing",
+			"abstract" : "Testers often bemoan the lack of unit tests on codebases they work on. But what happens if they are present, but terrible/don't prove anything/connect to the database/assert true == true tests may do even more damage than good. Colin will take us through the key elements of unit testing with counterexamples.",
+			"bio" : "Colin is a software developer with broad experience in telecommunications, internet and e-commerce. Experienced in requirements gathering through product lifecycle including testing. He specialises in databases design and implementation, web based user interfaces to complex systems and high speed data processing. Provides architectural guidance, technical design and leadership in complex projects.",
+			"twitter" : "@CAmeigh"
+		},
+		{
+			"name"	: "David Turner",
+			"picture" : "images/speakers/david.jpg",
+			"title"   : "Test Driven Development Using Excel",
+			"abstract" : "Based on a presentation by Clark Ching done many moons ago at The XP Club. David Turner will talk the audience through an example of how we can use tests to arrive at a neat solution. If audience members want to actively participate in the event, we invite them to turn up to the session with a laptop with Excel installed, and after setting them up with their first test we will ask them to complete the task in a separate room with support (if needed) by staff from Codera.",
+			"bio" : "Versatile IT Professional with over 20 years experience in delivering enterprise grade software in many domains with roles spanning development manager, solutions architect, enterprise architect and developer. An advocate for XP/agile/lean thinking (co-founder of Agile Yorkshire) and nowadays considered a delivery-focused pragmatist that heads up the quality-driven software house Codera Ltd.",
+			"twitter" : "@CoderaUK"
+		},
+		{
+			"name"	: "Rosie Dent-Brown",
+			"picture" : "images/speakers/rosie.jpg",
+			"title"   : "Testing the Waters",
+			"abstract" : "I would like to talk about my rather abrupt plunge into the world of testing from a totally un-related, and in fact entirely non-technical background. In my previous life in academia (studying firstly Japanese then Gender Studies) and working for charities, I was developing skills that I had no idea would come in handy in this rather un-anticipated career change. After six weeks of training, I was swiftly thrust into a world that was totally unlike anything I had ever experienced before. Suddenly I was expected to not only understand the work of people developing software in really minute detail, but tell them what they were doing wrong! After the initial shock, I realised that actually not only was I somehow managing to pull this off, but I was really enjoying it. The technical stuff I was learning (and fast!) but the things that surprised me most were the ways in which things I’d learned in my previous experience really made a difference in this totally new environment. I would like to share some of these discoveries, as well as give my insights on the nitty gritty of what makes a good tester from a (sort-of) outsider’s perspective.",
+			"bio" : "I have experience in a wide variety of areas such as, academic research, project management, administration, fundraising, marketing and teaching in both charities and for-profit organisations. I have worked in a variety of organisations in Europe, Asia and America on a multitude of short and long-term projects, working in English, French and Japanese. I have balanced these projects whilst completing my Undergraduate and Postgraduate studies, managing my time and energies in the most efficient way possible.",
+			"twitter" : "@rosiedentbrown"
 		}
 	]
 }
-
 

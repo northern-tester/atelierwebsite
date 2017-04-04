@@ -16,10 +16,8 @@ mixin speakerCarousel(id, speakers)
                     .item.active
                         table
                             tr
-                                td.mugshot
-                                    img(src="#{speaker.picture}")
-                                td.spacer
                                 td.blurb
+                                    img(src="#{speaker.picture}")
                                     h4.speaker-name #{speaker.name}
                                     h5.speaker-title #{speaker.title}
                                     p.speaker-bio #{speaker.bio}
@@ -29,10 +27,8 @@ mixin speakerCarousel(id, speakers)
                     .item
                         table
                             tr
-                                td.mugshot
-                                    img(src="#{speaker.picture}")
-                                td.spacer
                                 td.blurb
+                                    img(src="#{speaker.picture}")
                                     h4.speaker-name #{speaker.name}
                                     h5.speaker-title #{speaker.title}
                                     p.speaker-bio #{speaker.bio}
