@@ -5,6 +5,7 @@ body {
   color: #ffffff;
   /*width: 1500px;*/
   margin: auto;
+  background-image: url("../images/testing_atelier_form.jpeg");
 }
 
 button {
@@ -30,7 +31,7 @@ form {
     width: 100%;
     font-size: 24px;
     text-align: left;
-    margin: 20px;
+    margin: 5px;
 } 
 
 form.text {
@@ -45,7 +46,7 @@ fieldset {
 }
 
 input[type=text] {
-    width: 100%;
+    width: 70%;
     padding: 12px 6px;
     margin: 8px 0;
     border: 2px solid #ccc;
@@ -102,7 +103,6 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 8px;
 }
 
 .welcome-button {
@@ -155,4 +155,14 @@ hr {
   font: normal 12px/18px Helvetica, Arial, sans-serif;
   color: #333;
   white-space: nowrap;
+}
+
+.navbar-brand {
+   pointer-events: none;
+   cursor: default;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
 }
