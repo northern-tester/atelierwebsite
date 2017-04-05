@@ -39,7 +39,26 @@
 			"abstract" : "I would like to talk about my rather abrupt plunge into the world of testing from a totally un-related, and in fact entirely non-technical background. In my previous life in academia (studying firstly Japanese then Gender Studies) and working for charities, I was developing skills that I had no idea would come in handy in this rather un-anticipated career change. After six weeks of training, I was swiftly thrust into a world that was totally unlike anything I had ever experienced before. Suddenly I was expected to not only understand the work of people developing software in really minute detail, but tell them what they were doing wrong! After the initial shock, I realised that actually not only was I somehow managing to pull this off, but I was really enjoying it. The technical stuff I was learning (and fast!) but the things that surprised me most were the ways in which things I’d learned in my previous experience really made a difference in this totally new environment. I would like to share some of these discoveries, as well as give my insights on the nitty gritty of what makes a good tester from a (sort-of) outsider’s perspective.",
 			"bio" : "I have experience in a wide variety of areas such as, academic research, project management, administration, fundraising, marketing and teaching in both charities and for-profit organisations. I have worked in a variety of organisations in Europe, Asia and America on a multitude of short and long-term projects, working in English, French and Japanese. I have balanced these projects whilst completing my Undergraduate and Postgraduate studies, managing my time and energies in the most efficient way possible.",
 			"twitter" : "@rosiedentbrown"
-		}
+		},
+		{
+			"name"	: "Lee Grubb",
+			"picture" : "images/speakers/lee.jpg",
+			"title"   : "Power of Pairing",
+			"abstract" : "Two heads are better than one” - we often use this logic in our day to day lives to simplify complex tasks and the same can be true when we apply this to the development process. Lee will discuss the benefits that can be gained through pairing effectively, the presentation will include different methods of pairing, common myths and why it isn’t just for developers!",
+			"bio" : "Lee is a Java Developer at Sky who is currently learning Scala.  Originally from the Wirral, he has lived in a freezing cold shack in Wales and moved to Leeds in November last year.  He likes tea and cheese a bit too much and the ‘occasional’ cider.  He’s a bit weird and doesn’t really like Witcher 3 or ale.  He used to own a pet rat when he was younger, but unfortunately it died.",
+			"twitter" : "@leedstestconf"
+		},
+		{
+			"name"	: "Algirdas Rabikauskas, Kristina Valiune and Peter Ferguson",
+			"picture": "images/speakers/owl.jpg",
+			"title"   : "Testing without Testing",
+			"abstract" : "When we want to improve our skills or knowledge in testing, we usually think about things that are directly related to testing. For example: tools, strategies, methods or best practices in testing. All those things are technical or at least clearly related to our daily work as testers. But we also need to remember to work on Tester Mindset skills which are less obvious: the ability to ask the right questions, empathy, teamwork,  observation, creativity, innovation, and so on. With this workshop we can exercise some of these skills by playing fun games!",
+			"bio" : "Peter Ferguson is a highly committed, professional Test Manager. Strong experience in the Financial sector, and a strong track record in client support and Test Management in an Agile environment. Kristina Valiune is a Senior Test Engineer at Callcredit, a highly talented and community focused tester, her Lithuanian colleague Algirdas Rabikauskas enjoys working in teams employing agile ways for working, especially test automation.",
+			"twitter" : "@leedstestconf"
+		}		
 	]
 }
+
+
+
 
