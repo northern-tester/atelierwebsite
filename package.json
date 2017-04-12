@@ -21,6 +21,7 @@
     "nodemailer": "^3.0.2",
     "npm": "^4.4.1",
     "rotating-file-stream": "^1.2.0",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "slack-node": "^0.1.8"
   }
 }
