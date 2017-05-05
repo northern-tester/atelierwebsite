@@ -15,7 +15,7 @@
 npm version required - 3.10.X and above
 node version required - v6.9.X and above
 Clone this mutha down, cd into atelier website and npm install
-In order for the emailer to work, please add config into config/email.json, there is an example in there 
+In order for the Slack Call for Papers to work, please add config into config/slack_example.json and rename to slack.json, ask the authorities (mainly me :) ) for the Testing Atelier webhook, channel and user details.
 
 ```
 
