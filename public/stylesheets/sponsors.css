@@ -16,10 +16,11 @@
 }
 
 .cost-table {
-  width: 40%;
+  width: 50%;
   padding: 5px;
   font-size: 14px;
   text-align: left;
+  white-space: nowrap;
 }
 
 h2, h3, p {
