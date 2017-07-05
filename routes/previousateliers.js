@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET CfP page. */
 router.get('/', function(req, res, next) {
-  res.render('previousateliers', { title: 'Previous Testing Ateliers' });
+  res.render('previousateliers', { title: 'Previous Leeds Testing Ateliers' });
 });
 
 /* Give us feedback on previous events */

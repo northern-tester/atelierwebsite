@@ -4,3 +4,5 @@ npm-debug.log
 node_modules/
 config/email.json
 logs/
+.vscode/
+config/slack.json
