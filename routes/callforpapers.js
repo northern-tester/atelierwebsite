@@ -5,7 +5,7 @@ var Slack = require('slack-node');
 
 /* GET CfP page. */
 router.get('/', function(req, res, next) {
-  res.render('callforpapers', { title: 'Testing Atelier - Call for Papers' });
+  res.render('callforpapers', { title: 'Leeds Testing Atelier - Call for Papers' });
 });
 
 /* Post a new idea via Slack */
