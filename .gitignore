@@ -2,7 +2,8 @@ atelier_website.sublime-project
 atelier_website.sublime-workspace
 npm-debug.log
 node_modules/
-config/email.json
 logs/
 .vscode/
-config/slack.json
+config/slack_live.json
+config/recaptcha_live.json
+config/recaptcha_localhost.json
