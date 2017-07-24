@@ -15,6 +15,7 @@ var previousateliers = require('./routes/previousateliers');
 var thankyou = require('./routes/thankyou');
 var test = require('./routes/test');
 var sponsors = require('./routes/sponsors');
+var robot = require('./routes/robot');
 
 var app = express();
 
@@ -61,6 +62,7 @@ app.use('/previousateliers', previousateliers);
 app.use('/thankyou', thankyou);
 app.use('/test', test);
 app.use('/sponsors', sponsors);
+app.use('/robot', robot);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -77,7 +79,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render(err.message);
 });
 
 module.exports = app;

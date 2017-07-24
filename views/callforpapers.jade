@@ -1,6 +1,7 @@
 include ../node_modules/jade-bootstrap/_bootstrap
 include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
+script(src='https://www.google.com/recaptcha/api.js')
 
 block content
     - var navitems = ["Sponsor Us","Previous Ateliers"];
@@ -37,8 +38,8 @@ block content
                             fieldset(data-role='controlgroup')
                             label(for='bio') About you!
                             textarea(id='bio',type='text',value='',placeholder='Tell us a bit about yourself',name='bio', required).form-control
+                        .g-recaptcha(data-sitekey=recaptchaPubKey)
                         div(data-role='fieldcontain').form-group
                             input(type='submit',value='Submit proposal',data-transition='fade', data-theme='c')
-
-                    footer
-                        p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
+            footer
+                p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
