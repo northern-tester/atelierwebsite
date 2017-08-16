@@ -39,7 +39,7 @@ block content
                             fieldset(data-role='controlgroup')
                             label(for='bio') About you!
                             textarea(id='bio',type='text',value='',placeholder='Tell us a bit about yourself',name='bio', required).form-control
-                        .g-recaptcha(data-sitekey=recaptchaPubKey, data-callback='recaptcha_callback')
+                        .g-recaptcha(data-sitekey=recaptchaPubKey, data-callback='recaptcha_callback', data-expired-callback='recaptcha_expired_callback')
                         div(data-role='fieldcontain').form-group
                             input(id='cfpSubmit', type='submit',value='Submit proposal', data-transition='fade', data-theme='c', disabled = true)
             footer
