@@ -3,61 +3,13 @@
 	"speakers":
 	[
 		{ 
-			"name"	: "Serena Wadsworth",
-			"picture" : "images/speakers/serena.jpg",
-			"title"   : "Docker as a Tool for Testers",
-			"abstract" : "Serena will introduce you to Docker as a technology, what a container is, how they relate to images and their json configuration. With examples of how they use source control concepts with push and pull commands, to enable the creation of test environments on a per model basis, in order to test not only the code, but that it is an operational entity which can stand alone when deployed. Key takeaways are how Docker can be useful for testers and the benefits of using Docker to create disposable test environments",
-			"bio" : "Serena is a Test Engineer at Skybet within the Data Tribe, just getting started after finishing the software academy. Interested in all things testing, big data and technology in general. Has never been known to refuse free beer, and is unlikely to start now.",
-			"twitter" : "@leedsdataninja"
-		},
-		{
-			"name"	: "Ady Stokes",
-			"picture" : "images/speakers/ady.jpg",
-			"title"   : "Colleagues to Community",
-			"abstract" : "My session will share our journey building a testing community at work.  You’ll learn about and be able to try some of the challenges we’ve done along the way and how we built a risk based backlog of topics. Hopefully you will be inspired to build your own testing community where you work.",
-			"bio" : "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles. I have been published in Testing Experience magazine and The Testing Planet. I’ve also given presentations to Agile and Testing groups in London and Yorkshire and contribute to our internal testing community through talks, discussions, blog posts and challenges.",
-			"twitter" : "@cricketrulz"
-		},
-		{
-			"name"	: "Colin Ameigh",
-			"picture" : "images/speakers/colin.jpg",
-			"title"   : "What not to do - a guided tour of unit testing",
-			"abstract" : "Testers often bemoan the lack of unit tests on codebases they work on. But what happens if they are present, but terrible/don't prove anything/connect to the database/assert true == true tests may do even more damage than good. Colin will take us through the key elements of unit testing with counterexamples.",
-			"bio" : "Colin is a software developer with broad experience in telecommunications, internet and e-commerce. Experienced in requirements gathering through product lifecycle including testing. He specialises in databases design and implementation, web based user interfaces to complex systems and high speed data processing. Provides architectural guidance, technical design and leadership in complex projects.",
-			"twitter" : "@CAmeigh"
-		},
-		{
-			"name"	: "David Turner",
-			"picture" : "images/speakers/david.jpg",
-			"title"   : "Test Driven Development Using Excel",
-			"abstract" : "Based on a presentation by Clark Ching done many moons ago at The XP Club. David Turner will talk the audience through an example of how we can use tests to arrive at a neat solution. If audience members want to actively participate in the event, we invite them to turn up to the session with a laptop with Excel installed, and after setting them up with their first test we will ask them to complete the task in a separate room with support (if needed) by staff from Codera.",
-			"bio" : "Versatile IT Professional with over 20 years experience in delivering enterprise grade software in many domains with roles spanning development manager, solutions architect, enterprise architect and developer. An advocate for XP/agile/lean thinking (co-founder of Agile Yorkshire) and nowadays considered a delivery-focused pragmatist that heads up the quality-driven software house Codera Ltd.",
-			"twitter" : "@CoderaUK"
-		},
-		{
-			"name"	: "Rosie Dent-Brown",
-			"picture" : "images/speakers/rosie.jpg",
-			"title"   : "Testing the Waters",
-			"abstract" : "I would like to talk about my rather abrupt plunge into the world of testing from a totally un-related, and in fact entirely non-technical background. In my previous life in academia (studying firstly Japanese then Gender Studies) and working for charities, I was developing skills that I had no idea would come in handy in this rather un-anticipated career change. After six weeks of training, I was swiftly thrust into a world that was totally unlike anything I had ever experienced before. Suddenly I was expected to not only understand the work of people developing software in really minute detail, but tell them what they were doing wrong! After the initial shock, I realised that actually not only was I somehow managing to pull this off, but I was really enjoying it. The technical stuff I was learning (and fast!) but the things that surprised me most were the ways in which things I’d learned in my previous experience really made a difference in this totally new environment. I would like to share some of these discoveries, as well as give my insights on the nitty gritty of what makes a good tester from a (sort-of) outsider’s perspective.",
-			"bio" : "I have experience in a wide variety of areas such as, academic research, project management, administration, fundraising, marketing and teaching in both charities and for-profit organisations. I have worked in a variety of organisations in Europe, Asia and America on a multitude of short and long-term projects, working in English, French and Japanese. I have balanced these projects whilst completing my Undergraduate and Postgraduate studies, managing my time and energies in the most efficient way possible.",
-			"twitter" : "@rosiedentbrown"
-		},
-		{
-			"name"	: "Lee Grubb",
-			"picture" : "images/speakers/lee.jpg",
-			"title"   : "Power of Pairing",
-			"abstract" : "Two heads are better than one” - we often use this logic in our day to day lives to simplify complex tasks and the same can be true when we apply this to the development process. Lee will discuss the benefits that can be gained through pairing effectively, the presentation will include different methods of pairing, common myths and why it isn’t just for developers!",
-			"bio" : "Lee is a Java Developer at Sky who is currently learning Scala.  Originally from the Wirral, he has lived in a freezing cold shack in Wales and moved to Leeds in November last year.  He likes tea and cheese a bit too much and the ‘occasional’ cider.  He’s a bit weird and doesn’t really like Witcher 3 or ale.  He used to own a pet rat when he was younger, but unfortunately it died.",
-			"twitter" : "@leedstestconf"
-		},
-		{
-			"name"	: "Algirdas Rabikauskas, Kristina Valiune and Peter Ferguson",
-			"picture": "images/speakers/owl.jpg",
-			"title"   : "Testing without Testing",
-			"abstract" : "When we want to improve our skills or knowledge in testing, we usually think about things that are directly related to testing. For example: tools, strategies, methods or best practices in testing. All those things are technical or at least clearly related to our daily work as testers. But we also need to remember to work on Tester Mindset skills which are less obvious: the ability to ask the right questions, empathy, teamwork,  observation, creativity, innovation, and so on. With this workshop we can exercise some of these skills by playing fun games!",
-			"bio" : "Peter Ferguson is a highly committed, professional Test Manager. Strong experience in the Financial sector, and a strong track record in client support and Test Management in an Agile environment. Kristina Valiune is a Senior Test Engineer at Callcredit, a highly talented and community focused tester, her Lithuanian colleague Algirdas Rabikauskas enjoys working in teams employing agile ways for working, especially test automation.",
-			"twitter" : "@leedstestconf"
-		}		
+			"name"	: "Rosie Hamilton",
+			"picture" : "images/speakers/rosie_h.jpeg",
+			"title"   : "Discovering Logic in Testing",
+			"abstract" : "We all test in different ways and sometimes it can be hard to explain the thought processes behind how we test. What leads us into trying certain things and how do we draw conclusions, surely there is more going on here than intuition and luck? After working in games testing for almost a decade, Rosie draws from experience to explain how games testers develop advanced logical reasoning skills. Using practical examples that will make you think, she will demonstrate logical patterns, rules and concepts that can help all of us gain a deeper understanding of what is actually happening in our minds when we test.",
+			"bio" : "I currently work as a Senior Test Engineer in Newcastle. I've been testing since 2005 and survived 9 years in the UK Games Industry having worked for Xbox, 2K Games & Blizzard Entertainment. I've previously spoken at Newcastle Agile Testing, Agile North East and South West Test meet-ups. My hobbies include violin and yoga.",
+			"twitter" : "@rosicadia"
+		}
 	]
 }
 
