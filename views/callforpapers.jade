@@ -2,6 +2,7 @@ include ../node_modules/jade-bootstrap/_bootstrap
 include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
 script(src='https://www.google.com/recaptcha/api.js')
+script(type='text/javascript', src='/javascript/atelier.js')
 meta(name='description', content='Our continuous call for papers is always open at the Leeds Testing Atelier!')
 
 block content
@@ -39,8 +40,8 @@ block content
                             fieldset(data-role='controlgroup')
                             label(for='bio') About you!
                             textarea(id='bio',type='text',value='',placeholder='Tell us a bit about yourself',name='bio', required).form-control
-                        .g-recaptcha(data-sitekey=recaptchaPubKey)
+                        .g-recaptcha(data-sitekey=recaptchaPubKey, data-callback='recaptcha_callback', data-expired-callback='recaptcha_expired_callback')
                         div(data-role='fieldcontain').form-group
-                            input(type='submit',value='Submit proposal',data-transition='fade', data-theme='c')
+                            input(id='cfpSubmit', type='submit',value='Submit proposal', data-transition='fade', data-theme='c', disabled = true)
             footer
                 p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang

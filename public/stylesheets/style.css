@@ -45,6 +45,18 @@ fieldset {
   font-size: 24px;
 }
 
+input[disabled]#cfpSubmit,
+input[disabled]#cfpSubmit:hover,
+input[disabled]#cfpSubmit:active,
+input[disabled]#cfpSubmit:focus { 
+        background: #CCCCCC;
+        box-shadow: none;
+        outline: none;
+        opacity: 0.5;
+        text-decoration: none;
+}
+
+
 input[type=text] {
     width: 70%;
     padding: 12px 6px;
