@@ -9,6 +9,14 @@
 			"abstract" : "We all test in different ways and sometimes it can be hard to explain the thought processes behind how we test. What leads us into trying certain things and how do we draw conclusions, surely there is more going on here than intuition and luck? After working in games testing for almost a decade, Rosie draws from experience to explain how games testers develop advanced logical reasoning skills. Using practical examples that will make you think, she will demonstrate logical patterns, rules and concepts that can help all of us gain a deeper understanding of what is actually happening in our minds when we test.",
 			"bio" : "I currently work as a Senior Test Engineer in Newcastle. I've been testing since 2005 and survived 9 years in the UK Games Industry having worked for Xbox, 2K Games & Blizzard Entertainment. I've previously spoken at Newcastle Agile Testing, Agile North East and South West Test meet-ups. My hobbies include violin and yoga.",
 			"twitter" : "@rosicadia"
+		},
+		{
+			"name"	: "Chris Warren",
+			"picture" : "images/speakers/chris.jpeg",
+			"title"   : "To the left to the left, Everything I test in a box to the left...",
+			"abstract" : "I would like to tell my story about how I started focusing my attention on the right side of the board but slowly started to shift to the left. The journey starts with me picking up work in the ‘Test’ column without much involvement earlier in the process and continues today with me spending most of my time testing the requirements in an Analysis stage and working with the team to ensure testing is baked in throughout the process.",
+			"bio" : "I’ve been a software test consultant for nearly 8 years working in a variety of sectors across numerous roles mainly in performance and automation. My current engagement is for a consumer finance company who want to give their major platform a facelift. I’m part of an alleged scrum team tasked with breaking down the businesses epics and turning them into working software.",
+			"twitter" : "@bantam_chris"
 		}
 	]
 }
