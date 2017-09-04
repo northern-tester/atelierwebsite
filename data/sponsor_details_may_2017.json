@@ -1,0 +1,37 @@
+{
+	"title": "Leeds Testing Atelier - Sponsor Us",
+	"sponsors":
+		[
+			{ 
+				"name"	: "Ten10",
+				"picture" : "images/sponsors/ten10-logo.png",
+				"about" : "Ten10 delivers software testing using the best people, processes and technology, enabling organisations to embrace innovation and change with confidence.",
+				"twitter" : "@Ten10_UK"
+			},
+			{
+				"name"	: "Exit-23",
+				"picture" : "images/sponsors/exit23-logo.jpeg",
+				"about" : "Determined and passionate test professional with experience across multiple domains including working on complex, large-scale enterprise applications in a variety of roles.",
+				"twitter" : "@choibot"
+			},
+			{
+				"name"	: "Skelton Thatcher",
+				"picture" : "images/sponsors/skeltonthatcher-logo.png",
+				"about" : "Skelton Thatcher Consulting specialises in tailored help with technology and teams. We have strong experience with Continuous Delivery, DevOps, and software operability.",
+				"twitter" : "@SkeltonThatcher"
+			},
+			{
+				"name"	: "Ministry of Testing",
+				"picture" : "images/sponsors/ministryoftest-logo.jpg",
+				"about" : "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
+				"twitter" : "@ministryoftesting"
+			},
+			{
+				"name"	: "Infinity Works",
+				"picture" : "images/sponsors/infinityworks-logo.jpg",
+				"about" : "A collective of leading Engineers and Technologists who have the intelligence to devise the right solution, the skills to build it to drive real change in your organisation.",
+				"twitter" : "@InfinityWorks"
+			}
+		]
+}
+

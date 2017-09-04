@@ -17,9 +17,20 @@
 			"abstract" : "I would like to tell my story about how I started focusing my attention on the right side of the board but slowly started to shift to the left. The journey starts with me picking up work in the ‘Test’ column without much involvement earlier in the process and continues today with me spending most of my time testing the requirements in an Analysis stage and working with the team to ensure testing is baked in throughout the process.",
 			"bio" : "I’ve been a software test consultant for nearly 8 years working in a variety of sectors across numerous roles mainly in performance and automation. My current engagement is for a consumer finance company who want to give their major platform a facelift. I’m part of an alleged scrum team tasked with breaking down the businesses epics and turning them into working software.",
 			"twitter" : "@bantam_chris"
+		},
+		{ 
+			"name"	: "Andy Stewart",
+			"picture" : "images/speakers/andy_stew.jpeg",
+			"title"   : "The Villains of Automated Testing",
+			"abstract" : "Patterns are used in software all the time. They give us a common language or set of practises for doing things. Sometimes it's hard to tell a good pattern from a bad (or anti) pattern. We implement something that seems like a good idea at the time and then replicate it across the project before realising it causes us huge problems further down the line. In this talk we discuss some of the common anti patterns seen in automated testing and how we can refactor them away.",
+			"bio" : "I have been involved in Software Delivery since I graduated in the year 2000 from Sheffield University. In 2007 I joined a startup called Erudine that practised eXtreme Programming (XP) and was introduced to TDD and pair programming. From then on testing is something I have become hugely passionate about and believe it's the responsibility of the entire team. These days I am CTO at Quantbet which is just a fancy way of saying I am responsible for the Software Delivery side of things AND get the phone call when the office internet goes down.",
+			"twitter" : "@andystewart79"
 		}
 	]
 }
+
+
+
 
 
 

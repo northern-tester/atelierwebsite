@@ -7,3 +7,4 @@ logs/
 config/slack_live.json
 config/recaptcha_live.json
 config/recaptcha_localhost.json
+public/images/.DS_Store

@@ -2,12 +2,6 @@
 	"title": "Leeds Testing Atelier - Sponsor Us",
 	"sponsors":
 		[
-			{ 
-				"name"	: "Ten10",
-				"picture" : "images/sponsors/ten10-logo.png",
-				"about" : "Ten10 delivers software testing using the best people, processes and technology, enabling organisations to embrace innovation and change with confidence.",
-				"twitter" : "@Ten10_UK"
-			},
 			{
 				"name"	: "Exit-23",
 				"picture" : "images/sponsors/exit23-logo.jpeg",
@@ -15,16 +9,10 @@
 				"twitter" : "@choibot"
 			},
 			{
-				"name"	: "Skelton Thatcher",
-				"picture" : "images/sponsors/skeltonthatcher-logo.png",
-				"about" : "Skelton Thatcher Consulting specialises in tailored help with technology and teams. We have strong experience with Continuous Delivery, DevOps, and software operability.",
-				"twitter" : "@SkeltonThatcher"
-			},
-			{
-				"name"	: "Ministry of Testing",
-				"picture" : "images/sponsors/ministryoftest-logo.jpg",
-				"about" : "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
-				"twitter" : "@ministryoftesting"
+				"name"	: "Tony Holroyd",
+				"picture" : "images/sponsors/tonyh-logo.jpeg",
+				"about" : "Tony Holyroyd is an Atelier legend, providing sponsorship out of his own pocket, all to see the Leeds testing community thrive. Has no online presence, likes it that way.",
+				"twitter" : "@testing_atelier"
 			},
 			{
 				"name"	: "Infinity Works",
