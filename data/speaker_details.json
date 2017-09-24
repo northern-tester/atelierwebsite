@@ -25,11 +25,33 @@
 			"abstract" : "Patterns are used in software all the time. They give us a common language or set of practises for doing things. Sometimes it's hard to tell a good pattern from a bad (or anti) pattern. We implement something that seems like a good idea at the time and then replicate it across the project before realising it causes us huge problems further down the line. In this talk we discuss some of the common anti patterns seen in automated testing and how we can refactor them away.",
 			"bio" : "I have been involved in Software Delivery since I graduated in the year 2000 from Sheffield University. In 2007 I joined a startup called Erudine that practised eXtreme Programming (XP) and was introduced to TDD and pair programming. From then on testing is something I have become hugely passionate about and believe it's the responsibility of the entire team. These days I am CTO at Quantbet which is just a fancy way of saying I am responsible for the Software Delivery side of things AND get the phone call when the office internet goes down.",
 			"twitter" : "@andystewart79"
+		},
+		{ 
+			"name"	: "Luke Bonnacorsi",
+			"picture" : "images/speakers/luke_b.jpg",
+			"title"   : "Testing with Snapshots",
+			"abstract" : "In June 2016, Facebook introduced snapshot testing into Jest, it’s JavaScript unit testing framework. Since then, snapshot testing has seen massive uptake because it makes writing tests for things like React way easier. In this talk I’ll go through what snapshot testing is, how it works and when to use it. I’ll be covering examples using React as well as non-React uses and hopefully you’ll gain the same enthusiasm I have for snapshot testing!",
+			"bio" : "Software Engineer at Sky Betting and Gaming, JavaScripter, eater, proud beard owner, swear enthusiast. Host and organiser of LeedsJS. I automated my curtains with JavaScript.",
+			"twitter" : "@LukeB_UK"
+		},
+		{ 
+			"name"	: "Richie Lee",
+			"picture" : "images/speakers/richie_lee.jpg",
+			"title"   : "Decoupling from implementation in BDD",
+			"abstract" : "With BDD and gherkin becoming staple tools in a tester's toolbox, it's a good idea to look at how we are currently using them and the pitfalls of testing so close to our software.  I invite people to join me as we look at how abstracting out our test steps allows for much more readable and flexible tests, which are easier to maintain as our software evolves.",
+			"bio" : "A former student of DeMontfort University, I have been a software tester now for 4 years. Working the majority of that for EMIS Health before recently moving to Sky Betting and Gaming. I'm currently working for a team which focuses on backend services delivery in node.js and, for my sins, php.",
+			"twitter" : "@testing_atelier"
+		},
+		{ 
+			"name"	: "Jenny Gwilliam",
+			"picture" : "images/speakers/andy_stew.jpg",
+			"title"   : "Software Testing – a trip down memory lane",
+			"abstract" : "Ever wondered how much testing has changed over the years? Have the fundamentals altered much? And just how did we test before we had electronic test tools, email and instant results at our finger tips.  Jenny shares her experiences and gives her insight into a world of software testing in the Eighties to help give some food for thought about what perhaps has and hasn’t changed about our role.",
+			"bio" : "I was a consultant Test Manager for 18 years and before that a software tester for 10 years both in the UK and overseas.  I’ve worked in v-model, waterfall, agile environments in both private and public sectors, set up test departments from scratch and trained new Testers and Managers. In recent years, I switched career into Scrum Master with a key focus on coaching and training. Outside of work I can be found walking my dog, playing Softball, or kitted out as a 17th Century re-enactor.",
+			"twitter" : "@testing_atelier"
 		}
 	]
 }
-
-
 
 
 
