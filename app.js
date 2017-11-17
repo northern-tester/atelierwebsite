@@ -13,11 +13,14 @@ var index = require('./routes/index');
 var callforpapers = require('./routes/callforpapers');
 var previousateliers = require('./routes/previousateliers');
 var thankyou = require('./routes/thankyou');
-var test = require('./routes/test');
 var sponsors = require('./routes/sponsors');
 var robot = require('./routes/robot');
 
 var app = express();
+
+// view engine setup
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
 
 //Get the log directory
 var logDirectory = path.join(__dirname, 'logs');
@@ -27,10 +30,6 @@ var accessLogStream = rfs('access.log', {
 	interval: '1d', 
 	path: logDirectory
 });
-
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
 
 //Cookie setup
 app.set('trust proxy', 1) // trust first proxy 
@@ -60,7 +59,6 @@ app.use('/', index);
 app.use('/callforpapers', callforpapers);
 app.use('/previousateliers', previousateliers);
 app.use('/thankyou', thankyou);
-app.use('/test', test);
 app.use('/sponsors', sponsors);
 app.use('/robot', robot);
 
