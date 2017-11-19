@@ -17,7 +17,7 @@ mixin speakerCarousel(id, speakers)
                         table
                             tr
                                 td.blurb
-                                    img(src="#{speaker.picture}")
+                                    img.image(src='/'+speaker.picture, alt=speaker.name)
                                     h4.speaker-name #{speaker.name}
                                     h5.speaker-title #{speaker.title}
                                     p.speaker-bio #{speaker.bio}
@@ -28,16 +28,9 @@ mixin speakerCarousel(id, speakers)
                         table
                             tr
                                 td.blurb
-                                    img(src="#{speaker.picture}")
+                                    img.image(src='/'+speaker.picture, alt=speaker.name)
                                     h4.speaker-name #{speaker.name}
                                     h5.speaker-title #{speaker.title}
                                     p.speaker-bio #{speaker.bio}
                                     p.speaker-abstract #{speaker.abstract}
                                     a.twitter-follow-button(href="https://twitter.com/#{speaker.twitter}", data-show-count="false"): Follow #{speaker.twitter}
-        //-  Controls
-        a.left.carousel-control(href="#carousel-#{id}", role="button", data-slide="prev")
-            +icon("chevron-left")
-            span.sr-only Previous
-        a.right.carousel-control(href="#carousel-#{id}", role="button", data-slide="next")
-            +icon("chevron-right")
-            span.sr-only Next
