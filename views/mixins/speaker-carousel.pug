@@ -1,12 +1,12 @@
-mixin speakerCarousel(id, speakers)
-    .carousel.slide(id="carousel-#{id}",data-ride="carousel")
+mixin speakerCarousel(speakers)
+    .carousel.slide(id="carousel-a",data-ride="carousel")
         //- Indicators
         ol.carousel-indicators
             each speaker,index in speakers
                 if(index === 0)
-                    li.active(data-target="#carousel-#{id}", data-slide-to="#{index}")
+                    li.active(data-target="#carousel-a", data-slide-to="#{index}")
                 else
-                    li(data-target="#carousel-#{id}", data-slide-to="#{index}")
+                    li(data-target="#carousel-a", data-slide-to="#{index}")
 
 
         //- Wrapper for slides
@@ -34,3 +34,11 @@ mixin speakerCarousel(id, speakers)
                                     p.speaker-bio #{speaker.bio}
                                     p.speaker-abstract #{speaker.abstract}
                                     a.twitter-follow-button(href="https://twitter.com/#{speaker.twitter}", data-show-count="false"): Follow #{speaker.twitter}
+
+        //-  Controls
+        a.left.carousel-control(href="#carousel-a", role="button", data-slide="prev")
+            +icon("chevron-left")
+            span.sr-only Previous
+        a.right.carousel-control(href="#carousel-a", role="button", data-slide="next")
+            +icon("chevron-right")
+            span.sr-only Next

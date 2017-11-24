@@ -172,6 +172,10 @@ hr {
    cursor: default;
 }
 
+.navbar-inverse .navbar-brand {
+    font-size: 20px;
+}
+
 img {
   margin-left: auto;
   margin-right: auto;

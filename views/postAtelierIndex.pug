@@ -8,7 +8,7 @@ meta(name='description', content='All the latest content, speakers, news and eve
 block content
 	- var navitems = ["Sponsor Us", "Call for Papers", "Previous Ateliers"];
 	+navHeader(navitems)
-	section(style="padding-top: 50px;")
+	section(style="padding-top: 100px;")
 	img(src="./images/lta_logo.jpeg" class="lta-logo")
 	section(style="padding-top: 20px;")
 	div 
@@ -20,6 +20,6 @@ block content
 				section(style="padding-top: 50px;")
 				section(id='speakers').speakertron
 					div.container
-						+speakerCarousel('a', speakers)
+						+speakerCarousel(speakers)
 	footer
 		p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang

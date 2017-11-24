@@ -8,7 +8,7 @@ meta(name='description', content='All the latest content, speakers, news and eve
 block content
 	- var navitems = ["Sponsor Us", "Call for Papers", "Previous Ateliers"];
 	+navHeader(navitems)
-	section(style="padding-top: 50px;")
+	section(style="padding-top: 100px;")
 	img(src="./images/lta_logo.jpeg" class="lta-logo")
 	section(style="padding-top: 20px;")
 	a(href="https://www.eventbrite.co.uk/e/leeds-testing-atelier-tickets-36974524799?ref=ebtnebregn", target='_blank'): img(src="https://www.eventbrite.co.uk/custombutton?eid=36974524799", alt='Eventbrite - Leeds Testing Atelier')
@@ -21,6 +21,6 @@ block content
 				section(style="padding-top: 50px;")
 				section(id='speakers').speakertron
 					div.container
-						+speakerCarousel('a', speakers)
+						+speakerCarousel(speakers)
 	footer
 		p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
