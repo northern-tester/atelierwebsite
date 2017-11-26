@@ -1,11 +1,11 @@
-include ../node_modules/jade-bootstrap/_bootstrap
+include ../node_modules/pug-bootstrap/_bootstrap
 include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
 
 block content
 	- var navitems = ["Sponsor Us", "Call for Papers", "Previous Ateliers"];
 	+navHeader(navitems)
-	section(style="padding-top: 50px;")
+	section(style="padding-top: 75px;")
 	h2 Thanks for your awesome idea, we'll be in touch!
 	img.lta-logo(src="./images/thankyou.jpg")
 

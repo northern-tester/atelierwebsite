@@ -12,17 +12,14 @@
     "express": "~4.14.0",
     "express-session": "^1.15.1",
     "generate-safe-id": "^1.0.2",
-    "google-maps": "^3.2.1",
+    "google-recaptcha": "^1.1.0",
     "install": "^0.8.7",
-    "jade": "~1.11.0",
-    "jade-bootstrap": "^1.0.9",
-    "jade-cli": "^0.1.1",
     "morgan": "~1.7.0",
-    "nodemailer": "^3.0.2",
     "npm": "^4.4.1",
+    "pug": "^2.0.0-rc.4",
+    "pug-bootstrap": "0.0.15",
     "rotating-file-stream": "^1.2.0",
     "serve-favicon": "~2.3.0",
-    "slack-node": "^0.1.8",
-    "google-recaptcha": "^1.1.0"
+    "slack-node": "^0.1.8"
   }
 }

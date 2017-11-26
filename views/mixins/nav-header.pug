@@ -1,0 +1,13 @@
+mixin navHeader(navitems)
+    +navbar-fixed("Leeds Testing Atelier","navbar-brand", "inverse")
+        div.navbar-inner
+                div.container
+                    ul.nav.navbar-nav.navbar-left
+                            +nav_item("/") Home
+                            each navitem in navitems
+                                if (navitem === "Previous Ateliers")
+                                    +nav_item("/previousateliers") #{navitem}
+                                if (navitem === "Sponsor Us")
+                                    +nav_item("/sponsors") #{navitem}
+                                if (navitem === "Call for Papers")
+                                    +nav_item("/callforpapers") #{navitem}

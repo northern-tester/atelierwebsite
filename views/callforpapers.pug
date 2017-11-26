@@ -1,4 +1,4 @@
-include ../node_modules/jade-bootstrap/_bootstrap
+include ../node_modules/pug-bootstrap/_bootstrap
 include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
 script(src='https://www.google.com/recaptcha/api.js')
@@ -8,7 +8,7 @@ meta(name='description', content='Our continuous call for papers is always open 
 block content
     - var navitems = ["Sponsor Us","Previous Ateliers"];
     +navHeader(navitems)
-    section(style="padding-top: 50px;")
+    section(style="padding-top: 75px;")
         .container
             div.row
                 div.col-lg-12.col-md-12.col-sm-12

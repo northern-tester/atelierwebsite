@@ -1,4 +1,4 @@
-include ../node_modules/jade-bootstrap/_bootstrap
+include ../node_modules/pug-bootstrap/_bootstrap
 include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
 meta(name='description', content='All the action from our previous Leeds Testing Atelier events with highlights and pictures')
@@ -6,9 +6,19 @@ meta(name='description', content='All the action from our previous Leeds Testing
 block content
 	- var navitems = ["Sponsor Us", "Call for Papers"];
 	+navHeader(navitems)
-	section(style="padding-top: 50px;")
+	section(style="padding-top: 75px;")
 	div 
 		h2 Check out our illustrious history! Such learning!
+	hr
+	div(class=atelierFive) 
+		h4 Atelier V - Wharf Chambers - Tuesday 17th October 2017
+		p We did it again again. Another punk, free, independent Leeds Testing Atelier happened on the 17th October 2017. Thats number five for those of you counting wristbands. The technology sector in Leeds grows constantly, with big companies like Sky and Skybet having a massive presence in the city. However, Leeds has always had a strong DIY scene for music and the arts, we want to maintain that in our tech scene too. This is what we hope will make us and keep us different. Our venue is a place where other groups meet, to make music, discuss social issues or advocate for the environment. To be part of that community matches our mission and our hopes for tech in Leeds.
+		+carousel("AtelierFive",[
+			{image:"./images/previousateliers/atelier-five-owl.jpg"},
+			{image:"./images/previousateliers/atelier-five-gwilliam.jpg"},
+			{image:"./images/previousateliers/atelier-five-walkinshaw.jpg"},
+			{image:"./images/previousateliers/atelier-five-warren.jpg"}
+		])
 	hr
 	div(class=atelierFour) 
 		h4 Atelier IV - Wharf Chambers - Tuesday 9th May 2017
