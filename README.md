@@ -27,6 +27,22 @@ env PORT={port_number} npm start will start on http://localhost:{port_number}
 
 ```
 
+## Docker
+
+To build in the root dir, run the following:
+
+```
+docker build --rm -f Dockerfile .
+```
+
+To run:
+
+```
+docker run --rm -d -p 5000:3000 atelierwebsite
+```
+*Where 5000 is the host port and 3000 is the exposed port in the container
+
+
 ## Contribute
 
 PRs accepted.
