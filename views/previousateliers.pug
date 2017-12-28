@@ -7,57 +7,58 @@ block content
 	- var navitems = ["Sponsor Us", "Call for Papers"];
 	+navHeader(navitems)
 	section(style="padding-top: 75px;")
-	div 
-		h2 Check out our illustrious history! Such learning!
-	hr
-	div(class=atelierFive) 
-		h4 Atelier V - Wharf Chambers - Tuesday 17th October 2017
-		p We did it again again. Another punk, free, independent Leeds Testing Atelier happened on the 17th October 2017. Thats number five for those of you counting wristbands. The technology sector in Leeds grows constantly, with big companies like Sky and Skybet having a massive presence in the city. However, Leeds has always had a strong DIY scene for music and the arts, we want to maintain that in our tech scene too. This is what we hope will make us and keep us different. Our venue is a place where other groups meet, to make music, discuss social issues or advocate for the environment. To be part of that community matches our mission and our hopes for tech in Leeds.
-		+carousel("AtelierFive",[
-			{image:"./images/previousateliers/atelier-five-owl.jpg"},
-			{image:"./images/previousateliers/atelier-five-gwilliam.jpg"},
-			{image:"./images/previousateliers/atelier-five-walkinshaw.jpg"},
-			{image:"./images/previousateliers/atelier-five-warren.jpg"}
-		])
-	hr
-	div(class=atelierFour) 
-		h4 Atelier IV - Wharf Chambers - Tuesday 9th May 2017
-		p We did it again, the fourth iteration of the Testing Atelier rocked the mighty city of Leeds. We try to do things a little different. Our venue Wharf Chambers is different, a community run venue rather than stuffy conference halls or meeting rooms. We wanted to present a different type of event too as many testing conferences are mainly testers talking about testing that testers do. We wanted to show testing as an activity though, something that all roles do in their own way and how those fit together. To this end, we sourced speakers, workshop facilitators and panelists from loads of roles, developers, ops, build engineers, product all contributed. In fact we had pretty much a 50/50 split between testers and other roles. Winning.
-		+carousel("AtelierFour",[
-			{image:"./images/previousateliers/atelier-four-intro.jpg"},
-			{image:"./images/previousateliers/atelier-four-panel.jpg"},
-			{image:"./images/previousateliers/atelier-four-devops.jpg"},
-			{image:"./images/previousateliers/atelier-four-bar.jpg"}
-		])
-	hr
-	div(class=atelierThree) 
-		h4 Atelier III - Wharf Chambers - Tuesday 20th September 2016
-		p We got bigger! But kept our independent feel of course. This time Wharf gave us both floors of their fantastic bar and gig space to fully showcase our two track style, humans upstairs, robots downstairs. Almost 100 keen testers, developers, designers, analysts and operations people packed in to hear Gwen Diagram rock as the days compere, we heard from about mobile test automation, design, usability, how to hire great testers, how testers break developers hearts, testability of teapots, finished with a host of games and presentation karaoke!
-		+carousel("AtelierThree",[
-			{image:"./images/previousateliers/atelier-three-gwen-intro.jpg"},
-			{image:"./images/previousateliers/atelier-three-rich-buttons.jpg"},
-			{image:"./images/previousateliers/atelier-three-dt-heartbreak.jpg"},
-			{image:"./images/previousateliers/atelier-three-sarah-humans.jpg"}
-		])
-	hr
-	div(class=atelierTwo)
-		h4 Atelier II - Wharf Chambers - Tuesday 19th April 2016
-		p We got a new name. After many beers, dismissing such gems as 'Yorkshire Testing Days', we googled workshop synonyms et voila! The Atelier was born! And we moved to a new venue! In order to build on the independent vibe we embody, we moved to Wharf Chambers, a workers co-op bar and gig space in central Leeds. The line up included testers turned entrepreneurs, recent "Testing Academy" graduates reflecting on their experiences, recent test managers doing the same about organisational change, plus workshops, games, beers, laughs and a very late night for some. 
-		+carousel("AtelierTwo",[
-			{image:"./images/previousateliers/atelier-two-adam-entre.jpg"},
-			{image:"./images/previousateliers/atelier-two-grimmers.jpg"},
-			{image:"./images/previousateliers/atelier-two-nick-fred.jpg"},
-			{image:"./images/previousateliers/atelier-two-walkinshaw.jpg"}
-		])
-	hr
-	div(class=atelierOne)
-		h4 Leeds Testing Unconference - 1 Park Lane, Leeds - Wednesday 23rd September 2015 
-		p You've got to begin somewhere. This event brought the group together and set the scene for what later become the Atelier. Nevertheless, we had lots of fun, mobile and exploratory testing workshops, discussions on agile heroes, how there are no best practices only good practices in context and many more. And a very, very lengthy version of the dice game...
-		+carousel("AtelierOne",[
-			{image:"./images/previousateliers/atelier-one-crowd.jpg"},
-			{image:"./images/previousateliers/atelier-one-history.jpg"},
-			{image:"./images/previousateliers/atelier-one-clem-slide.jpg"},
-			{image:"./images/previousateliers/atelier-one-brainstorm.jpg"}
-		])
-	footer
-			p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
+	.container
+		div 
+			h2 Check out our illustrious history! Such learning!
+		hr
+		div(class=atelierFive) 
+			h4 Atelier V - Wharf Chambers - Tuesday 17th October 2017
+			p We did it again again. Another punk, free, independent Leeds Testing Atelier happened on the 17th October 2017. Thats number five for those of you counting wristbands. The technology sector in Leeds grows constantly, with big companies like Sky and Skybet having a massive presence in the city. However, Leeds has always had a strong DIY scene for music and the arts, we want to maintain that in our tech scene too. This is what we hope will make us and keep us different. Our venue is a place where other groups meet, to make music, discuss social issues or advocate for the environment. To be part of that community matches our mission and our hopes for tech in Leeds.
+			+carousel("AtelierFive",[
+				{image:"./images/previousateliers/atelier-five-owl.jpg"},
+				{image:"./images/previousateliers/atelier-five-gwilliam.jpg"},
+				{image:"./images/previousateliers/atelier-five-walkinshaw.jpg"},
+				{image:"./images/previousateliers/atelier-five-warren.jpg"}
+			])
+		hr
+		div(class=atelierFour) 
+			h4 Atelier IV - Wharf Chambers - Tuesday 9th May 2017
+			p We did it again, the fourth iteration of the Testing Atelier rocked the mighty city of Leeds. We try to do things a little different. Our venue Wharf Chambers is different, a community run venue rather than stuffy conference halls or meeting rooms. We wanted to present a different type of event too as many testing conferences are mainly testers talking about testing that testers do. We wanted to show testing as an activity though, something that all roles do in their own way and how those fit together. To this end, we sourced speakers, workshop facilitators and panelists from loads of roles, developers, ops, build engineers, product all contributed. In fact we had pretty much a 50/50 split between testers and other roles. Winning.
+			+carousel("AtelierFour",[
+				{image:"./images/previousateliers/atelier-four-intro.jpg"},
+				{image:"./images/previousateliers/atelier-four-panel.jpg"},
+				{image:"./images/previousateliers/atelier-four-devops.jpg"},
+				{image:"./images/previousateliers/atelier-four-bar.jpg"}
+			])
+		hr
+		div(class=atelierThree) 
+			h4 Atelier III - Wharf Chambers - Tuesday 20th September 2016
+			p We got bigger! But kept our independent feel of course. This time Wharf gave us both floors of their fantastic bar and gig space to fully showcase our two track style, humans upstairs, robots downstairs. Almost 100 keen testers, developers, designers, analysts and operations people packed in to hear Gwen Diagram rock as the days compere, we heard from about mobile test automation, design, usability, how to hire great testers, how testers break developers hearts, testability of teapots, finished with a host of games and presentation karaoke!
+			+carousel("AtelierThree",[
+				{image:"./images/previousateliers/atelier-three-gwen-intro.jpg"},
+				{image:"./images/previousateliers/atelier-three-rich-buttons.jpg"},
+				{image:"./images/previousateliers/atelier-three-dt-heartbreak.jpg"},
+				{image:"./images/previousateliers/atelier-three-sarah-humans.jpg"}
+			])
+		hr
+		div(class=atelierTwo)
+			h4 Atelier II - Wharf Chambers - Tuesday 19th April 2016
+			p We got a new name. After many beers, dismissing such gems as 'Yorkshire Testing Days', we googled workshop synonyms et voila! The Atelier was born! And we moved to a new venue! In order to build on the independent vibe we embody, we moved to Wharf Chambers, a workers co-op bar and gig space in central Leeds. The line up included testers turned entrepreneurs, recent "Testing Academy" graduates reflecting on their experiences, recent test managers doing the same about organisational change, plus workshops, games, beers, laughs and a very late night for some. 
+			+carousel("AtelierTwo",[
+				{image:"./images/previousateliers/atelier-two-adam-entre.jpg"},
+				{image:"./images/previousateliers/atelier-two-grimmers.jpg"},
+				{image:"./images/previousateliers/atelier-two-nick-fred.jpg"},
+				{image:"./images/previousateliers/atelier-two-walkinshaw.jpg"}
+			])
+		hr
+		div(class=atelierOne)
+			h4 Leeds Testing Unconference - 1 Park Lane, Leeds - Wednesday 23rd September 2015 
+			p You've got to begin somewhere. This event brought the group together and set the scene for what later become the Atelier. Nevertheless, we had lots of fun, mobile and exploratory testing workshops, discussions on agile heroes, how there are no best practices only good practices in context and many more. And a very, very lengthy version of the dice game...
+			+carousel("AtelierOne",[
+				{image:"./images/previousateliers/atelier-one-crowd.jpg"},
+				{image:"./images/previousateliers/atelier-one-history.jpg"},
+				{image:"./images/previousateliers/atelier-one-clem-slide.jpg"},
+				{image:"./images/previousateliers/atelier-one-brainstorm.jpg"}
+			])
+		footer
+				p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
