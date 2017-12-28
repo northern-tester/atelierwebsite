@@ -11,15 +11,16 @@ block content
 	section(style="padding-top: 100px;")
 	img(src="./images/lta_logo.jpeg" class="lta-logo")
 	section(style="padding-top: 20px;")
-	div 
-		h2 We had an absolute blast! You guys totally rocked!
-		h3 On the 17th of October 2017, the fully independent, punk, Leeds Testing Atelier roared to life again, filling Wharf Chambers with nearly a hundred attendees, speakers, panelists and organisers. Loads of laughter, learning and collaboration ensued! We hope you had fun, the feedback is in and we've got a few things to tweak and some big, serious grown up conversations to have. With beer! 
-	
-		block speakers
-			h2 Check out our previous speakers! Next time, this could be YOU.
-				section(style="padding-top: 50px;")
-				section(id='speakers').speakertron
-					div.container
-						+speakerCarousel(speakers)
+	.container
+		div 
+			h2 We had an absolute blast! You guys totally rocked!
+			h3 On the 17th of October 2017, the fully independent, punk, Leeds Testing Atelier roared to life again, filling Wharf Chambers with nearly a hundred attendees, speakers, panelists and organisers. Loads of laughter, learning and collaboration ensued! We hope you had fun, the feedback is in and we've got a few things to tweak and some big, serious grown up conversations to have. With beer! 
+		div
+			block speakers
+				h2 Check out our previous speakers! Next time, this could be YOU.
+					section(style="padding-top: 50px;")
+					section(id='speakers').speakertron
+						div.container
+							+speakerCarousel(speakers)
 	footer
 		p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
