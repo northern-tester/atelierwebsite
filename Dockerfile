@@ -1,12 +1,5 @@
 # Pull base image.
-FROM ubuntu:14.04
-
-# Install Node.js
-RUN apt-get update
-RUN apt-get install --yes curl
-RUN curl --silent --location https://deb.nodesource.com/setup_6.x | sudo bash -
-RUN apt-get install --yes nodejs
-RUN apt-get install --yes build-essential
+FROM node:alpine
 
 # Set Work Dir
 WORKDIR /app
@@ -19,7 +12,7 @@ ADD ./routes/ /app/routes/
 ADD ./views/ /app/views/
 ADD ./app.js /app
 ADD ./package.json /app
-RUN ls /app
+ADD ./package-lock.json /app
 
 #Install node modules
 RUN cd /app && \
