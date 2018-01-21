@@ -12,15 +12,16 @@ block content
 	img(src="./images/lta_logo.jpeg" class="lta-logo")
 	section(style="padding-top: 20px;")
 	a(href="https://www.eventbrite.co.uk/e/leeds-testing-atelier-tickets-36974524799?ref=ebtnebregn", target='_blank'): img(src="https://www.eventbrite.co.uk/custombutton?eid=36974524799", alt='Eventbrite - Leeds Testing Atelier')
-	div 
-		h2 We are back!
-		h3 On the 17th of October 2017, the fully independent, punk, Leeds Testing Atelier returns at the amazing Wharf Chambers for a day of learning, collaboration and laughs! 
-	
-		block speakers
-			h2 Our amazing speakers!
-				section(style="padding-top: 50px;")
-				section(id='speakers').speakertron
-					div.container
-						+speakerCarousel(speakers)
-	footer
-		p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
+	.container
+		div 
+			h2 We are back!
+			h3 On the 17th of October 2017, the fully independent, punk, Leeds Testing Atelier returns at the amazing Wharf Chambers for a day of learning, collaboration and laughs! 	
+		div
+			block speakers
+				h2 Our amazing speakers!
+					section(style="padding-top: 50px;")
+					section(id='speakers').speakertron
+						div.container
+							+speakerCarousel(speakers)
+		footer
+			p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang

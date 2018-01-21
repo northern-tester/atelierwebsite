@@ -24,8 +24,12 @@
 }
 
 h2, h3, p {
-  padding: 5px;
+  padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+img {
+  padding-right: 10px;
 }
 

@@ -1,6 +1,7 @@
 include ../node_modules/pug-bootstrap/_bootstrap
 include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
+link(rel='stylesheet', href='/stylesheets/callforpapers.css')
 script(src='https://www.google.com/recaptcha/api.js')
 script(type='text/javascript', src='/javascript/atelier.js')
 meta(name='description', content='Our continuous call for papers is always open at the Leeds Testing Atelier!')
@@ -19,27 +20,27 @@ block content
                         div(data-role='fieldcontain').form-group
                             fieldset(data-role='controlgroup')
                             label(for='name') Name
-                            input(id='Name',type='text',value='',placeholder='name',name='name', required).form-control
+                            input(id='Name',type='text',value='',placeholder='Name',name='Name...', required).form-control
                         div(data-role='fieldcontain').form-group
                             fieldset(data-role='controlgroup')
                             label(for='email') Email Address
-                            input(id='email',type='text',value='',placeholder='email',name='email', required).form-control
+                            input(id='email',type='text',value='',placeholder='Give us an email you look at regularly...',name='email', required).form-control
                         div(data-role='fieldcontain').form-group
                             fieldset(data-role='controlgroup')
                             label(for='twitter') Twitter Handle
-                            input(id='twitter',type='text',value='',placeholder='@',name='twitter').form-control
+                            input(id='twitter',type='text',value='',placeholder='Your twitter handle, start with an @...',name='twitter').form-control
                         div(data-role='fieldcontain').form-group
                             fieldset(data-role='controlgroup')
-                            label(for='title') Title
-                            input(id='title',type='text',value='', placeholder='title', name='title', required).form-control
+                            label(for='title') Session Title
+                            input(id='title',type='text',value='', placeholder='Snappy, inspiring title for your session...', name='title', required).form-control
                         div(data-role='fieldcontain').form-group
                             fieldset(data-role='controlgroup')
-                            label(for='abstract') Abstract
-                            textarea(id='abstract',type='text',value='',placeholder='Your amazing idea goes here!',name='abstract', required).form-control
+                            label(for='abstract') Session Abstract
+                            textarea(id='abstract',type='text',value='',placeholder='Your amazing idea goes here, we especially like to see key takeaways from your session...',name='abstract', required).form-control
                         div(data-role='fieldcontain').form-group
                             fieldset(data-role='controlgroup')
-                            label(for='bio') About you!
-                            textarea(id='bio',type='text',value='',placeholder='Tell us a bit about yourself',name='bio', required).form-control
+                            label(for='bio') Tell us about you!
+                            textarea(id='bio',type='text',value='',placeholder='Tell us a bit about yourself, your experiences and what makes you tick...',name='bio', required).form-control
                         .g-recaptcha(data-sitekey=recaptchaPubKey, data-callback='recaptcha_callback', data-expired-callback='recaptcha_expired_callback')
                         div(data-role='fieldcontain').form-group
                             input(id='cfpSubmit', type='submit',value='Submit proposal', data-transition='fade', data-theme='c', disabled = true)
