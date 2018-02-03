@@ -3,52 +3,44 @@
 	"speakers":
 	[
 		{ 
-			"name"	: "Rosie Hamilton",
-			"picture" : "images/speakers/rosie_h.jpeg",
-			"title"   : "Discovering Logic in Testing",
-			"abstract" : "We all test in different ways and sometimes it can be hard to explain the thought processes behind how we test. What leads us into trying certain things and how do we draw conclusions, surely there is more going on here than intuition and luck? After working in games testing for almost a decade, Rosie draws from experience to explain how games testers develop advanced logical reasoning skills. Using practical examples that will make you think, she will demonstrate logical patterns, rules and concepts that can help all of us gain a deeper understanding of what is actually happening in our minds when we test.",
-			"bio" : "I currently work as a Senior Test Engineer at Scott Logic in Newcastle. I've been testing since 2005 and survived 9 years in the UK Games Industry having worked for Xbox, 2K Games & Blizzard Entertainment. I've previously spoken at Newcastle Agile Testing, Agile North East and South West Test meet-ups. My hobbies include violin and yoga.",
-			"twitter" : "@rosicadia"
+			"name"	: "Gem Hill",
+			"picture" : "images/speakers/gem.png",
+			"title"   : "Make.Believe",
+			"abstract" : "This workshop will be centred around mental health. The main activity will be a lean coffee around mental health and wellness in tech and testing, people will be encouraged to share stories and tips, as well as start to break some of the stigma around mental health. There will be resources available for various issues, and the leader will be a trained Mental Health First Aider. Alongside this we'll be making gratitude boxes! A gratitude box or jar is a place where you can store things that make you grateful throughout the year - whether it be written notes of thing that you're grateful for or mementoes of special moments. You can then review these when you need a lift or to be reminded of the good in your life. We'll be providing the box and the craft supplies, you just need to come and get glittery!.",
+			"bio" : "I've been a web tester for about 4-5 years now, and currently work for the BBC. I've recently dipped my toes in VR testing for BBC Research and Development. I'm a podcaster, with two podcasts; Lets Talk About Tests, Baby (which is about software testing), and Inner Pod (which is about mental health). I'm also a qualified Mental Health First Aider.",
+			"twitter" : "@Gem_Hill"
 		},
 		{
-			"name"	: "Chris Warren",
-			"picture" : "images/speakers/chris.jpeg",
-			"title"   : "To the left to the left, Everything I test in a box to the left...",
-			"abstract" : "I would like to tell my story about how I started focusing my attention on the right side of the board but slowly started to shift to the left. The journey starts with me picking up work in the ‘Test’ column without much involvement earlier in the process and continues today with me spending most of my time testing the requirements in an Analysis stage and working with the team to ensure testing is baked in throughout the process.",
-			"bio" : "I’ve been a software test consultant for nearly 8 years working in a variety of sectors across numerous roles mainly in performance and automation. My current engagement is for a consumer finance company who want to give their major platform a facelift. I’m part of an alleged scrum team tasked with breaking down the businesses epics and turning them into working software.",
-			"twitter" : "@bantam_chris"
+			"name"	: "Jit Gosai",
+			"picture" : "images/speakers/jit.jpg",
+			"title"   : "Dice Tower Game: Risk Vs Value",
+			"abstract" : "In software development testing everything isn’t possible so you need to strike a balance between the risk of not testing something and the value it will give you if you do test it. This interactive workshop we will get you started on discussions that help you find that balance as a team.",
+			"bio" : "Jitesh Gosai (or Jit as he’s better known) has over 14 years Test experience working with a wide variety of companies from Mobile manufactures to OS builders and app developers. He is currently working with the Mobile Platforms team within the BBC to help identify their Test approaches and how the teams move to DevOps and beyond. Starting his career in development, Jit moved into the testing arena as part of his degree and found that it gave him a new angle on the industry.  After developing his work and making a name for himself in the testing scene, he moved towards Development in Test to integrate both his passions.",
+			"twitter" : "@JitGo"
 		},
-		{ 
-			"name"	: "Andy Stewart",
-			"picture" : "images/speakers/andy_stew.jpeg",
-			"title"   : "The Villains of Automated Testing",
-			"abstract" : "Patterns are used in software all the time. They give us a common language or set of practises for doing things. Sometimes it's hard to tell a good pattern from a bad (or anti) pattern. We implement something that seems like a good idea at the time and then replicate it across the project before realising it causes us huge problems further down the line. In this talk we discuss some of the common anti patterns seen in automated testing and how we can refactor them away.",
-			"bio" : "I have been involved in Software Delivery since I graduated in the year 2000 from Sheffield University. In 2007 I joined a startup called Erudine that practised eXtreme Programming (XP) and was introduced to TDD and pair programming. From then on testing is something I have become hugely passionate about and believe it's the responsibility of the entire team. These days I am CTO at Quantbet which is just a fancy way of saying I am responsible for the Software Delivery side of things AND get the phone call when the office internet goes down.",
-			"twitter" : "@andystewart79"
-		},
-		{ 
-			"name"	: "Luke Bonnacorsi",
-			"picture" : "images/speakers/luke_b.jpg",
-			"title"   : "Testing with Snapshots",
-			"abstract" : "In June 2016, Facebook introduced snapshot testing into Jest, it’s JavaScript unit testing framework. Since then, snapshot testing has seen massive uptake because it makes writing tests for things like React way easier. In this talk I’ll go through what snapshot testing is, how it works and when to use it. I’ll be covering examples using React as well as non-React uses and hopefully you’ll gain the same enthusiasm I have for snapshot testing!",
-			"bio" : "Software Engineer at Sky Betting and Gaming, JavaScripter, eater, proud beard owner, swear enthusiast. Host and organiser of LeedsJS. I automated my curtains with JavaScript.",
-			"twitter" : "@LukeB_UK"
-		},
-		{ 
-			"name"	: "Richie Lee",
-			"picture" : "images/speakers/richie_lee.jpg",
-			"title"   : "Decoupling from implementation in BDD",
-			"abstract" : "With BDD and gherkin becoming staple tools in a tester's toolbox, it's a good idea to look at how we are currently using them and the pitfalls of testing so close to our software.  I invite people to join me as we look at how abstracting out our test steps allows for much more readable and flexible tests, which are easier to maintain as our software evolves.",
-			"bio" : "A former student of DeMontfort University, I have been a software tester now for 4 years. Working the majority of that for EMIS Health before recently moving to Sky Betting and Gaming. I'm currently working for a team which focuses on backend services delivery in node.js and, for my sins, php.",
+		{
+			"name"	: "Frances White",
+			"picture" : "images/speakers/frances.jpg",
+			"title"   : "Manual to Technical : One Tester's Journey",
+			"abstract" : "For a tester who wants to code and automate, but has never done so before, stepping into that world can be daunting. I'm going to to tell you how I went from being a manual software tester with no programming experience (and no computing degree) to writing an automation suite of 300 tests in Specflow and .NET.",
+			"bio" : "I started as a Manual Software tester six years ago at Skipton Building Society and from there went to EMIS Health, where I learned to program and automate test suites. I am passionate about Specflow, API Automation, Unit Testing and TDD.",
 			"twitter" : "@testing_atelier"
 		},
-		{ 
-			"name"	: "Jenny Gwilliam",
-			"picture" : "images/speakers/jenny_gwilliam.jpg",
-			"title"   : "Software Testing – a trip down memory lane",
-			"abstract" : "Ever wondered how much testing has changed over the years? Have the fundamentals altered much? And just how did we test before we had electronic test tools, email and instant results at our finger tips.  Jenny shares her experiences and gives her insight into a world of software testing in the Eighties to help give some food for thought about what perhaps has and hasn’t changed about our role.",
-			"bio" : "I was a consultant Test Manager for 18 years and before that a software tester for 10 years both in the UK and overseas.  I’ve worked in v-model, waterfall, agile environments in both private and public sectors, set up test departments from scratch and trained new Testers and Managers. In recent years, I switched career into Scrum Master with a key focus on coaching and training. Outside of work I can be found walking my dog, playing Softball, or kitted out as a 17th Century re-enactor.",
-			"twitter" : "@testing_atelier"
+		{
+			"name"	: "Thomas Crabtree",
+			"picture" : "images/speakers/thomas.jpg",
+			"title"   : "Agile Learning",
+			"abstract" : "It’s about time we started developing people like we develop software. A lot of focus has gone into being more reactive, responding to change, attending to the needs of the business and generally trying to improve the software we build. How much effort and focus goes into developing our people in the same way? I'd argue very little. In this talk, I want to explore ways in which we can become much more agile in how we develop ourselves and others, and look at a set of ideas and a basic framework for doing it.",
+			"bio" : "I'm a self-proclaimed testing geek and context-driven tester with over 10 years’ experience creating and delivery testing solutions for clients across a wide range of industries, including financial services, gaming, retail, and technology. I have been running testing training courses for over 3 years and in my role as Head of Service Introduction and Training at Ten10, I am tasked with constantly finding new ways to improve and evolve the training of our people.",
+			"twitter" : "@thomascrabs"
+		},
+		{
+			"name"	: "Luke Boucher",
+			"picture" : "images/speakers/luke_bo.jpg",
+			"title"   : "Dealing with a Psycho!",
+			"abstract" : "You might have heard the adage - 'Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live.'. I can't lecture you on the coding practices but I'll happily talk your arm off about the soft skills that come with dealing with this psycho - what makes a handover, what is 'good' documentation and so on. Because in the end, aren't we all a little bit psycho?",
+			"bio" : "A graduate out of Staffordshire University, I was Software Engineer in Test for 3 years before finding my way more recently into Change Management. I like the feeling of making a difference so I've worked in Healthcare and now for a Debt Relief/Management charity. Passionate about puns and dad jokes, I'm a chocoholic with a knack for test automation and ridiculous sprint retrospectives (consider this fair warning).",
+			"twitter" : "@lukbou"
 		}
 	]
 }
