@@ -41,10 +41,41 @@
 			"abstract" : "You might have heard the adage - 'Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live.'. I can't lecture you on the coding practices but I'll happily talk your arm off about the soft skills that come with dealing with this psycho - what makes a handover, what is 'good' documentation and so on. Because in the end, aren't we all a little bit psycho?",
 			"bio" : "A graduate out of Staffordshire University, I was Software Engineer in Test for 3 years before finding my way more recently into Change Management. I like the feeling of making a difference so I've worked in Healthcare and now for a Debt Relief/Management charity. Passionate about puns and dad jokes, I'm a chocoholic with a knack for test automation and ridiculous sprint retrospectives (consider this fair warning).",
 			"twitter" : "@lukbou"
+		},
+		{
+			"name"	: "Chris Bellamy",
+			"picture" : "images/speakers/chris_b.jpg",
+			"title"   : "Scaling Automated UI Tests with containers and AWS",
+			"abstract" : "I will cover how we managed to achieve scaled UI Testing across multiple portal codebases from a central codebase/shim UI Testing Framework. Scaling those tests from a mac mini running a version of Selenium Grid to having a terraformed, auto-scaling Grid instance in the cloud. How I overcame the problems presented in the parallelisation of those tests in order to achieve faster CI build times. Along with the presentation and feedback loop of the entire testing pipeline.",
+			"bio" : "I'm an engineer/tinkerer at heart dabbling in as much technology as possible. Over the years I've worked with C#, PHP, Node, JS, Golang (:hearteyes:), Groovy, Jenkins, AWS, Docker, Rancher. Love making things, avid 3D printer fanatic as well as brewing (which you can probably guess from my twitter handle), you can see the types of stuff I make on my instagram: https://www.instagram.com/treblebrewing/ mostly stuff for the brewery such as electronic brewing automation (wifi hydrometers, temperature controls, pump controls etc).",
+			"twitter" : "@TrebleBrewingUK"
+		},
+		{
+			"name"	: "Heather Reid",
+			"picture" : "images/speakers/heather.jpg",
+			"title"   : "We’re in this together - Mentoring a new tester as a new tester",
+			"abstract" : "Picture this situation: You’re the lone tester in your team. You find out that the company has just hired another tester. After a little digging you discover this is someone with little or no testing experience. You want to help the new hire, but maybe you aren’t all that experienced yourself. A bigger hurdle is that you’re also new to mentoring. Not so long ago, I was a junior tester in a company that hired someone with no previous experience of the tech industry or testing. My mentee from there is now a successful lone tester. I will share what did and did not work in our mentor/mentee relationship. We will explore together the various stages of learning for a person with no testing experience from day one right up to the day they were using ZAP and JMeter to successfully identify issues in the application. I’ll also talk about how I felt when my mentee became better than me at using some of these tools and how the roles became reversed somewhat. We’ll look at how to build mentor/mentee rapport and create an environment that enables people to feel safe if they fail. Participants will get to hear the good, the bad and the ugly that can happen in a mentoring process from both the perspective of the mentor and the mentee. In this session, I’ll share my own experiences with mentoring, with tips you can use to be an effective mentor, regardless of your experience level or situation.",
+			"bio" : "Heather Reid has been a tester for 2 years. Her passion is helping the software testing community. She has written a book called \"30 Things Every New Software Tester Should Learn\". When she's not testing she's usually exploring or working on restoration projects.",
+			"twitter" : "@heather_reiduff"
+		},
+		{
+			"name"	: "Viv Richards",
+			"picture" : "images/speakers/viv.jpg",
+			"title"   : "Spot the difference: automating visual regression testing",
+			"abstract" : "This session looks at why we automate tests, the issue with just manually testing, common end to end automation pitfalls, a brief introduction to visual testing and finally a look at common issues with visual testing and ways to overcome them. Through the use of interactive examples the audience will gain an understanding of why relying on just manual testing can become an issue and how too much automation has a negative impact by looking at testing anti-patterns. The audience will also learn what visual testing is, what tools are available, some of the common pitfalls of using visual testings as well as tips on ways to overcome them based on experience of creating a custom visual test framework at my current employer.",
+			"bio" : "Viv Richards is a test automation engineer at Vizolution, blogger and an active member in the local developer community. In his spare time he enjoys teaching children to code as a CodeClub volunteer at a local junior school as well as bringing communities together to share skills and knowledge by organising local meet-up's as well as organising South Wales largest agile and developer conference.",
+			"twitter" : "@lukbou"
+		},
+		{
+			"name"	: "Adam Bouz Al-Jidy",
+			"picture" : "images/speakers/adamaljidy.jpg",
+			"title"   : "How much testing is enough testing: justifying code coverage for cross-platform mobile apps",
+			"abstract" : "Testing native mobile apps are hard. Like really hard. Android & iOS are big heavyweight systems that do a lot and mocking all the core components isn't a trivial task. When building a mobile app you'll have to ask yourself \"How much testing is enough testing?\". Drawing the line is a hard thing to do...",
+			"bio" : "I'm a Computer Science graduate from York, currently working as an Android developer for Sky with experience as a full-stack web Developer and a web designer. Most of my time spent not coding is usually spent making and listening to music and consuming as much Japanese food as humanly possible.",
+			"twitter" : "@testing_atelier"
 		}
 	]
 }
-
 
 
 
