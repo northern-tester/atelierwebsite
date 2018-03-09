@@ -19,6 +19,24 @@
 				"picture" : "images/sponsors/ady.jpg",
 				"about" : "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles.",
 				"twitter" : "@CricketRulz"
+			},
+			{
+				"name"	: "Exit-23",
+				"picture" : "images/sponsors/exit23-logo.jpeg",
+				"about" : "Determined and passionate test professional with experience across multiple domains including working on complex, large-scale enterprise applications in a variety of roles.",
+				"twitter" : "@choibot"
+			},
+			{
+				"name"	: "Sky",
+				"picture" : "images/sponsors/sky.jpg",
+				"about" : "We’re committed to recruiting top talent. To learn more about our culture, opportunities and how we believe in better, follow our journey through #LifeatSky.",
+				"twitter" : "@workforsky"
+			},
+			{
+				"name"	: "SvelTest",
+				"picture" : "images/sponsors/sveltest.jpg",
+				"about" : "Agile Tester - Helping to explore multi-dimensional phase space for valuable information - and still trying to escape from the Village.",
+				"twitter" : "@TesterNumber6"
 			}
 		]
 }
