@@ -1,0 +1,21 @@
+.panel {
+    background-color: black;
+    border-color: white;
+    
+}
+
+.panel-danger>.panel-heading {
+    background-color: orange
+}
+
+.panel-title {
+    color:black;
+    font-size: 24px;
+}
+
+.btn-danger {
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}

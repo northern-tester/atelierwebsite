@@ -3,6 +3,7 @@ include mixins/nav-header
 include mixins/speaker-carousel
 link(rel='stylesheet', href='/stylesheets/style.css')
 link(rel='stylesheet', href='/stylesheets/speakers.css')
+link(rel='stylesheet', href='/stylesheets/panel.css')
 meta(name='description', content='All the latest content, speakers, news and events from the Leeds Testing Atelier')
 
 block content
@@ -11,11 +12,21 @@ block content
 	section(style="padding-top: 100px;")
 	img(src="./images/lta_logo.jpeg" class="lta-logo")
 	section(style="padding-top: 20px;")
-	a(href="https://www.eventbrite.co.uk/e/leeds-testing-atelier-tickets-41695313806?ref=ebtnebregn", target='_blank'): img(src="https://www.eventbrite.co.uk/custombutton?eid=41695313806", alt='Eventbrite - Leeds Testing Atelier')
+	.container
+		+panel-danger("Massive News!")
+			+img-responsive("./images/atelier-vi-gig.jpg", "Gig Poster")
+			h3 The Atelier are throwing an after party! Now the awesomeness can continue even longer! 
+			h3 Check out the line up:
+			h4 Joanne - Live coded music from Joanne Armitage written in SuperCollider.  The performative use of programming languages. https://joannnne.github.io/
+			h4 A Music Band - Homemade analogue synths bring ecstato-vibes via Daniel Skevington. Previously called War Lass.
+			h4 Antimonopoly Trashman - Noisy, catchy wonk-punk with songs about trains, stars of the Crystal Maze and science.
+			+a-btn-danger("https://www.facebook.com/events/1087749001400504") Say you're going!
+	section(style="padding-top: 20px;")
 	.container
 		div 
-			h2 We are back!
-			h3 On the 17th of April 2018, the fully independent, punk, Leeds Testing Atelier returns at the amazing Wharf Chambers for a day of learning, collaboration and laughs! 	
+			h3 On the 17th of April 2018, the fully independent, punk, Leeds Testing Atelier returns at the amazing Wharf Chambers for a day of learning, collaboration and laughs! 
+			a(href="https://www.eventbrite.co.uk/e/leeds-testing-atelier-tickets-41695313806?ref=ebtnebregn", target='_blank'): img(src="https://www.eventbrite.co.uk/custombutton?eid=41695313806", alt='Eventbrite - Leeds Testing Atelier')
+	
 		div
 			block speakers
 				h2 Our amazing speakers!
