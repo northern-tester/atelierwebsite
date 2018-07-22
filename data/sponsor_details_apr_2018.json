@@ -1,0 +1,61 @@
+{
+	"title": "Leeds Testing Atelier - Sponsor Us",
+	"sponsors":
+		[
+			{
+				"name"	: "Anaplan",
+				"picture" : "images/sponsors/anaplan-logo.jpeg",
+				"about" : "Anaplan is a cloud-based planning and performance management platform with documented use cases in finance, sales, supply chain, marketing, IT and HR.",
+				"twitter" : "@anaplan"
+			},
+			{
+				"name"	: "Iliad Solutions",
+				"picture" : "images/sponsors/iliad-logo.png",
+				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand. Used by the world’s leading financial institutions, Iliad reduces the costs associated with testing and improves the speed of launching new systems.",
+				"twitter" : "@iliad_solutions"
+			},
+			{
+				"name"	: "Infinity Works",
+				"picture" : "images/sponsors/infinityworks-logo.jpg",
+				"about" : "A collective of leading Engineers and Technologists who have the intelligence to devise the right solution, the skills to build it to drive real change in your organisation.",
+				"twitter" : "@InfinityWorks"
+			},
+			{
+				"name"	: "Ady Stokes",
+				"picture" : "images/sponsors/ady.jpeg",
+				"about" : "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles.",
+				"twitter" : "@CricketRulz"
+			},
+			{
+				"name"	: "Exit-23",
+				"picture" : "images/sponsors/exit23-logo.jpeg",
+				"about" : "Determined and passionate test professional with experience across multiple domains including working on complex, large-scale enterprise applications in a variety of roles.",
+				"twitter" : "@choibot"
+			},
+			{
+				"name"	: "Sky",
+				"picture" : "images/sponsors/sky.jpg",
+				"about" : "We’re committed to recruiting top talent. To learn more about our culture, opportunities and how we believe in better, follow our journey through #LifeatSky.",
+				"twitter" : "@workforsky"
+			},
+			{
+				"name"	: "SvelTest",
+				"picture" : "images/sponsors/sveltest.jpg",
+				"about" : "Agile Tester - Helping to explore multi-dimensional phase space for valuable information - and still trying to escape from the Village.",
+				"twitter" : "@TesterNumber6"
+			},
+			{
+				"name"	: "emis health",
+				"picture" : "images/sponsors/emishealth.jpg",
+				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools – combined with unrivalled customer support.",
+				"twitter" : "@emishealth"
+			},
+			{
+				"name"	: "Fruition IT",
+				"picture" : "images/sponsors/fruition.png",
+				"about" : "Fruition IT specialises in the recruitment of IT and Business Change professionals at all levels, placing into both permanent and contract vacancies.",
+				"twitter" : "@Fruition_IT"
+			}
+		]
+}
+

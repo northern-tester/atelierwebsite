@@ -4,6 +4,8 @@ include mixins/speaker-carousel
 link(rel='stylesheet', href='/stylesheets/style.css')
 link(rel='stylesheet', href='/stylesheets/speakers.css')
 link(rel='stylesheet', href='/stylesheets/panel.css')
+link(rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1')
+script(src='https://js.tito.io/v1' async)
 meta(name='description', content='All the latest content, speakers, news and events from the Leeds Testing Atelier')
 
 block content
@@ -15,11 +17,11 @@ block content
 	.container
 		div 
 			h3 On the 9th of October 2018, the fully independent, punk, Leeds Testing Atelier returns at the amazing Wharf Chambers for a day of learning, collaboration and laughs! 
-			+a-btn-danger("https://ti.to/testing-atelier/leeds-testing-atelier-vii") Sign up here!
+			tito-widget(event="testing-atelier/leeds-testing-atelier-vii" ssl-check-disabled)
 	
 		div
 			block speakers
-				h2 Speakers to be announced. Check out the fabulous speakers from last time!
+				h2 Check out our fabulous line up of speakers! We love them!
 					section(style="padding-top: 50px;")
 					section(id='speakers').speakertron
 						div.container

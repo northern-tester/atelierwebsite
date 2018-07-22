@@ -6,6 +6,10 @@ body {
   background-image: url("../images/testing_atelier_form.jpeg");
 }
 
+.tito-ticket-name, .tito-badge-link {
+  color: #ffffff
+}
+
 .lta-logo {
   position: relative;
   display: block;
@@ -40,4 +44,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.tito-wrapper {
+  color: #ffffff
 }

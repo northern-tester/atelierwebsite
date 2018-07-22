@@ -3,76 +3,28 @@
 	"speakers":
 	[
 		{ 
-			"name"	: "Gem Hill",
-			"picture" : "images/speakers/gem.png",
-			"title"   : "Make.Believe",
-			"abstract" : "This workshop will be centred around mental health. The main activity will be a lean coffee around mental health and wellness in tech and testing, people will be encouraged to share stories and tips, as well as start to break some of the stigma around mental health. There will be resources available for various issues, and the leader will be a trained Mental Health First Aider. Alongside this we'll be making gratitude boxes! A gratitude box or jar is a place where you can store things that make you grateful throughout the year - whether it be written notes of thing that you're grateful for or mementoes of special moments. You can then review these when you need a lift or to be reminded of the good in your life. We'll be providing the box and the craft supplies, you just need to come and get glittery!.",
-			"bio" : "I've been a web tester for about 4-5 years now, and currently work for the BBC. I've recently dipped my toes in VR testing for BBC Research and Development. I'm a podcaster, with two podcasts; Lets Talk About Tests, Baby (which is about software testing), and Inner Pod (which is about mental health). I'm also a qualified Mental Health First Aider.",
-			"twitter" : "@Gem_Hill"
+			"name"	: "Robyn Daulby",
+			"picture" : "images/speakers/robyn_daulby.jpg",
+			"title"   : "From Lazy to Junior to Tester - My Testing Journey Lows and Highs",
+			"abstract" : "I have always been a terrible student, when I was in full time education I was always doing ‘Just enough’ to get by, I was basically lazy and just wanted an easy life. But now that I’m older and in a job I love, I strive to be better. But I still have those times when the lazy in me comes out or I get disheartened and then I want to hide away. I’ve had to work really had to keep myself on track. Being relatively new to testing this talk will be about my journey and to show some of the lows and highs that I’ve had whilst I’ve been learning to test. One of the lows I had was not understanding the terminology being used around me, it sounds incredibly daft to say that something so simple to me now was a low point. It will show how along the way I’ve had to overcome failures, my inner lazy and picking myself up when I’m disheartened. I will talk about my highs as well, public speaking being my main one, never in a million years did I think I would stand in front of a room full of people and talk, but here I am writing an Abstract to do another talk. Major high. I want people to take away two main things with this talk. Firsty, to new testers, who could be having similar lows to me, I want them to know that they’re not alone!  Its okay to fail, it’s how we learn. It’s okay to have down time, we can’t constantly be learning and that’s okay! And then to the more established tester, I hope to enlighten them to some struggles that others may be having without them realising.",
+			"bio" : "Hey, Im Robyn! I’m a Junior Test Analyst working at AO.com. I’ve been testing for a little over a year now and taking a leap of faith and changing my career was the best thing I ever did. I’m very passionate about what I do and I hope that people see my openness and honesty when they talk to me or read my blogs. Ever since I attended my first conference I’ve absolutely loved the testing community, it’s so inclusive! I think you can really get a lot from attending events, even if it’s just a new friend, and I want to be one of those people that helps others on their journey. I may be new to this but a new perspective can often be a good one. I hate thinking that there could be other people struggling and worrying they’re alone with their lows in testing. It could literally just take one person to open up and be honest about their struggles for them to realise they are not alone! I want to be that person and help others the way the community has helped me. When I’m not working I’m all about going to concerts, eating good food, obsessing over my niece, drinking gin and visiting my boyfriend in Scotland. Various combinations of all the above!",
+			"twitter" : "@RobynTests"
 		},
 		{
-			"name"	: "Jit Gosai",
-			"picture" : "images/speakers/jit.jpg",
-			"title"   : "Dice Tower Game: Risk Vs Value",
-			"abstract" : "In software development testing everything isn’t possible so you need to strike a balance between the risk of not testing something and the value it will give you if you do test it. This interactive workshop we will get you started on discussions that help you find that balance as a team.",
-			"bio" : "Jitesh Gosai (or Jit as he’s better known) has over 14 years Test experience working with a wide variety of companies from Mobile manufactures to OS builders and app developers. He is currently working with the Mobile Platforms team within the BBC to help identify their Test approaches and how the teams move to DevOps and beyond. Starting his career in development, Jit moved into the testing arena as part of his degree and found that it gave him a new angle on the industry.  After developing his work and making a name for himself in the testing scene, he moved towards Development in Test to integrate both his passions.",
-			"twitter" : "@JitGo"
+			"name"	: "Lewis Prescott",
+			"picture" : "images/speakers/lewis_prescott.jpg",
+			"title"   : "Contract Tests vs Functional Tests in a World of Squads",
+			"abstract" : "Asos is a large organisation which has grown significantly over the past few years. This had meant layers of management and teams spawning out of nowhere. I want to discuss my journey of implementing Pact (Contract Testing Framework) in a large organisation. The challenges I faced during the process and the lessons learnt including the technical Part: Setting up the framework in C#, people part: Getting buy in from the wider team and consumers part: Gettting buy in from the wider business.",
+			"bio" : "I am currently a QA Engineer at Asos, formerly of 'The Test People' based in the Leeds office. I have a variety of experience at different organisations, usually forming opinions on automation and the best way to adopt it. I currently love writing unit tests and getting involved in testability discussions with my colleagues. I teach coding (python) at a local school in Camden, London. I mentor an intern and another QA here at ASOS. I love to teach and learn from others.",
+			"twitter" : "@WuigPrescott"
 		},
 		{
-			"name"	: "Frances White",
-			"picture" : "images/speakers/frances.jpg",
-			"title"   : "Manual to Technical : One Tester's Journey",
-			"abstract" : "For a tester who wants to code and automate, but has never done so before, stepping into that world can be daunting. I'm going to to tell you how I went from being a manual software tester with no programming experience (and no computing degree) to writing an automation suite of 300 tests in Specflow and .NET.",
-			"bio" : "I started as a Manual Software tester six years ago at Skipton Building Society and from there went to EMIS Health, where I learned to program and automate test suites. I am passionate about Specflow, API Automation, Unit Testing and TDD.",
-			"twitter" : "@testing_atelier"
-		},
-		{
-			"name"	: "Thomas Crabtree",
-			"picture" : "images/speakers/thomas.jpg",
-			"title"   : "Agile Learning",
-			"abstract" : "It’s about time we started developing people like we develop software. A lot of focus has gone into being more reactive, responding to change, attending to the needs of the business and generally trying to improve the software we build. How much effort and focus goes into developing our people in the same way? I'd argue very little. In this talk, I want to explore ways in which we can become much more agile in how we develop ourselves and others, and look at a set of ideas and a basic framework for doing it.",
-			"bio" : "I'm a self-proclaimed testing geek and context-driven tester with over 10 years’ experience creating and delivery testing solutions for clients across a wide range of industries, including financial services, gaming, retail, and technology. I have been running testing training courses for over 3 years and in my role as Head of Service Introduction and Training at Ten10, I am tasked with constantly finding new ways to improve and evolve the training of our people.",
-			"twitter" : "@thomascrabs"
-		},
-		{
-			"name"	: "Luke Boucher",
-			"picture" : "images/speakers/luke_bo.jpg",
-			"title"   : "Dealing with a Psycho!",
-			"abstract" : "You might have heard the adage - 'Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live.'. I can't lecture you on the coding practices but I'll happily talk your arm off about the soft skills that come with dealing with this psycho - what makes a handover, what is 'good' documentation and so on. Because in the end, aren't we all a little bit psycho?",
-			"bio" : "A graduate out of Staffordshire University, I was Software Engineer in Test for 3 years before finding my way more recently into Change Management. I like the feeling of making a difference so I've worked in Healthcare and now for a Debt Relief/Management charity. Passionate about puns and dad jokes, I'm a chocoholic with a knack for test automation and ridiculous sprint retrospectives (consider this fair warning).",
-			"twitter" : "@lukbou"
-		},
-		{
-			"name"	: "Chris Bellamy",
-			"picture" : "images/speakers/chris_b.jpg",
-			"title"   : "Scaling Automated UI Tests with containers and AWS",
-			"abstract" : "I will cover how we managed to achieve scaled UI Testing across multiple portal codebases from a central codebase/shim UI Testing Framework. Scaling those tests from a mac mini running a version of Selenium Grid to having a terraformed, auto-scaling Grid instance in the cloud. How I overcame the problems presented in the parallelisation of those tests in order to achieve faster CI build times. Along with the presentation and feedback loop of the entire testing pipeline.",
-			"bio" : "I'm an engineer/tinkerer at heart dabbling in as much technology as possible. Over the years I've worked with C#, PHP, Node, JS, Golang (:hearteyes:), Groovy, Jenkins, AWS, Docker, Rancher. Love making things, avid 3D printer fanatic as well as brewing (which you can probably guess from my twitter handle), you can see the types of stuff I make on my instagram: https://www.instagram.com/treblebrewing/ mostly stuff for the brewery such as electronic brewing automation (wifi hydrometers, temperature controls, pump controls etc).",
-			"twitter" : "@TrebleBrewingUK"
-		},
-		{
-			"name"	: "Heather Reid",
-			"picture" : "images/speakers/heather.jpg",
-			"title"   : "We’re in this together - Mentoring a new tester as a new tester",
-			"abstract" : "Picture this situation: You’re the lone tester in your team. You find out that the company has just hired another tester. After a little digging you discover this is someone with little or no testing experience. You want to help the new hire, but maybe you aren’t all that experienced yourself. A bigger hurdle is that you’re also new to mentoring. Not so long ago, I was a junior tester in a company that hired someone with no previous experience of the tech industry or testing. My mentee from there is now a successful lone tester. I will share what did and did not work in our mentor/mentee relationship. We will explore together the various stages of learning for a person with no testing experience from day one right up to the day they were using ZAP and JMeter to successfully identify issues in the application. I’ll also talk about how I felt when my mentee became better than me at using some of these tools and how the roles became reversed somewhat. We’ll look at how to build mentor/mentee rapport and create an environment that enables people to feel safe if they fail. Participants will get to hear the good, the bad and the ugly that can happen in a mentoring process from both the perspective of the mentor and the mentee. In this session, I’ll share my own experiences with mentoring, with tips you can use to be an effective mentor, regardless of your experience level or situation.",
-			"bio" : "Heather Reid has been a tester for 2 years. Her passion is helping the software testing community. She has written a book called \"30 Things Every New Software Tester Should Learn\". When she's not testing she's usually exploring or working on restoration projects.",
-			"twitter" : "@heather_reiduff"
-		},
-		{
-			"name"	: "Viv Richards",
-			"picture" : "images/speakers/viv.jpg",
-			"title"   : "Spot the difference: automating visual regression testing",
-			"abstract" : "This session looks at why we automate tests, the issue with just manually testing, common end to end automation pitfalls, a brief introduction to visual testing and finally a look at common issues with visual testing and ways to overcome them. Through the use of interactive examples the audience will gain an understanding of why relying on just manual testing can become an issue and how too much automation has a negative impact by looking at testing anti-patterns. The audience will also learn what visual testing is, what tools are available, some of the common pitfalls of using visual testings as well as tips on ways to overcome them based on experience of creating a custom visual test framework at my current employer.",
-			"bio" : "Viv Richards is a test automation engineer at Vizolution, blogger and an active member in the local developer community. In his spare time he enjoys teaching children to code as a CodeClub volunteer at a local junior school as well as bringing communities together to share skills and knowledge by organising local meet-up's as well as organising South Wales largest agile and developer conference.",
-			"twitter" : "@lukbou"
-		},
-		{
-			"name"	: "Adam Bouz Al-Jidy",
-			"picture" : "images/speakers/adamaljidy.jpg",
-			"title"   : "How much testing is enough testing: justifying code coverage for cross-platform mobile apps",
-			"abstract" : "Testing native mobile apps are hard. Like really hard. Android & iOS are big heavyweight systems that do a lot and mocking all the core components isn't a trivial task. When building a mobile app you'll have to ask yourself \"How much testing is enough testing?\". Drawing the line is a hard thing to do...",
-			"bio" : "I'm a Computer Science graduate from York, currently working as an Android developer for Sky with experience as a full-stack web Developer and a web designer. Most of my time spent not coding is usually spent making and listening to music and consuming as much Japanese food as humanly possible.",
-			"twitter" : "@testing_atelier"
+			"name"	: "Ady Stokes",
+			"picture" : "images/speakers/ady.jpg",
+			"title"   : "Accessibility, Assumptions and Arguments",
+			"abstract" : "There is a massive assumption in software development that accessibility = disability.  I'll dispel that myth with information, examples and practical tips of how our assumptions are potentially costing us customers, making interactions harder and that the whole population has accessibility 'issues' with the applications we are building.",
+			"bio" : "I've been in and around testing through audit activities since the mid-1990s and involved in testing and software development since 2005.  I blog, although not often enough, at thebigtestheory.com and have spoken at Leeds Tester Gathering, Agile Yorkshire, Leeds Testing Atelier and at work where I have also run workshops.  I've had positive feedback on my talks but am always happy to hear things to make me improve.",
+			"twitter" : "@CricketRulz"
 		}
 	]
 }
