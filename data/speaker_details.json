@@ -25,6 +25,30 @@
 			"abstract" : "There is a massive assumption in software development that accessibility = disability.  I'll dispel that myth with information, examples and practical tips of how our assumptions are potentially costing us customers, making interactions harder and that the whole population has accessibility 'issues' with the applications we are building.",
 			"bio" : "I've been in and around testing through audit activities since the mid-1990s and involved in testing and software development since 2005.  I blog, although not often enough, at thebigtestheory.com and have spoken at Leeds Tester Gathering, Agile Yorkshire, Leeds Testing Atelier and at work where I have also run workshops.  I've had positive feedback on my talks but am always happy to hear things to make me improve.",
 			"twitter" : "@CricketRulz"
+		},
+		{
+			"name"	: "Alex Moore",
+			"picture" : "images/speakers/alex.jpeg",
+			"title"   : "Pipelines and Operability  (with Pink Fluffy DevOps Unicorns)",
+			"abstract" : "Testing is at the very centre of DevOps.  I'd like to bring Operability testing to life a bit, with some real practical examples as well as a more aspirational view.  This will include testing within a Software delivery pipeline, testing of the pipeline itself and the need to effectively integrate testing and monitoring.",
+			"bio" : "I have worked in IT, Marketing, Software Support and Software Delivery before moving into my current System Build (DevOps) role within TransUnion (formerly Callcredit).  I have a passion for continuous improvement and making life easier for everyone.",
+			"twitter" : "@smileandeliver"
+		},
+		{
+			"name"	: "Sophie Weston",
+			"picture" : "images/speakers/sophie.jpeg",
+			"title"   : "It’s Not What You Do (It’s the Way That You Do It)",
+			"abstract" : "Earlier this year, I (mostly) hung up my coding shoes and now I spend most of my time coaching teams on how to get going with the ways of DevOps. During my twenty-plus years in IT, I’ve seen many changes to how we produce software but nothing quite like DevOps. In just a few years, it has completely transformed the landscape of how we write, test and deliver software, and has gone from being considered a bit bleeding-edge to being mainstream. I’d like to share some reflections from my own DevOps journey - from newly-employed graduate to fully-fledged DevOps bore - and show that, whilst some of the technology we associate with DevOps such as containers and the cloud may be relatively new, the cultural side of DevOps has been around for much longer than people might think.",
+			"bio" : "I’ve worked as a software developer since the mid 1990s, doing everything from writing embedded assembler code for mobile radios, to putting the entire works of Goethe online, to automating DNS provision in AWS.",
+			"twitter" : "@srwestons"
+		},
+		{
+			"name"	: "Joe Stead",
+			"picture" : "images/speakers/joe.jpg",
+			"title"   : "Automating your test infrastructure with Kubernetes",
+			"abstract" : "As a developer, I find the most important job I have isn’t writing code, it’s shipping code that delivers value, and code only delivers value if it works. At a company without the most resources, we need to be clever, which is why we relied on Kubernetes to help automate our test infrastructure and increase confidence in our product. Kubernetes is container orchestration - but that doesn’t mean you need to be a docker expert to take advantage of the platform. Testing is imperative to any product, but it can be hard. Long running tests can be painful, especially when running them concurrently isn’t possible because of resource constraints, with kubernetes, we can address this. Tools such as selenium grid can be difficult to orchestrate and deploy, but with kubernetes, it is significantly simplified. Together, we’ll explore how we use Kubernetes to automate our test infrastructure and have greater confidence in our product, and you will learn how you can do the same.",
+			"bio" : "Joe is currently working on software that is designed to scale to millions of users concurrently, and he has been for the past 5 years. Prior to that, he spent some time working on security-conscious systems. His current focus is on improving the delivery of effective and usable software.",
+			"twitter" : "@Joe_Stead"
 		}
 	]
 }
