@@ -22,7 +22,7 @@ mixin speakerCarousel(speakers)
                                     h5.speaker-title #{speaker.title}
                                     p.speaker-bio #{speaker.bio}
                                     p.speaker-abstract #{speaker.abstract}
-                                    a.twitter-follow-button(href="https://twitter.com/#{speaker.twitter}", data-show-count="false"): Follow #{speaker.twitter}
+                                    a.twitter-follow-button(href="https://twitter.com/"+speaker.twitter, data-show-count="true"): Follow #{speaker.twitter}
                 else
                     .item
                         table
@@ -33,7 +33,7 @@ mixin speakerCarousel(speakers)
                                     h5.speaker-title #{speaker.title}
                                     p.speaker-bio #{speaker.bio}
                                     p.speaker-abstract #{speaker.abstract}
-                                    a.twitter-follow-button(href="https://twitter.com/#{speaker.twitter}", data-show-count="false"): Follow #{speaker.twitter}
+                                    a.twitter-follow-button(href="https://twitter.com/"+speaker.twitter, data-show-count="true"): Follow #{speaker.twitter}
 
         //-  Controls
         a.left.carousel-control(href="#carousel-a", role="button", data-slide="prev")

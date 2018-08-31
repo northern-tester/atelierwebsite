@@ -20,7 +20,7 @@ mixin sponsorCarousel(sponsors)
                                     img.image(src='/'+sponsor.picture, alt=sponsor.name)
                                 td.blurb
                                     h4.sponsor-name #{sponsor.name}
-                                    a.twitter-follow-button(href="https://twitter.com/#{sponsor.twitter}", data-show-count="false"): Follow #{sponsor.twitter}
+                                    a.twitter-follow-button(href="https://twitter.com/"+sponsor.twitter, data-show-count="false"): Follow #{sponsor.twitter}
                                     p.sponsor-about #{sponsor.about}
                                     
                 else
@@ -31,7 +31,7 @@ mixin sponsorCarousel(sponsors)
                                     img.image(src='/'+sponsor.picture, alt=sponsor.name)
                                 td.blurb
                                     h4.sponsor-name #{sponsor.name}
-                                    a.twitter-follow-button(href="https://twitter.com/#{sponsor.twitter}", data-show-count="false"): Follow #{sponsor.twitter}
+                                    a.twitter-follow-button(href="https://twitter.com/"+sponsor.twitter, data-show-count="false"): Follow #{sponsor.twitter}
                                     p.sponsor-about #{sponsor.about}
         //-  Controls
         a.left.carousel-control(href="#carousel-a", role="button", data-slide="prev")

@@ -25,6 +25,12 @@
 				"picture" : "images/sponsors/uaccount-logo.png",
 				"about" : "The non-bank current account with no hidden fees & flexible pricing that's built around you. Welcome to U, the unbank. No credit checks, no overdrafts, quick to join.",
 				"twitter" : "@UAccount"
+			},
+			{
+				"name"	: "Searchability",
+				"picture" : "images/sponsors/searchability-logo.jpg",
+				"about" : "To seamlessly fuse together traditional recruitment methods with a twist of digital marketing genius & a sprinkle of social media magic to help companies and candidates reach for the stars!",
+				"twitter" : "@SearchabilityUK"
 			}
 		]
 }

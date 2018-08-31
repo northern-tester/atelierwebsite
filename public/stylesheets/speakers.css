@@ -7,6 +7,10 @@
   display: none;
 }
 
+.carousel-control {
+  width: 5%;
+}
+
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
   top: 0%;
 }
