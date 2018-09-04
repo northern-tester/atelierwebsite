@@ -65,7 +65,24 @@
 			"abstract" : "We will take the audience through a challenging & inspiring journey to form a dedicated automation team including career progression of a Manual Tester to Senior Automation Tester, insights into decisions taken to chose automation tools, language used & framework architecture and setting up CI to run tests for Sky Sports mobile across different territories. The audience will learn from the mistakes we made along the way and see what setting up automation from scratch entails.",
 			"bio" : "Hey I’m Phil and I’m a Senior Tester for Sky Sports and Sky News mobile apps. I’m passionate about writing automation tests and I’m a fan of automating anything I can  - including my house (Looking at you Alexa and Siri). I love testing and finding the most obscure bugs I can! A part of my role is mentoring others in automation and helping run weekly workshops for people to hone their skills.",
 			"twitter" : "@philSumpton"
+		},
+		{
+			"name"	: "Christopher Chant",
+			"picture" : "images/speakers/choibot.jpeg",
+			"title"   : "The Making of a Conversation",
+			"abstract" : "Throughout our careers, we join and form teams with people from all walks of life. We work in a creative industry, and we invest a lot of ourselves into our work so it's essential that we can have crucial conversations while remaining congruent. In our workshop, we'll take you through the Satir Interaction model to exaggerate a conversation, highlighting how much goes on between hearing and seeing someone speak, to responding. You will takeaway a better understanding of congruent conversations, how you interact with others and why you have specific responses, a model to break down interactions allowing you to respond congruently and we’ll look at the process we go through from hearing and seeing someone through to responding.",
+			"bio" : "Christopher Chant is a determined and passionate test professional with experience across multiple domains. He has learned to embrace all parts of the development lifecycle as learning opportunities: working in business analysis, development, testing and coaching roles in an attempt to help teams grow and deliver. When not testing, Christopher spends his time running (not often enough), traveling all over the country to watch Nottingham Forest F.C. lose (occasionally they win), jealously looking at other people's dogs and playing board games.",
+			"twitter" : "@choibot"
+		},
+		{
+			"name"	: "Vernon Richards",
+			"picture" : "images/speakers/vernon.jpeg",
+			"title"   : "The Making of a Conversation",
+			"abstract" : "Throughout our careers, we join and form teams with people from all walks of life. We work in a creative industry, and we invest a lot of ourselves into our work so it's essential that we can have crucial conversations while remaining congruent. In our workshop, we'll take you through the Satir Interaction model to exaggerate a conversation, highlighting how much goes on between hearing and seeing someone speak, to responding. You will takeaway a better understanding of congruent conversations, how you interact with others and why you have specific responses, a model to break down interactions allowing you to respond congruently and we’ll look at the process we go through from hearing and seeing someone through to responding.",
+			"bio" : "I am a software tester with 10 years experience testing products developed in various technologies/languages using Agile (Scrum) and Lean (Kanban), v-model & waterfall methodologies. Testing software and web products across a wide range of industries, whether as part of a co-located or distributed team, means I have a rich vein of first-hand knowledge to draw from.",
+			"twitter" : "@testerfromleic"
 		}
+
 	]
 }
 
