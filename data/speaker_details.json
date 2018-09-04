@@ -49,6 +49,22 @@
 			"abstract" : "As a developer, I find the most important job I have isn’t writing code, it’s shipping code that delivers value, and code only delivers value if it works. At a company without the most resources, we need to be clever, which is why we relied on Kubernetes to help automate our test infrastructure and increase confidence in our product. Kubernetes is container orchestration - but that doesn’t mean you need to be a docker expert to take advantage of the platform. Testing is imperative to any product, but it can be hard. Long running tests can be painful, especially when running them concurrently isn’t possible because of resource constraints, with kubernetes, we can address this. Tools such as selenium grid can be difficult to orchestrate and deploy, but with kubernetes, it is significantly simplified. Together, we’ll explore how we use Kubernetes to automate our test infrastructure and have greater confidence in our product, and you will learn how you can do the same.",
 			"bio" : "Joe is currently working on software that is designed to scale to millions of users concurrently, and he has been for the past 5 years. Prior to that, he spent some time working on security-conscious systems. His current focus is on improving the delivery of effective and usable software.",
 			"twitter" : "@Joe_Stead"
+		},
+		{
+			"name"	: "Suman Bala",
+			"picture" : "images/speakers/suman.jpeg",
+			"title"   : "Automating the World of Sky Sports Mobile",
+			"abstract" : "We will take the audience through a challenging & inspiring journey to form a dedicated automation team including career progression of a Manual Tester to Senior Automation Tester, insights into decisions taken to chose automation tools, language used & framework architecture and setting up CI to run tests for Sky Sports mobile across different territories. The audience will learn from the mistakes we made along the way and see what setting up automation from scratch entails.",
+			"bio" : "Hiya, this is Suman. I'm Test Lead at Sky Sports & News mobile. I'm responsible for end to end testing in manual & automation. In the past 12 years, I have designed & developed automation frameworks from scratch for various products from middleware graphics library, e-commerce & mobile apps. I'm passionate about proving continuous value through coaching & mentoring. It makes me super happy to see how people’s perspectives have changed about testing throughout my career.",
+			"twitter" : "@sumanbala867"
+		},
+		{
+			"name"	: "Phil Sumpton",
+			"picture" : "images/speakers/phil.jpeg",
+			"title"   : "Automating the World of Sky Sports Mobile",
+			"abstract" : "We will take the audience through a challenging & inspiring journey to form a dedicated automation team including career progression of a Manual Tester to Senior Automation Tester, insights into decisions taken to chose automation tools, language used & framework architecture and setting up CI to run tests for Sky Sports mobile across different territories. The audience will learn from the mistakes we made along the way and see what setting up automation from scratch entails.",
+			"bio" : "Hey I’m Phil and I’m a Senior Tester for Sky Sports and Sky News mobile apps. I’m passionate about writing automation tests and I’m a fan of automating anything I can  - including my house (Looking at you Alexa and Siri). I love testing and finding the most obscure bugs I can! A part of my role is mentoring others in automation and helping run weekly workshops for people to hone their skills.",
+			"twitter" : "@philSumpton"
 		}
 	]
 }
