@@ -81,8 +81,15 @@
 			"abstract" : "Throughout our careers, we join and form teams with people from all walks of life. We work in a creative industry, and we invest a lot of ourselves into our work so it's essential that we can have crucial conversations while remaining congruent. In our workshop, we'll take you through the Satir Interaction model to exaggerate a conversation, highlighting how much goes on between hearing and seeing someone speak, to responding. You will takeaway a better understanding of congruent conversations, how you interact with others and why you have specific responses, a model to break down interactions allowing you to respond congruently and we’ll look at the process we go through from hearing and seeing someone through to responding.",
 			"bio" : "I am a software tester with 10 years experience testing products developed in various technologies/languages using Agile (Scrum) and Lean (Kanban), v-model & waterfall methodologies. Testing software and web products across a wide range of industries, whether as part of a co-located or distributed team, means I have a rich vein of first-hand knowledge to draw from.",
 			"twitter" : "@testerfromleic"
+		},
+		{
+			"name"	: "Colin Ameigh",
+			"picture" : "images/speakers/colin.jpg",
+			"title"   : "The Bugs and the Bees",
+			"abstract" : "What are bugs?  Where do they come from?  What do they want and is there any way of stopping them?",
+			"bio" : "Colin is a software developer with broad experience in telecommunications, internet and e-commerce. Experienced in requirements gathering through product lifecycle including testing. He specialises in databases design and implementation, web based user interfaces to complex systems and high speed data processing. Provides architectural guidance, technical design and leadership in complex projects.",
+			"twitter" : "@CAmeigh"
 		}
-
 	]
 }
 

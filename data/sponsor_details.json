@@ -31,6 +31,12 @@
 				"picture" : "images/sponsors/searchability-logo.jpg",
 				"about" : "To seamlessly fuse together traditional recruitment methods with a twist of digital marketing genius & a sprinkle of social media magic to help companies and candidates reach for the stars!",
 				"twitter" : "@SearchabilityUK"
+			},
+			{
+				"name"	: "emis health",
+				"picture" : "images/sponsors/emishealth.jpg",
+				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools – combined with unrivalled customer support.",
+				"twitter" : "@emishealth"
 			}
 		]
 }
