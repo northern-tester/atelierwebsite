@@ -43,6 +43,12 @@
 				"picture" : "images/sponsors/skybetcareers.jpg",
 				"about" : "We’ve built a workplace that inspires amazing people to create brilliant customer experiences. We make Betting and Gaming better.",
 				"twitter" : "@SkyBetCareers"
+			},
+			{
+				"name"	: "Web Developer Apprentice Network",
+				"picture" : "images/sponsors/webdevapp.jpg",
+				"about" : "Industry led, community driven apprenticeship scheme. All training devised and delivered by experts, focus on diversity and inclusion.",
+				"twitter" : "@WebDevAppNet"
 			}
 		]
 }
