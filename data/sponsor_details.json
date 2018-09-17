@@ -21,7 +21,7 @@
 				"twitter" : "@InfinityWorks"
 			},
 			{
-				"name"	: "U Account",
+				"name"	: "UAccount",
 				"picture" : "images/sponsors/uaccount-logo.png",
 				"about" : "The non-bank current account with no hidden fees & flexible pricing that's built around you. Welcome to U, the unbank. No credit checks, no overdrafts, quick to join.",
 				"twitter" : "@UAccount"
@@ -31,6 +31,18 @@
 				"picture" : "images/sponsors/searchability-logo.jpg",
 				"about" : "To seamlessly fuse together traditional recruitment methods with a twist of digital marketing genius & a sprinkle of social media magic to help companies and candidates reach for the stars!",
 				"twitter" : "@SearchabilityUK"
+			},
+			{
+				"name"	: "emis health",
+				"picture" : "images/sponsors/emishealth.jpg",
+				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools – combined with unrivalled customer support.",
+				"twitter" : "@emishealth"
+			},
+			{
+				"name"	: "Sky Betting and Gaming",
+				"picture" : "images/sponsors/skybetcareers.jpg",
+				"about" : "We’ve built a workplace that inspires amazing people to create brilliant customer experiences. We make Betting and Gaming better.",
+				"twitter" : "@SkyBetCareers"
 			}
 		]
 }
