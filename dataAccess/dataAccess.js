@@ -1,7 +1,7 @@
 'use strict'
 
 const mongoClient = require('mongodb').MongoClient;
-const config = require('../config').getConfig;
+const config = require('../config/config').getConfig;
 
 
 const executeWithConnection = (promiseToExecute, argument) => {

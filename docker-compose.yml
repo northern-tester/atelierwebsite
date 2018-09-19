@@ -18,6 +18,7 @@ services:
     container_name: "Atelier-Website"
     restart: always
     environment:
+      -DBADDRESS
     volumes:
       - ./:./
     links:
