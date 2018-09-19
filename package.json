@@ -15,6 +15,7 @@
     "generate-safe-id": "^1.0.2",
     "google-recaptcha": "^1.1.0",
     "install": "^0.8.7",
+    "mongo": "^0.1.0",
     "morgan": "~1.7.0",
     "npm": "^4.4.1",
     "pug": "^2.0.0-rc.4",

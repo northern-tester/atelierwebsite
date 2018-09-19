@@ -1,9 +1,10 @@
-var express = require('express');
-var router = express.Router();
-var slackConfig = require('../config/slack.json');
-var recaptchaConfig = require('../config/recaptcha.json');
-var Slack = require('slack-node');
-var GoogleRecaptcha = require('google-recaptcha');
+const express = require('express');
+const router = express.Router();
+const slackConfig = require('../config/slack.json');
+const recaptchaConfig = require('../config/recaptcha.json');
+const Slack = require('slack-node');
+const GoogleRecaptcha = require('google-recaptcha');
+const dataAccess = require('../dataAccess/dataAccess');
 
 /* GET CfP page. */
 router.get('/', function(req, res, next) {
@@ -25,12 +26,21 @@ router.post('/', function(req, res, next) {
 					//New slack object
 					slack = new Slack();
 					slack.setWebhook(webhookUri);
+					const talkDocument = {
+						name: req.body.name,
+						email: req.body.email,
+						bio: req.body.bio,
+						talkTitle: req.body.title,
+						abstract: req.body.abstract,
+						twitter: req.body.twitter
+					}
+					dataAccess.addTalk(talkDocument);
 					//Build up the message and post
 					slack.webhook({
 						channel: slackConfig.channel,
 						username: slackConfig.username,
-						text: "Name: "+req.body.name+"\n\nEmail: "+req.body.email+"\n\nBio: "+req.body.bio+"\n\nTitle: "+req.body.title+"\n\nAbstract: "+req.body.abstract+"\n\nTwitter: "+req.body.twitter
-					}, function(err, response) {
+						text: `Name: ${talkDocument.name}"\n\nEmail: ${talkDocument.email}\n\nBio: ${talkDocument.bio}\n\nTitle: ${talkDocument.title}\n\nAbstract: ${talkDocument.abstract}\n\nTwitter: ${talkDocument.twitter}`
+					}, function(err) {
 						if(err) {
 							console.log(err.message);
 							return;

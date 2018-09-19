@@ -1,0 +1,26 @@
+version: '2'
+services:
+  mongo:
+    image: mongo:latest
+    hostname: "mongo"
+    container_name: "mongo"
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/data/log
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - 27017:27017
+    command: mongod --smallfiles # --quiet
+
+  vacbot:
+    build: .
+    container_name: "Atelier-Website"
+    restart: always
+    environment:
+    volumes:
+      - ./:./
+    links:
+      - mongo
+    depends_on:
+      - mongo
