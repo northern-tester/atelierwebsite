@@ -89,6 +89,22 @@
 			"abstract" : "What are bugs?  Where do they come from?  What do they want and is there any way of stopping them?",
 			"bio" : "Colin is a software developer with broad experience in telecommunications, internet and e-commerce. Experienced in requirements gathering through product lifecycle including testing. He specialises in databases design and implementation, web based user interfaces to complex systems and high speed data processing. Provides architectural guidance, technical design and leadership in complex projects.",
 			"twitter" : "@CAmeigh"
+		},
+		{
+			"name"	: "Kim Crowe",
+			"picture" : "images/speakers/owl.jpg",
+			"title"   : "Transferable Skills to Pay the Bills",
+			"abstract" : "As most of you know there is so much more to testing than automating checks or finding bugs. The aim of this talk shop is to uncover what soft skills each tester has that makes them effective. We will do this by taking the audience through our individual career journeys. Discuss the skills we picked up along the way and how they have augmented our ability to test. We will then invite the audience to split into small groups and undertake an exercise to get them thinking about the own soft skills and how they help them be effective and how they might help others too.",
+			"bio" : "Kim has been a software tester for just over 5 years now. Prior to that she enjoyed a career as a research scientist. Her career began at the University of Leeds shooting x-ray beams at crystals in the pursuit of new discoveries in membrane biology. After deciding to take a move away from academia, she shifted tack from doing her own research to helping people with theirs as a scientific consultant at GE Healthcare. After being interested in technology for a long time, she then decided to take the plunge and begin a career in software development as a software tester. Since then, she has held a number of different roles as both a tester and a product owner, utilising skills gained over the course of her career.",
+			"twitter" : "@kimcrowe79"
+		},
+		{
+			"name"	: "Markus Albrecht",
+			"picture" : "images/speakers/markus.jpeg",
+			"title"   : "Transferable Skills to Pay the Bills",
+			"abstract" : "As most of you know there is so much more to testing than automating checks or finding bugs. The aim of this talk shop is to uncover what soft skills each tester has that makes them effective. We will do this by taking the audience through our individual career journeys. Discuss the skills we picked up along the way and how they have augmented our ability to test. We will then invite the audience to split into small groups and undertake an exercise to get them thinking about the own soft skills and how they help them be effective and how they might help others too.",
+			"bio" : "Markus has been a software tester for 13 years, operating in a variety of roles. He began his career in New Zealand with a since deceased banking institution. Following this he served 5 years at the Ministry of Education, where he moved into roles with a more test management focus. After this it was time for a change of scenery. And following a move to the other side of the world, he has set up shop in blighty and got back to brass tacks. Here he has taken on a number of permanent and contract roles in various places across the country (Ok just Leeds and Northampton). With each role, he is looking to focus on different skills that will make him a better tester.",
+			"twitter" : "@beardytester"
 		}
 	]
 }
