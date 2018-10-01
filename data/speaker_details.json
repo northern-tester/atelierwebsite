@@ -3,12 +3,12 @@
 	"speakers":
 	[
 		{ 
-			"name"	: "Robyn Daulby",
-			"picture" : "images/speakers/robyn_daulby.jpg",
-			"title"   : "From Lazy to Junior to Tester - My Testing Journey Lows and Highs",
-			"abstract" : "I have always been a terrible student, when I was in full time education I was always doing ‘Just enough’ to get by, I was basically lazy and just wanted an easy life. But now that I’m older and in a job I love, I strive to be better. But I still have those times when the lazy in me comes out or I get disheartened and then I want to hide away. I’ve had to work really had to keep myself on track. Being relatively new to testing this talk will be about my journey and to show some of the lows and highs that I’ve had whilst I’ve been learning to test. One of the lows I had was not understanding the terminology being used around me, it sounds incredibly daft to say that something so simple to me now was a low point. It will show how along the way I’ve had to overcome failures, my inner lazy and picking myself up when I’m disheartened. I will talk about my highs as well, public speaking being my main one, never in a million years did I think I would stand in front of a room full of people and talk, but here I am writing an Abstract to do another talk. Major high. I want people to take away two main things with this talk. Firsty, to new testers, who could be having similar lows to me, I want them to know that they’re not alone!  Its okay to fail, it’s how we learn. It’s okay to have down time, we can’t constantly be learning and that’s okay! And then to the more established tester, I hope to enlighten them to some struggles that others may be having without them realising.",
-			"bio" : "Hey, Im Robyn! I’m a Junior Test Analyst working at AO.com. I’ve been testing for a little over a year now and taking a leap of faith and changing my career was the best thing I ever did. I’m very passionate about what I do and I hope that people see my openness and honesty when they talk to me or read my blogs. Ever since I attended my first conference I’ve absolutely loved the testing community, it’s so inclusive! I think you can really get a lot from attending events, even if it’s just a new friend, and I want to be one of those people that helps others on their journey. I may be new to this but a new perspective can often be a good one. I hate thinking that there could be other people struggling and worrying they’re alone with their lows in testing. It could literally just take one person to open up and be honest about their struggles for them to realise they are not alone! I want to be that person and help others the way the community has helped me. When I’m not working I’m all about going to concerts, eating good food, obsessing over my niece, drinking gin and visiting my boyfriend in Scotland. Various combinations of all the above!",
-			"twitter" : "@RobynTests"
+			"name"	: "Cian McCormark",
+			"picture" : "images/speakers/cian-mc.jpg",
+			"title"   : "Working Hard or Hardly Working",
+			"abstract" : "If testing is fundamentally about providing your team with as much information as you can, where's the stipulation that the information has to be about the application under test? Efficiency can be driven from many areas. I want to show how a little shake up to the day-to-day can prove just that.",
+			"bio" : "Software Tester, Scrum Master, Rookie Speaker, Ex-Chef, Spice Enthusiast, Collector of Rubber Ducks, Banana Loather. My career goal is to find a role in which i am constantly and consistently challenged. The best way to learn is through adversity.",
+			"twitter" : "@aCyanNinja"
 		},
 		{
 			"name"	: "Lewis Prescott",
