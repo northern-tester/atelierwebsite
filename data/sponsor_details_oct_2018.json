@@ -1,0 +1,55 @@
+{
+	"title": "Leeds Testing Atelier - Sponsor Us",
+	"sponsors":
+		[
+			{
+				"name"	: "Anaplan",
+				"picture" : "images/sponsors/anaplan-logo.jpeg",
+				"about" : "Anaplan is a cloud-based planning and performance management platform with documented use cases in finance, sales, supply chain, marketing, IT and HR.",
+				"twitter" : "@anaplan"
+			},
+			{
+				"name"	: "Iliad Solutions",
+				"picture" : "images/sponsors/iliad-logo.png",
+				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand. Used by the world’s leading financial institutions, Iliad reduces the costs associated with testing and improves the speed of launching new systems.",
+				"twitter" : "@iliad_solutions"
+			},
+			{
+				"name"	: "Infinity Works",
+				"picture" : "images/sponsors/infinityworks-logo.jpg",
+				"about" : "A collective of leading Engineers and Technologists who have the intelligence to devise the right solution, the skills to build it to drive real change in your organisation.",
+				"twitter" : "@InfinityWorks"
+			},
+			{
+				"name"	: "UAccount",
+				"picture" : "images/sponsors/uaccount-logo.png",
+				"about" : "The non-bank current account with no hidden fees & flexible pricing that's built around you. Welcome to U, the unbank. No credit checks, no overdrafts, quick to join.",
+				"twitter" : "@UAccount"
+			},
+			{
+				"name"	: "Searchability",
+				"picture" : "images/sponsors/searchability-logo.jpg",
+				"about" : "To seamlessly fuse together traditional recruitment methods with a twist of digital marketing genius & a sprinkle of social media magic to help companies and candidates reach for the stars!",
+				"twitter" : "@SearchabilityUK"
+			},
+			{
+				"name"	: "emis health",
+				"picture" : "images/sponsors/emishealth.jpg",
+				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools – combined with unrivalled customer support.",
+				"twitter" : "@emishealth"
+			},
+			{
+				"name"	: "Sky Betting and Gaming",
+				"picture" : "images/sponsors/skybetcareers.jpg",
+				"about" : "We’ve built a workplace that inspires amazing people to create brilliant customer experiences. We make Betting and Gaming better.",
+				"twitter" : "@SkyBetCareers"
+			},
+			{
+				"name"	: "Web Developer Apprentice Network",
+				"picture" : "images/sponsors/webdevapp.jpg",
+				"about" : "Industry led, community driven apprenticeship scheme. All training devised and delivered by experts, focus on diversity and inclusion.",
+				"twitter" : "@WebDevAppNet"
+			}
+		]
+}
+

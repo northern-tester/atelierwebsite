@@ -5,7 +5,7 @@
 			{
 				"name"	: "Iliad Solutions",
 				"picture" : "images/sponsors/iliad-logo.png",
-				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand. Used by the world’s leading financial institutions, Iliad reduces the costs associated with testing and improves the speed of launching new systems.",
+				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand.",
 				"twitter" : "@iliad_solutions"
 			},
 			{
@@ -17,8 +17,26 @@
 			{
 				"name"	: "Equal Experts",
 				"picture" : "images/sponsors/equal-experts-logo.png",
-				"about" : "We’re an award-winning agile consultancy, specialising in digital transformation and agile software delivery. We bring maturity, pragmatism and passion to software projects of all shapes and sizes – everything from mobile apps to enterprise-level technology platforms.",
+				"about" : "An award-winning agile consultancy, we bring maturity, pragmatism and passion to projects – everything from mobile apps to enterprise-level technology platforms.",
 				"twitter" : "@EqualExperts"
+			},
+			{
+				"name"	: "Fruition IT",
+				"picture" : "images/sponsors/fruition.png",
+				"about" : "Fruition IT specialises in the recruitment of IT and Business Change professionals at all levels, placing into both permanent and contract vacancies.",
+				"twitter" : "@Fruition_IT"
+			},
+			{
+				"name"	: "emis health",
+				"picture" : "images/sponsors/emishealth.jpg",
+				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools.",
+				"twitter" : "@emishealth"
+			},
+			{
+				"name"	: "RapidSpike",
+				"picture" : "images/sponsors/rapidspike-logo.jpg",
+				"about" : "Protect & improve your website & digital platforms - insights on digital experience, performance, uptime, security and data breaches (Magecart).",
+				"twitter" : "@rapidspike"
 			}
 		]
 }
