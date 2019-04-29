@@ -3,15 +3,9 @@
 	"sponsors":
 		[
 			{
-				"name"	: "Anaplan",
-				"picture" : "images/sponsors/anaplan-logo.jpeg",
-				"about" : "Anaplan is a cloud-based planning and performance management platform with documented use cases in finance, sales, supply chain, marketing, IT and HR.",
-				"twitter" : "@anaplan"
-			},
-			{
 				"name"	: "Iliad Solutions",
 				"picture" : "images/sponsors/iliad-logo.png",
-				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand. Used by the world’s leading financial institutions, Iliad reduces the costs associated with testing and improves the speed of launching new systems.",
+				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand.",
 				"twitter" : "@iliad_solutions"
 			},
 			{
@@ -21,34 +15,28 @@
 				"twitter" : "@InfinityWorks"
 			},
 			{
-				"name"	: "UAccount",
-				"picture" : "images/sponsors/uaccount-logo.png",
-				"about" : "The non-bank current account with no hidden fees & flexible pricing that's built around you. Welcome to U, the unbank. No credit checks, no overdrafts, quick to join.",
-				"twitter" : "@UAccount"
+				"name"	: "Equal Experts",
+				"picture" : "images/sponsors/equal-experts-logo.png",
+				"about" : "An award-winning agile consultancy, we bring maturity, pragmatism and passion to projects – everything from mobile apps to enterprise-level technology platforms.",
+				"twitter" : "@EqualExperts"
 			},
 			{
-				"name"	: "Searchability",
-				"picture" : "images/sponsors/searchability-logo.jpg",
-				"about" : "To seamlessly fuse together traditional recruitment methods with a twist of digital marketing genius & a sprinkle of social media magic to help companies and candidates reach for the stars!",
-				"twitter" : "@SearchabilityUK"
+				"name"	: "Fruition IT",
+				"picture" : "images/sponsors/fruition.png",
+				"about" : "Fruition IT specialises in the recruitment of IT and Business Change professionals at all levels, placing into both permanent and contract vacancies.",
+				"twitter" : "@Fruition_IT"
 			},
 			{
 				"name"	: "emis health",
 				"picture" : "images/sponsors/emishealth.jpg",
-				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools – combined with unrivalled customer support.",
+				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools.",
 				"twitter" : "@emishealth"
 			},
 			{
-				"name"	: "Sky Betting and Gaming",
-				"picture" : "images/sponsors/skybetcareers.jpg",
-				"about" : "We’ve built a workplace that inspires amazing people to create brilliant customer experiences. We make Betting and Gaming better.",
-				"twitter" : "@SkyBetCareers"
-			},
-			{
-				"name"	: "Web Developer Apprentice Network",
-				"picture" : "images/sponsors/webdevapp.jpg",
-				"about" : "Industry led, community driven apprenticeship scheme. All training devised and delivered by experts, focus on diversity and inclusion.",
-				"twitter" : "@WebDevAppNet"
+				"name"	: "RapidSpike",
+				"picture" : "images/sponsors/rapidspike-logo.jpg",
+				"about" : "Protect & improve your website & digital platforms - insights on digital experience, performance, uptime, security and data breaches (Magecart).",
+				"twitter" : "@rapidspike"
 			}
 		]
 }

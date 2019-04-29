@@ -3,108 +3,20 @@
 	"speakers":
 	[
 		{ 
-			"name"	: "Cian McCormark",
-			"picture" : "images/speakers/cian-mc.jpg",
-			"title"   : "Working Hard or Hardly Working",
-			"abstract" : "If testing is fundamentally about providing your team with as much information as you can, where's the stipulation that the information has to be about the application under test? Efficiency can be driven from many areas. I want to show how a little shake up to the day-to-day can prove just that.",
-			"bio" : "Software Tester, Scrum Master, Rookie Speaker, Ex-Chef, Spice Enthusiast, Collector of Rubber Ducks, Banana Loather. My career goal is to find a role in which i am constantly and consistently challenged. The best way to learn is through adversity.",
-			"twitter" : "@aCyanNinja"
+			"name"	: "Hannah Pretswell",
+			"picture" : "images/speakers/hannah-pretswell.jpg",
+			"title"   : "The Sleepy Tester",
+			"abstract" : "We all know about the basic human needs: food, water, and shelter. It would be pretty difficult to go about our jobs without those three things. But what about sleep? A lack of sleep is detrimental in so many ways - we can all feel the effects of simply *being* tired, but the harm goes much deeper than that. As testers we need to bring a myriad of skills to be the best we can be: creativity, problem solving, decision making and communication to name just a few. How much does sleep impact these skills and our abilities to improve? This talk will cover the effects of sleep (or lack thereof) on learning, behaviour, and general wellbeing. We don’t expect to be our best selves without basic human needs - why do we neglect sleep so?",
+			"bio" : "I am a Software Tester with a fascination for how things you wouldn’t expect can affect your ability to learn, grow, and go about general day to day life. I come from a background in art and animation, and enjoy reading, piano, and aerial fitness.",
+			"twitter" : "@hannahpretswell"
 		},
 		{
-			"name"	: "Lewis Prescott",
-			"picture" : "images/speakers/lewis_prescott.jpg",
-			"title"   : "Contract Tests vs Functional Tests in a World of Squads",
-			"abstract" : "Asos is a large organisation which has grown significantly over the past few years. This had meant layers of management and teams spawning out of nowhere. I want to discuss my journey of implementing Pact (Contract Testing Framework) in a large organisation. The challenges I faced during the process and the lessons learnt including the technical Part: Setting up the framework in C#, people part: Getting buy in from the wider team and consumers part: Gettting buy in from the wider business.",
-			"bio" : "I am currently a QA Engineer at Asos, formerly of 'The Test People' based in the Leeds office. I have a variety of experience at different organisations, usually forming opinions on automation and the best way to adopt it. I currently love writing unit tests and getting involved in testability discussions with my colleagues. I teach coding (python) at a local school in Camden, London. I mentor an intern and another QA here at ASOS. I love to teach and learn from others.",
-			"twitter" : "@WuigPrescott"
-		},
-		{
-			"name"	: "Ady Stokes",
-			"picture" : "images/speakers/ady.jpg",
-			"title"   : "Accessibility, Assumptions and Arguments",
-			"abstract" : "There is a massive assumption in software development that accessibility = disability.  I'll dispel that myth with information, examples and practical tips of how our assumptions are potentially costing us customers, making interactions harder and that the whole population has accessibility 'issues' with the applications we are building.",
-			"bio" : "I've been in and around testing through audit activities since the mid-1990s and involved in testing and software development since 2005.  I blog, although not often enough, at thebigtestheory.com and have spoken at Leeds Tester Gathering, Agile Yorkshire, Leeds Testing Atelier and at work where I have also run workshops.  I've had positive feedback on my talks but am always happy to hear things to make me improve.",
-			"twitter" : "@CricketRulz"
-		},
-		{
-			"name"	: "Alex Moore",
-			"picture" : "images/speakers/alex.jpeg",
-			"title"   : "Pipelines and Operability  (with Pink Fluffy DevOps Unicorns)",
-			"abstract" : "Testing is at the very centre of DevOps.  I'd like to bring Operability testing to life a bit, with some real practical examples as well as a more aspirational view.  This will include testing within a Software delivery pipeline, testing of the pipeline itself and the need to effectively integrate testing and monitoring.",
-			"bio" : "I have worked in IT, Marketing, Software Support and Software Delivery before moving into my current System Build (DevOps) role within TransUnion (formerly Callcredit).  I have a passion for continuous improvement and making life easier for everyone.",
-			"twitter" : "@smileandeliver"
-		},
-		{
-			"name"	: "Sophie Weston",
-			"picture" : "images/speakers/sophie.jpeg",
-			"title"   : "It’s Not What You Do (It’s the Way That You Do It)",
-			"abstract" : "Earlier this year, I (mostly) hung up my coding shoes and now I spend most of my time coaching teams on how to get going with the ways of DevOps. During my twenty-plus years in IT, I’ve seen many changes to how we produce software but nothing quite like DevOps. In just a few years, it has completely transformed the landscape of how we write, test and deliver software, and has gone from being considered a bit bleeding-edge to being mainstream. I’d like to share some reflections from my own DevOps journey - from newly-employed graduate to fully-fledged DevOps bore - and show that, whilst some of the technology we associate with DevOps such as containers and the cloud may be relatively new, the cultural side of DevOps has been around for much longer than people might think.",
-			"bio" : "I’ve worked as a software developer since the mid 1990s, doing everything from writing embedded assembler code for mobile radios, to putting the entire works of Goethe online, to automating DNS provision in AWS.",
-			"twitter" : "@srwestons"
-		},
-		{
-			"name"	: "Joe Stead",
-			"picture" : "images/speakers/joe.jpg",
-			"title"   : "Automating your test infrastructure with Kubernetes",
-			"abstract" : "As a developer, I find the most important job I have isn’t writing code, it’s shipping code that delivers value, and code only delivers value if it works. At a company without the most resources, we need to be clever, which is why we relied on Kubernetes to help automate our test infrastructure and increase confidence in our product. Kubernetes is container orchestration - but that doesn’t mean you need to be a docker expert to take advantage of the platform. Testing is imperative to any product, but it can be hard. Long running tests can be painful, especially when running them concurrently isn’t possible because of resource constraints, with kubernetes, we can address this. Tools such as selenium grid can be difficult to orchestrate and deploy, but with kubernetes, it is significantly simplified. Together, we’ll explore how we use Kubernetes to automate our test infrastructure and have greater confidence in our product, and you will learn how you can do the same.",
-			"bio" : "Joe is currently working on software that is designed to scale to millions of users concurrently, and he has been for the past 5 years. Prior to that, he spent some time working on security-conscious systems. His current focus is on improving the delivery of effective and usable software.",
-			"twitter" : "@Joe_Stead"
-		},
-		{
-			"name"	: "Suman Bala",
-			"picture" : "images/speakers/suman.jpeg",
-			"title"   : "Automating the World of Sky Sports Mobile",
-			"abstract" : "We will take the audience through a challenging & inspiring journey to form a dedicated automation team including career progression of a Manual Tester to Senior Automation Tester, insights into decisions taken to chose automation tools, language used & framework architecture and setting up CI to run tests for Sky Sports mobile across different territories. The audience will learn from the mistakes we made along the way and see what setting up automation from scratch entails.",
-			"bio" : "Hiya, this is Suman. I'm Test Lead at Sky Sports & News mobile. I'm responsible for end to end testing in manual & automation. In the past 12 years, I have designed & developed automation frameworks from scratch for various products from middleware graphics library, e-commerce & mobile apps. I'm passionate about proving continuous value through coaching & mentoring. It makes me super happy to see how people’s perspectives have changed about testing throughout my career.",
-			"twitter" : "@sumanbala867"
-		},
-		{
-			"name"	: "Phil Sumpton",
-			"picture" : "images/speakers/phil.jpeg",
-			"title"   : "Automating the World of Sky Sports Mobile",
-			"abstract" : "We will take the audience through a challenging & inspiring journey to form a dedicated automation team including career progression of a Manual Tester to Senior Automation Tester, insights into decisions taken to chose automation tools, language used & framework architecture and setting up CI to run tests for Sky Sports mobile across different territories. The audience will learn from the mistakes we made along the way and see what setting up automation from scratch entails.",
-			"bio" : "Hey I’m Phil and I’m a Senior Tester for Sky Sports and Sky News mobile apps. I’m passionate about writing automation tests and I’m a fan of automating anything I can  - including my house (Looking at you Alexa and Siri). I love testing and finding the most obscure bugs I can! A part of my role is mentoring others in automation and helping run weekly workshops for people to hone their skills.",
-			"twitter" : "@philSumpton"
-		},
-		{
-			"name"	: "Christopher Chant",
-			"picture" : "images/speakers/choibot.jpeg",
-			"title"   : "The Making of a Conversation",
-			"abstract" : "Throughout our careers, we join and form teams with people from all walks of life. We work in a creative industry, and we invest a lot of ourselves into our work so it's essential that we can have crucial conversations while remaining congruent. In our workshop, we'll take you through the Satir Interaction model to exaggerate a conversation, highlighting how much goes on between hearing and seeing someone speak, to responding. You will takeaway a better understanding of congruent conversations, how you interact with others and why you have specific responses, a model to break down interactions allowing you to respond congruently and we’ll look at the process we go through from hearing and seeing someone through to responding.",
-			"bio" : "Christopher Chant is a determined and passionate test professional with experience across multiple domains. He has learned to embrace all parts of the development lifecycle as learning opportunities: working in business analysis, development, testing and coaching roles in an attempt to help teams grow and deliver. When not testing, Christopher spends his time running (not often enough), traveling all over the country to watch Nottingham Forest F.C. lose (occasionally they win), jealously looking at other people's dogs and playing board games.",
-			"twitter" : "@choibot"
-		},
-		{
-			"name"	: "Vernon Richards",
-			"picture" : "images/speakers/vernon.jpeg",
-			"title"   : "The Making of a Conversation",
-			"abstract" : "Throughout our careers, we join and form teams with people from all walks of life. We work in a creative industry, and we invest a lot of ourselves into our work so it's essential that we can have crucial conversations while remaining congruent. In our workshop, we'll take you through the Satir Interaction model to exaggerate a conversation, highlighting how much goes on between hearing and seeing someone speak, to responding. You will takeaway a better understanding of congruent conversations, how you interact with others and why you have specific responses, a model to break down interactions allowing you to respond congruently and we’ll look at the process we go through from hearing and seeing someone through to responding.",
-			"bio" : "I am a software tester with 10 years experience testing products developed in various technologies/languages using Agile (Scrum) and Lean (Kanban), v-model & waterfall methodologies. Testing software and web products across a wide range of industries, whether as part of a co-located or distributed team, means I have a rich vein of first-hand knowledge to draw from.",
-			"twitter" : "@testerfromleic"
-		},
-		{
-			"name"	: "Colin Ameigh",
-			"picture" : "images/speakers/colin.jpg",
-			"title"   : "The Bugs and the Bees",
-			"abstract" : "What are bugs?  Where do they come from?  What do they want and is there any way of stopping them?",
-			"bio" : "Colin is a software developer with broad experience in telecommunications, internet and e-commerce. Experienced in requirements gathering through product lifecycle including testing. He specialises in databases design and implementation, web based user interfaces to complex systems and high speed data processing. Provides architectural guidance, technical design and leadership in complex projects.",
-			"twitter" : "@CAmeigh"
-		},
-		{
-			"name"	: "Kim Crowe",
-			"picture" : "images/speakers/owl.jpg",
-			"title"   : "Transferable Skills to Pay the Bills",
-			"abstract" : "As most of you know there is so much more to testing than automating checks or finding bugs. The aim of this talk shop is to uncover what soft skills each tester has that makes them effective. We will do this by taking the audience through our individual career journeys. Discuss the skills we picked up along the way and how they have augmented our ability to test. We will then invite the audience to split into small groups and undertake an exercise to get them thinking about the own soft skills and how they help them be effective and how they might help others too.",
-			"bio" : "Kim has been a software tester for just over 5 years now. Prior to that she enjoyed a career as a research scientist. Her career began at the University of Leeds shooting x-ray beams at crystals in the pursuit of new discoveries in membrane biology. After deciding to take a move away from academia, she shifted tack from doing her own research to helping people with theirs as a scientific consultant at GE Healthcare. After being interested in technology for a long time, she then decided to take the plunge and begin a career in software development as a software tester. Since then, she has held a number of different roles as both a tester and a product owner, utilising skills gained over the course of her career.",
-			"twitter" : "@kimcrowe79"
-		},
-		{
-			"name"	: "Markus Albrecht",
-			"picture" : "images/speakers/markus.jpeg",
-			"title"   : "Transferable Skills to Pay the Bills",
-			"abstract" : "As most of you know there is so much more to testing than automating checks or finding bugs. The aim of this talk shop is to uncover what soft skills each tester has that makes them effective. We will do this by taking the audience through our individual career journeys. Discuss the skills we picked up along the way and how they have augmented our ability to test. We will then invite the audience to split into small groups and undertake an exercise to get them thinking about the own soft skills and how they help them be effective and how they might help others too.",
-			"bio" : "Markus has been a software tester for 13 years, operating in a variety of roles. He began his career in New Zealand with a since deceased banking institution. Following this he served 5 years at the Ministry of Education, where he moved into roles with a more test management focus. After this it was time for a change of scenery. And following a move to the other side of the world, he has set up shop in blighty and got back to brass tacks. Here he has taken on a number of permanent and contract roles in various places across the country (Ok just Leeds and Northampton). With each role, he is looking to focus on different skills that will make him a better tester.",
-			"twitter" : "@beardytester"
+			"name"	: "Beth North",
+			"picture" : "images/speakers/beth-north.jpg",
+			"title"   : "Imposter Syndrome as a Tester",
+			"abstract" : "As a Woman in Tech, I’ve experienced my fair share of self-doubt. It wasn’t until a year or two ago that I learned of Imposter Syndrome, something clicked; like someone handed me a cheat sheet to a jigsaw puzzle. Since then I’ve been learning more about psychology and why people react in a certain way to situations and how my own mind fits into all of this. Nearly 70% of people in tech have said they’ve experience Imposter Syndrome in some way. I want to take you on a journey through my career and what I’ve been doing to fight that Imposter Goblin. The one that won’t stop shouting when you’re trying to be your best self. I am by no means an expert in psychology or medicine, but have always found the area interesting. I do not intend for this talk to be a solution for anyone, but more of a personal journey of what I have been doing in my life and how I have worked toward being the best I can be. I will be providing the disclaimer that I have a background in Electronic and Electrical Engineering and that this talk is to talk about my own experiences and perspective of the tech industry. This is a simple and relatable talk on how I’ve managed to ‘get out of my own head’ and learn to live with Imposter Syndrome, that I hope will be able to inspire people to take themselves out of their comfort zone at work or home.",
+			"bio" : "Beth is a Senior Software Test Engineer for one of the largest sports betting companies in the UK. She has worked in testing for 4 years, in a wide variety of testing disciplines and is always interested in learning more. In her free time, Beth is a gamer, foodie and gig-attendee; she has an avid interest in learning about science, medicine and history.",
+			"twitter" : "@EccentricTester"
 		}
 	]
 }
