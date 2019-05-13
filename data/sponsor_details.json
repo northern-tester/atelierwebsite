@@ -37,6 +37,12 @@
 				"picture" : "images/sponsors/rapidspike-logo.jpg",
 				"about" : "Protect & improve your website & digital platforms - insights on digital experience, performance, uptime, security and data breaches (Magecart).",
 				"twitter" : "@rapidspike"
+			},
+			{
+				"name"	: "Ministry of Testing",
+				"picture" : "images/sponsors/ministryoftest-logo.jpg",
+				"about" : "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
+				"twitter" : "@ministryoftesting"
 			}
 		]
 }
