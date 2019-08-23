@@ -1,18 +1,9 @@
-.speakertron {
+.speakerTable {
   padding-top: 25px;
+}
+
+.speaker-image {
   position: relative;
-}
-
-.carousel-indicators {
-  display: none;
-}
-
-.carousel-control {
-  width: 5%;
-}
-
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
-  top: 0%;
 }
 
 .speaker-name, .speaker-title {
@@ -21,11 +12,5 @@
 
 .speaker-bio, .speaker-abstract {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-h2, h3, p {
-  padding: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 

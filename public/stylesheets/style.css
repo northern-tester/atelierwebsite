@@ -1,6 +1,7 @@
 body {
   background-color: black;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #ffffff;
   background-image: url("../images/testing_atelier_form.jpeg");

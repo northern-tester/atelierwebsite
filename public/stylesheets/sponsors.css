@@ -1,16 +1,3 @@
-.sponsortron {
-  padding-top: 25px;
-  position: relative;
-}
-
-.carousel-indicators {
-  display: none;
-}
-
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
-  top: 0%;
-}
-
 .sponsor-about {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }

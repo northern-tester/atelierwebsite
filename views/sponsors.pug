@@ -1,5 +1,5 @@
 include ../node_modules/pug-bootstrap/_bootstrap
-include mixins/sponsor-carousel
+include mixins/sponsor-table
 include mixins/nav-header
 link(rel='stylesheet', href='/stylesheets/style.css')
 link(rel='stylesheet', href='/stylesheets/sponsors.css')
@@ -14,9 +14,9 @@ block content
 	.container
 		section(id='amazingsponsors')
 				h2 Check out our fabulous sponsors! They pay for your learning, beer and swag!
-				section(id='sponsors').sponsortron
+				section(id='sponsors')
 					div.container
-						+sponsorCarousel(sponsors)
+						+sponsorTable(sponsors)
 
 		section(id='sponsorus')
 
