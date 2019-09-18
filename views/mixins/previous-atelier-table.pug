@@ -1,0 +1,17 @@
+mixin previousAtelierTable(previousAteliers)
+	each previousAtelier in previousAteliers
+		div(class=previousAtelier.class) 
+			h4.previousAtelier-eventName #{previousAtelier.eventName}
+			p.previousAtelier-eventDescription #{previousAtelier.eventDescription}
+			table
+				tr
+					td
+						+img-responsive(previousAtelier.pictureOnePath, previousAtelier.pictureOneAltText)
+					td
+						+img-responsive(previousAtelier.pictureTwoPath, previousAtelier.pictureTwoAltText)
+				tr
+					td
+						+img-responsive(previousAtelier.pictureThreePath, previousAtelier.pictureThreeAltText)
+					td
+						+img-responsive(previousAtelier.pictureFourPath, previousAtelier.pictureFourAltText)
+		hr
