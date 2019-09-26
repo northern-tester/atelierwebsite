@@ -1,12 +1,13 @@
 mixin speakerTable(speakers)
     each speaker in speakers
         table
-            tr
-                td.speakerTable
-                    img.speaker-image(src='/'+speaker.picture, alt=speaker.name)
+            tr.speakerTable
+                    +img-responsive('/'+speaker.picture, speaker.name)
                     h4.speaker-name #{speaker.name}
-                    h5.speaker-title #{speaker.title}
                     p.speaker-bio #{speaker.bio}
+            tr.speakerTalk
+                    h5.speaker-title #{speaker.title}
                     p.speaker-abstract #{speaker.abstract}
+            tr.twitter
                     a.twitter-follow-button(href="https://twitter.com/"+speaker.twitter, data-show-count="true"): Follow #{speaker.twitter}
-                    section(style="padding-top: 50px;")
+            hr

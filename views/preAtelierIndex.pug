@@ -1,6 +1,7 @@
 include ../node_modules/pug-bootstrap/_bootstrap
 include mixins/nav-header
-include mixins/speaker-carousel
+include mixins/speaker-table
+
 link(rel='stylesheet', href='/stylesheets/style.css')
 link(rel='stylesheet', href='/stylesheets/speakers.css')
 link(rel='stylesheet', href='/stylesheets/panel.css')
@@ -21,10 +22,10 @@ block content
 	
 		div
 			block speakers
-				h2 Check out our fabulous line up of speakers! We love them!
+				h2 Check out our previous speakers! Next time, this could be YOU.
 					section(style="padding-top: 50px;")
-					section(id='speakers').speakertron
+					section(id='speakers')
 						div.container
-							+speakerCarousel(speakers)
+							+speakerTable(speakers)
 		footer
 			p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
