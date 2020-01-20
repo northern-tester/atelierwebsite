@@ -3,46 +3,16 @@
 	"sponsors":
 		[
 			{
-				"name"	: "Iliad Solutions",
-				"picture" : "images/sponsors/iliad-logo.png",
-				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand.",
-				"twitter" : "@iliad_solutions"
+				"name"	: "Nimble Approach",
+				"picture" : "images/sponsors/nimble-approach-logo.jpg",
+				"about" : "Nimble are a tightly knit collective of elite product & technology professionals who love what we do! We’ve taken a people first, quality-driven approach to growing our community by handpicking only people who have the right values, characteristics, and ability.",
+				"twitter" : "@nimbleapproach"
 			},
 			{
-				"name"	: "Infinity Works",
-				"picture" : "images/sponsors/infinityworks-logo.jpg",
-				"about" : "A collective of leading Engineers and Technologists who have the intelligence to devise the right solution, the skills to build it to drive real change in your organisation.",
-				"twitter" : "@InfinityWorks"
-			},
-			{
-				"name"	: "Equal Experts",
-				"picture" : "images/sponsors/equal-experts-logo.png",
-				"about" : "An award-winning agile consultancy, we bring maturity, pragmatism and passion to projects – everything from mobile apps to enterprise-level technology platforms.",
-				"twitter" : "@EqualExperts"
-			},
-			{
-				"name"	: "Fruition IT",
-				"picture" : "images/sponsors/fruition.png",
-				"about" : "Fruition IT specialises in the recruitment of IT and Business Change professionals at all levels, placing into both permanent and contract vacancies.",
-				"twitter" : "@Fruition_IT"
-			},
-			{
-				"name"	: "emis health",
-				"picture" : "images/sponsors/emishealth.jpg",
-				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools.",
-				"twitter" : "@emishealth"
-			},
-			{
-				"name"	: "RapidSpike",
-				"picture" : "images/sponsors/rapidspike-logo.jpg",
-				"about" : "Protect & improve your website & digital platforms - insights on digital experience, performance, uptime, security and data breaches (Magecart).",
-				"twitter" : "@rapidspike"
-			},
-			{
-				"name"	: "Ministry of Testing",
-				"picture" : "images/sponsors/ministryoftest-logo.jpg",
-				"about" : "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
-				"twitter" : "@ministryoftesting"
+				"name"	: "Corecom Consulting",
+				"picture" : "images/sponsors/corecom-logo.jpg",
+				"about" : "Corecom Consulting is an award-winning IT recruitment company. We serve a wide range of employers: from large scale international businesses to small and medium enterprises. We provide contract and permanent roles in a variety of IT specialisms.",
+				"twitter" : "@CorecomIT"
 			}
 		]
 }
