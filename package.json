@@ -7,20 +7,20 @@
     "nodemon": "./node_modules/nodemon/bin/nodemon.js node bin/ww"
   },
   "dependencies": {
-    "body-parser": "~1.15.2",
+    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "express": "~4.14.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
     "express-session": "^1.15.1",
-    "generate-safe-id": "^1.0.2",
+    "generate-safe-id": "^1.0.3",
     "google-recaptcha": "^1.1.0",
     "install": "^0.8.7",
-    "morgan": "~1.7.0",
-    "npm": "^4.4.1",
-    "pug": "^2.0.0-rc.4",
+    "morgan": "^1.9.1",
+    "npm": ">=6.13.4",
+    "pug": "^2.0.4",
     "pug-bootstrap": "0.0.15",
     "rotating-file-stream": "^1.2.0",
-    "serve-favicon": "~2.3.0",
+    "serve-favicon": "^2.5.0",
     "slack-node": "^0.1.8"
   },
   "devDependencies": {
