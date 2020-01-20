@@ -1,0 +1,74 @@
+{	
+	"title": "Leeds Testing Atelier - Home",
+	"speakers":
+	[
+		{ 
+			"name"	: "Hannah Pretswell",
+			"picture" : "images/speakers/hannah-pretswell.jpg",
+			"title"   : "The Sleepy Tester",
+			"abstract" : "We all know about the basic human needs: food, water, and shelter. It would be pretty difficult to go about our jobs without those three things. But what about sleep? A lack of sleep is detrimental in so many ways - we can all feel the effects of simply *being* tired, but the harm goes much deeper than that. As testers we need to bring a myriad of skills to be the best we can be: creativity, problem solving, decision making and communication to name just a few. How much does sleep impact these skills and our abilities to improve? This talk will cover the effects of sleep (or lack thereof) on learning, behaviour, and general wellbeing. We don’t expect to be our best selves without basic human needs - why do we neglect sleep so?",
+			"bio" : "I am a Software Tester with a fascination for how things you wouldn’t expect can affect your ability to learn, grow, and go about general day to day life. I come from a background in art and animation, and enjoy reading, piano, and aerial fitness.",
+			"twitter" : "@hannahpretswell"
+		},
+		{
+			"name"	: "Beth North",
+			"picture" : "images/speakers/beth-north.jpg",
+			"title"   : "Imposter Syndrome as a Tester",
+			"abstract" : "As a Woman in Tech, I’ve experienced my fair share of self-doubt. It wasn’t until a year or two ago that I learned of Imposter Syndrome, something clicked; like someone handed me a cheat sheet to a jigsaw puzzle. Since then I’ve been learning more about psychology and why people react in a certain way to situations and how my own mind fits into all of this. Nearly 70% of people in tech have said they’ve experience Imposter Syndrome in some way. I want to take you on a journey through my career and what I’ve been doing to fight that Imposter Goblin. The one that won’t stop shouting when you’re trying to be your best self. I am by no means an expert in psychology or medicine, but have always found the area interesting. I do not intend for this talk to be a solution for anyone, but more of a personal journey of what I have been doing in my life and how I have worked toward being the best I can be. I will be providing the disclaimer that I have a background in Electronic and Electrical Engineering and that this talk is to talk about my own experiences and perspective of the tech industry. This is a simple and relatable talk on how I’ve managed to ‘get out of my own head’ and learn to live with Imposter Syndrome, that I hope will be able to inspire people to take themselves out of their comfort zone at work or home.",
+			"bio" : "Beth is a Senior Software Test Engineer for one of the largest sports betting companies in the UK. She has worked in testing for 4 years, in a wide variety of testing disciplines and is always interested in learning more. In her free time, Beth is a gamer, foodie and gig-attendee; she has an avid interest in learning about science, medicine and history.",
+			"twitter" : "@EccentricTester"
+		},
+		{
+			"name"	: "Crispin Read",
+			"picture" : "images/speakers/crispin-read.jpg",
+			"title"   : "How to fail really well",
+			"abstract" : "Failure is not always a bad thing, every time we fail at something is an opportunity to learn and adapt. I'll be talking about my relationship with failure and how I use failing to teach others. I'll cover my most recent massive fail in some detail and end with an interactive celebration of failure",
+			"bio" : "I'm a consultant in UX, UCD and agile practice. I head up The Coders Guild, an industry group promoting diversity, inclusion, best practice and knowledge share and I also help run a national apprenticeship scheme for web devs. When away from a computer I wrestle with sourdough baking and wind my kids up.",
+			"twitter" : "@crispin_read"
+		},
+		{
+			"name"	: "Adam Griffiths",
+			"picture" : "images/speakers/adam-griffiths.jpeg",
+			"title"   : "Performance testing your communication",
+			"abstract" : "Few would argue the importance of good communication in modern software development. Creating a safe, creative environment is vital if we want our teams to do their best work. In this session we will look at why communication is so important, how to encourage high quality discussion, and how to have those tough conversations we’ve all been avoiding.",
+			"bio" : "Adam is a Product Development Manager at TransUnion UK in Leeds. With ten years of professional development experience and has led both collocated and distributed teams with members from different cultures, timezones, and countries. When not working Adam shares his man-cave with Space Marines, Chaos Deamons, and occasionally his cat Nala.",
+			"twitter" : "@ArdLiath"
+		},
+		{
+			"name"	: "Matt Robinson",
+			"picture" : "images/speakers/matt-robinson.jpg",
+			"title"   : " Including security testing in your test automation",
+			"abstract" : "A overview of how aspects of security testing can be embedded into your existing test automation frameworks, pipeline and exploratory test approach. Key take aways - you don't need to be a security expert to help security test your application, incorporating security tests into you existing processes can identify possibly expensive bugs.",
+			"bio" : "A tester with over 3 years experience in the software security industry, with a interest in all things cloud and IoT, Animal obsessed, craft beer lover with an unhealthy obsession with gifs.",
+			"twitter" : "@_darkmattr"
+		},
+		{
+			"name"	: "Sophie Weston",
+			"picture" : "images/speakers/sophie.jpeg",
+			"title"   : "A lightning talk on... lightning talks",
+			"abstract" : "For many of us, giving a lightning talk at a local meetup is our very first taste of public speaking. But why not start even closer to home? At work! In this talk I'll share my experiences of organising weekly lightning talks at Piksel, how this has helped strengthen the tech community at Piksel, and helped me get where I am today.",
+			"bio" : "I spent over twenty years working as a software developer during which time I developed a passion for DevOps. I now work in a coaching role helping teams to get going with the ways of DevOps and improve their software delivery processes.",
+			"twitter" : "@srwestons"
+		},
+		{
+			"name"	: "Jon McNestrie",
+			"picture" : "images/speakers/jon-mcnestrie.jpg",
+			"title"   : "Testing Jenga",
+			"abstract" : "A little game to demonstrate how testing may work in Agile teams vs Waterfall environments. Can you guess what comes out on top?! Whenever we have any event around testing in an Agile world we get a lot of questions and animated discussion. The game this month is fairly short so we’ll have plenty of time for a proper discussion/argument about testing.",
+			"bio" : "Team coach, leadership coach & facilitator. ICF member, visual facilitator, Lego Serious Play & more.",
+			"twitter" : "@JonMcNestrie"
+		},
+		{
+			"name"	: "Jay Harris",
+			"picture" : "images/speakers/jay-harris.jpg",
+			"title"   : "Web application hacking 101: Live hacking demo",
+			"abstract" : "Security is an important requirement when developing quality applications, however it is often overlooked by both developers and testers. Instead, expensive consultants are called in to perform penetration testing. In a penetration test, an ethical hacker will attempt to discover as many vulnerabilities as they can within the testing window. As this is expensive, many applications go live without any security testing. In this talk, I will attempt to demystify security testing, showing why it's important and why you don't need to be a security experts to perform important security checks. We will take a real web application and go though the steps real world hackers would use to gain access to the server. Along the way, we will learn the tools and techniques used and understand how we could have tested this application before it went live.",
+			"bio" : "Jahmel, also known as Jay, is a security consultant, researcher and ethical hacker. With a background in software development and security, his work focuses both on the offensive “ethical hacking” side and in integrating secure coding practices into organisations and their project lifecycles. Jahmel has a proven record of finding and providing recommendations on high and critical risk issues for FTSE 250 companies. He pushes industry knowledge forward with published security research and regularly presents worldwide to hackers and software developers. As well as running Digital Interruption with Saskia, Jahmel started Manchester Grey Hats, a community group in Manchester that runs free workshops and events. MGH works to teach security skills to those looking to move into security roles.",
+			"twitter" : "@jayharris_sec"
+		}
+	]
+}
+
+
+
+
