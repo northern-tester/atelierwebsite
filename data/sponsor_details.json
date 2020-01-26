@@ -13,6 +13,18 @@
 				"picture" : "images/sponsors/corecom-logo.jpg",
 				"about" : "Corecom Consulting is an award-winning IT recruitment company. We serve a wide range of employers: from large scale international businesses to small and medium enterprises. We provide contract and permanent roles in a variety of IT specialisms.",
 				"twitter" : "@CorecomIT"
+			},
+			{
+				"name"	: "Ministry of Testing",
+				"picture" : "images/sponsors/ministryoftest-logo.jpg",
+				"about" : "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
+				"twitter" : "@ministryoftesting"
+			},
+			{
+				"name"	: "Ady Stokes",
+				"picture" : "images/sponsors/ady.jpeg",
+				"about" : "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles.",
+				"twitter" : "@CricketRulz"
 			}
 		]
 }
