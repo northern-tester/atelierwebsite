@@ -25,6 +25,18 @@
 				"picture" : "images/sponsors/ady.jpeg",
 				"about" : "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles.",
 				"twitter" : "@CricketRulz"
+			},
+			{
+				"name"	: "Infinity Works",
+				"picture" : "images/sponsors/infinityworks-logo.jpg",
+				"about" : "A collective of leading Engineers and Technologists who have the intelligence to devise the right solution, the skills to build it to drive real change in your organisation.",
+				"twitter" : "@InfinityWorks"
+			},
+			{
+				"name"	: "The Coders Guild",
+				"picture" : "images/sponsors/coders-guild-logo.jpg",
+				"about" : "Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities for software development. A safe space offering community-driven, peer-reviewed and open-source knowledge share.",
+				"twitter" : "@the_codersguild"
 			}
 		]
 }
