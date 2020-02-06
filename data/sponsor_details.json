@@ -37,6 +37,12 @@
 				"picture" : "images/sponsors/coders-guild-logo.jpg",
 				"about" : "Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities for software development. A safe space offering community-driven, peer-reviewed and open-source knowledge share.",
 				"twitter" : "@the_codersguild"
+			},
+			{
+				"name" : "IBM",
+				"picture" : "images/sponsors/ibm-logo.png",
+				"about" : "Together with our clients, we're using technologies like AI, cloud, blockchain & IoT to transform business, industries and the world. Let’s put smart to work.",
+				"twitter" : "@IBM"
 			}
 		]
 }
