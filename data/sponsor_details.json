@@ -43,6 +43,12 @@
 				"picture" : "images/sponsors/ibm-logo.png",
 				"about" : "Together with our clients, we're using technologies like AI, cloud, blockchain & IoT to transform business, industries and the world. Let’s put smart to work.",
 				"twitter" : "@IBM"
+			},
+			{
+				"name" : "CAP HPI",
+				"picture" : "images/sponsors/cap-hpi-logo.jpg",
+				"about" : "Best of breed intelligence & independent decision support on buying, selling or running cars, vans, trucks & bikes.",
+				"twitter" : "@cap_hpi"
 			}
 		]
 }
