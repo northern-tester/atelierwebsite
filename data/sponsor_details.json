@@ -49,6 +49,12 @@
 				"picture" : "images/sponsors/cap-hpi-logo.jpg",
 				"about" : "Best of breed intelligence & independent decision support on buying, selling or running cars, vans, trucks & bikes.",
 				"twitter" : "@cap_hpi"
+			},
+			{
+				"name" : "Conflux",
+				"picture" : "images/sponsors/conflux-logo.png",
+				"about" : "Conflux helps organisations to adopt and sustain proven, modern practices for delivering software rapidly and safely using consulting, training, and our own range of books.",
+				"twitter" : "@ConfluxHQ"
 			}
 		]
 }
