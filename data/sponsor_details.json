@@ -55,6 +55,12 @@
 				"picture" : "images/sponsors/conflux-logo.png",
 				"about" : "Conflux helps organisations to adopt and sustain proven, modern practices for delivering software rapidly and safely using consulting, training, and our own range of books.",
 				"twitter" : "@ConfluxHQ"
+			},
+			{
+				"name"	: "Iliad Solutions",
+				"picture" : "images/sponsors/iliad-logo.png",
+				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand.",
+				"twitter" : "@iliad_solutions"
 			}
 		]
 }
