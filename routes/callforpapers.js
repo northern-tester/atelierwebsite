@@ -1,19 +1,17 @@
 var express = require('express');
 var router = express.Router();
-var slackConfig = require('../config/slack.json');
-var recaptchaConfig = require('../config/recaptcha.json');
 var Slack = require('slack-node');
 var GoogleRecaptcha = require('google-recaptcha');
 
 /* GET CfP page. */
 router.get('/', function(req, res, next) {
-  res.render('callforpapers', { title: 'Leeds Testing Atelier - Call for Papers' , recaptchaPubKey: recaptchaConfig.public});
+  res.render('callforpapers', { title: 'Leeds Testing Atelier - Call for Papers' , recaptchaPubKey: process.env.recaptchaConfigPublic});
 });
 
 /* Post a new idea via Slack */
 router.post('/', function(req, res, next) {
 			//recaptcha checking
-			var googleRecaptcha = new GoogleRecaptcha({secret: recaptchaConfig.secret});
+			var googleRecaptcha = new GoogleRecaptcha({secret: process.env.recaptchaConfigSecret});
 			var recaptchaResponse = req.body['g-recaptcha-response'];
 			
 			googleRecaptcha.verify({response: recaptchaResponse}, (error) => {
@@ -21,14 +19,14 @@ router.post('/', function(req, res, next) {
 					return res.render('robot');
 				}
 					//Config
-					var webhookUri = slackConfig.webhookuri;
+					var webhookUri = process.env.slackConfigWebHookUri;
 					//New slack object
 					slack = new Slack();
 					slack.setWebhook(webhookUri);
 					//Build up the message and post
 					slack.webhook({
-						channel: slackConfig.channel,
-						username: slackConfig.username,
+						channel: process.env.slackConfigChannel,
+						username: process.env.slackConfigUsername,
 						text: "Name: "+req.body.name+"\n\nEmail: "+req.body.email+"\n\nBio: "+req.body.bio+"\n\nTitle: "+req.body.title+"\n\nAbstract: "+req.body.abstract+"\n\nTwitter: "+req.body.twitter
 					}, function(err, response) {
 						if(err) {
