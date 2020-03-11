@@ -4,10 +4,10 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var fs = require('fs');
 var rfs = require('rotating-file-stream');
 var session = require('express-session');
 var generateSafeId = require('generate-safe-id');
+var serverless = require('serverless-http');
 
 var index = require('./routes/index');
 var callforpapers = require('./routes/callforpapers');

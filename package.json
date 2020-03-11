@@ -21,6 +21,7 @@
     "pug-bootstrap": "0.0.15",
     "rotating-file-stream": "^1.2.0",
     "serve-favicon": "^2.5.0",
+    "serverless-http": "^2.3.2",
     "slack-node": "^0.1.8"
   },
   "devDependencies": {
