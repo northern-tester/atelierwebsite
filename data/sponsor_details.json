@@ -61,7 +61,12 @@
 				"picture" : "images/sponsors/iliad-logo.png",
 				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand.",
 				"twitter" : "@iliad_solutions"
-			}
+			},
+            {
+                "name"	: "EMIS Health",
+				"picture" : "images/sponsors/emishealth.png",
+				"about" : "Part of @EMISGroup, we're the UK leader in clinical IT systems for joined-up patient care used by over 10,000 healthcare orgs",
+				"twitter" : "@EMISHealth""
+            }
 		]
 }
-
