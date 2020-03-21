@@ -80,4 +80,4 @@ app.use(function(err, req, res, next) {
   res.render(err.message);
 });
 
-module.exports = app;
+module.exports.handler = serverless(app);
