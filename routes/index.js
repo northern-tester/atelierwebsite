@@ -12,6 +12,9 @@ router.get('/', function(req, res, next) {
     case 'post':
         res.render('postAtelierIndex', speakerData);
         break;
+    case 'no':
+        res.render('noAtelierIndex');
+        break;
     default:
         res.render('error');
 	}

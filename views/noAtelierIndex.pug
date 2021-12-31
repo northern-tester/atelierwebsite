@@ -1,0 +1,25 @@
+include ../node_modules/pug-bootstrap/_bootstrap
+include mixins/nav-header
+link(rel='stylesheet', href='/stylesheets/style.css')
+meta(name='description', content='All the latest content, speakers, news and events from the Leeds Testing Atelier')
+
+block content
+	- var navitems = ["Sponsor Us", "Call for Papers", "Previous Ateliers", "Code of Conduct"];
+	+navHeader(navitems)
+	section(style="padding-top: 100px;")
+	img(src="./images/lta_logo.jpeg" class="lta-logo")
+	section(style="padding-top: 20px;")
+	.container
+		div 
+			h2 One day we will be back.
+			h3 Once its safe to cram everyone into Wharf Chambers again, we will return. At the moment though, its not, lets be honest. Remember, Atelier means fun, inclusivity and learning, for all involved in testing. Test with those values in your heart, especially in these troubled times.
+		div
+			block youtube
+				h3 In the meantime, get inspired by our Youtube channel. This is peak Atelier silliness, 'Testing is Pointless.'
+					section(style="padding-top: 50px;")
+					section(id='video-spotlight')
+						div.youtube
+							<iframe src="https://www.youtube.com/embed/lErKPnE-mhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					section(style="padding-top: 50px;")
+		footer
+			p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
