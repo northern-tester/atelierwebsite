@@ -16,7 +16,7 @@
     "google-recaptcha": "^1.1.0",
     "install": "^0.8.7",
     "morgan": "^1.9.1",
-    "npm": ">=6.13.4",
+    "npm": ">=8.11.0",
     "pug": "^2.0.4",
     "pug-bootstrap": "0.0.15",
     "rotating-file-stream": "^1.2.0",
