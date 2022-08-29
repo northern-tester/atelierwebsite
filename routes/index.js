@@ -1,11 +1,12 @@
 var express = require('express');
 var router = express.Router();
 var speakerData = require('../data/speaker_details.json');
-var featureToggles = require('../config/feature-toggles.json');
+var dotenv = require('dotenv');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	switch(featureToggles.atelierState) {
+    dotenv.config();
+	switch(process.env.ATELIER_STATE) {
     case 'pre':
         res.render('preAtelierIndex', speakerData);
         break;

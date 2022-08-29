@@ -19,14 +19,6 @@
 			"twitter" : "@Joe_Stead"
 		},
 		{
-			"name"	: "Rosie Hamilton",
-			"picture" : "images/speakers/rosie_h.jpg",
-			"title"   : "Testing with Go!",
-			"abstract" : "Anyone writing code should also be writing tests along side that code. I will demonstrate how to get started doing this in the programming language Go. From beginner to advanced, hopefully this talk will have something in it for everyone. Starting at the simplest possible example, ('Hello Atelier') and assuming no prior coding knowledge, we will gradually build upon examples and start introducing more advanced concepts. I will use Visual Studio Code to write code and tests live(!). Showing how Test Driven Development is done and demonstrating my favourite tool for doing red, green refactoring in Go. All code and test examples written during this talk will be committed to a public GitHub repository and made available at the end of the talk. This is the talk is for you if...",
-			"bio" : "Rosie is a Software Developer at ThingCo, an insurtech company that builds next generation telematics platforms for smart devices in vehicles. Her career began in software testing and switched to software development when she started building web apps and APIs. She holds a Professional Certificate in Computer Science and Mobile Applications from HarvardX and works across the full stack (JavaScript React Native apps, API and services built inside Go Serverless Lambdas). She enjoys pairing, working collaboratively and helping others learn. Rosie also helps encourages diversity in the tech community through public speaking and engagement with minority groups.",
-			"twitter" : "@Rosicadia"
-		},
-		{
 			"name"	: "Christopher Chant",
 			"picture" : "images/speakers/choibot.jpeg",
 			"title"   : "Data Rising",
@@ -43,36 +35,12 @@
 			"twitter" : "@Beth_AskHer"
 		},
 		{
-			"name"	: "John McGee",
-			"picture" : "images/speakers/john-mcgee.jpeg",
-			"title"   : "What are you looking at? – Modern Art and Testing in the Blink of an Eye!",
-			"abstract" : "I'll take you through an overview of modern art and show you how it compares to testing. We'll talk about perspectives, how techniques in art and the testing world are the same, how bias impacts art and testing, introducing randomness...and repetition. I'll talk about how artists use models, tools, and heuristics in the same way that testers do. We’ll look at how we both break the rules and attempt to tear-down society! How testers and artists use questioning techniques, how we both simplify complex thoughts, consider stakeholders in the art and development world, the use of the familiar as an oracle, how to overcome fears and obstacles. I’ll thrown in a few Manifestos. We'll talk about staying focused, defocusing techniques in artworks and when testing, how artists kept you rooted into reality in truly abstract paintings and how we need to stay rooted to the reality of our missions while testing. I’ll tell you how artists told stories and presented images to their audience and how we need to do the same. I’ll blow your mind with Malevich’s black square (possibly ruining your sleep for days!) and then I’ll tell you how the FBI use art to improve agents observational, conversational and descriptive skills. As you can see there's a massive amount we can learn from the world of art and use in our roles as testers, in addition I'll blow your mind with Malevich's Black Square, give you a team building exercise you can use, make you think about testing in a new (and I believe completely unique) way and give you the confidence and belief to face any challenges. In addition to the comparisons and lessons for testers you will also learn: not all conceptual art is bollocks; Picasso is king (but Cézanne is better); Pollock is no drip; how a urinal changed the course of art and why your 5-year-old really couldn't do it. You'll also be able to blag your way through any gallery like an expert, your visits to the National Gallery or the Tate will never be the same. I'll even throw in Mulder and Scully and the X-Files for free.",
-			"bio" : "Have been involved in testing for around 25 years so I have seen a lot of changes in that time, I can vaguely remember the days when we used to run pages and pages and pages and pages and pages and pages (you get my drift) of scripts manually. I love exploring both software and the world around me, love helping other testers learn and grow, setup inhouse online test events where testers from around my business share knowledge, experience and thoughts around testing, have previously spoke at Agile Test Northeast and Briefly at MOT north east winning the best presentation award at the first lightning talk event there.",
-			"twitter" : "@jonnywasagudman"
-		},
-		{
 			"name"	: "Andy Burgin",
 			"picture" : "images/speakers/andy-burgin.jpg",
 			"title"   : "Beyond Dashboards - Visualising Complex Systems",
 			"abstract" : "It's common practice to collect a multitude of metrics from our builds, tests, releases and running applications. Typically we use dashboard tools to visualise these metrics creating a plethora of interrelated graphs and charts to enable us to quickly review performance, spot anomalies and monitor the health of our system components. Although we may have detailed knowledge of individual components of the system, can dashboards alone give us the ability to understand how those components and the many others relate, interact and operate as a complex system? Based on the analysis of Kubernetes clusters this session will demonstrate ways to \"see\" the workloads running on clusters. Helping to better understand a system through visualisation, anomaly identification and exploratory analysis. Using tools such as graph databases and visualisation tools, you'll see how they can help explore and understand cluster workloads. Sharing examples of how these tools have identified issues and how they can help engage with users of the systems to share best practices and ultimately improve cluster performance. By the end of the session, you'll understand how to apply the same tools and techniques to analyse and understand your own systems.",
 			"bio" : "Andy is Lead Platform Engineer at Sky Betting and Gaming. He considers himself a Kubernetes and Hadoop fettler, spending a far too much of his spare time making Raspberry Pis do things they shouldn’t. He is a small part of the organising team for DevOpsDays London confernence and has been runing the Devops meetup in Leeds for 7 years hosting over 50 events. He's attended and spoke at a bunch of DevOps conferences and in his words is 'an all round DevOps nuisance'.",
 			"twitter" : "@andyburgin"
-		},
-		{
-			"name"	: "Gabbi Trotter",
-			"picture" : "images/speakers/gabbi-trotter.jpg",
-			"title"   : "How to build your personal brand",
-			"abstract" : "We all know it's a candidate driven market so why would you bother curating a personal brand? Maybe your new to the industry and keep missing out to more experienced candidates, or maybe your going for a Senior role and the competition is really tough! A personal brand can take on many forms, in this workshop I will be covering topics such as- How to identify your personal brand, how to use social media in your job hunt, and an introduction to building a online network.",
-			"bio" : "Gabbi is a Software Testing recruiter at Searchability. She has 4 years' experience recruiting Testers for companies such as BJSS, Sky, InfinityWorks, AJ Bell, Jaguar Land Rover, and many more, across Yorkshire and the North West. Gabbi focuses on Digital recruitment, and has been committed to building a online network of clients and candidates since day one. Gone are the days of cold calling and job boards, recruitment is now all about who you know, your personal brand, and your social network",
-			"twitter" : "@Gabbibility"
-		},
-		{
-			"name"	: "Adam Griffiths",
-			"picture" : "images/speakers/adam-griffiths.jpeg",
-			"title"   : "Advanced Unit Testing",
-			"abstract" : "Unit Tests are easy... if the code you're testing is designed for it. But this is the real world and things are rarely so straight forward. In this session I'll show you some NUnit tips and tricks I've picked up and show you how you can write tests in far less than perfect scenarios...",
-			"bio" : "Adam is a Product Development Manager at TransUnion UK in Leeds. With ten years of professional development experience and has led both collocated and distributed teams with members from different cultures, timezones, and countries. When not working Adam shares his man-cave with Space Marines, Chaos Deamons, and occasionally his cat Nala.",
-			"twitter" : "@ArdLaith"
 		}
 	]
 }
