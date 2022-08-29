@@ -10,3 +10,4 @@ config/recaptcha_localhost.json
 public/images/.DS_Store
 public/.DS_Store
 .DS_Store
+.env
