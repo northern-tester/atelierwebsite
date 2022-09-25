@@ -52,8 +52,8 @@
 			},
 			{
 				"name" : "Conflux",
-				"picture" : "images/sponsors/conflux-logo.png",
-				"about" : "Conflux helps organisations to adopt and sustain proven, modern practices for delivering software rapidly and safely using consulting, training, and our own range of books.",
+				"picture" : "images/sponsors/conflux2021-logomark-only-lime-v1.1.png",
+				"about" : "Expert-led group learning for adopting fast flow and Team Topologies.",
 				"twitter" : "@ConfluxHQ"
 			},
 			{
@@ -61,6 +61,23 @@
 				"picture" : "images/sponsors/iliad-logo.png",
 				"about" : "As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand.",
 				"twitter" : "@iliad_solutions"
+			},
+			{
+				"name"	: "emis health",
+				"picture" : "images/sponsors/emishealth.jpg",
+				"about" : "We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools.",
+				"twitter" : "@emishealth"
+			},
+			{
+				"name"	: "Tony Holroyd",
+				"picture" : "images/sponsors/tonyh-logo.jpeg",
+				"about" : "Tony Holyroyd is an Atelier legend, providing sponsorship out of his own pocket, all to see the Leeds testing community thrive. Has no online presence, likes it that way.",
+				"twitter" : "@testing_atelier"
+			}	,		{
+				"name"	: "Hanzo Archives",
+				"picture" : "images/sponsors/hanzo_logo.jpeg",
+				"about" : "Solving the biggest challenges in enterprise ediscovery and compliance today - complete control of data created by collaboration apps and dynamic websites.",
+				"twitter" : "@gethanzo"
 			}
 		]
 }
