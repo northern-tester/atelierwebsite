@@ -46,6 +46,10 @@ img {
   display: block;
 }
 
-.tito-wrapper {
+.tito-ticket-name {
+  color: #ffffff
+}
+
+.tito-badge-link { 
   color: #ffffff
 }

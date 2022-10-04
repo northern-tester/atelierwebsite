@@ -34,7 +34,7 @@ var accessLogStream = rfs('access.log', {
 app.set('trust proxy', 1) // trust first proxy 
 var sessionId;
 app.use(session({
-  genid: function(req) {
+  genid: function(_req) {
   	sessionId = generateSafeId();
     return sessionId; // use UUIDs for session IDs 
   },
@@ -62,14 +62,13 @@ app.use('/sponsors', sponsors);
 app.use('/robot', robot);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
+app.use(function(_req, _res, next, err) {
   err.status = 404;
   next(err);
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function(err, req, res, _next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
