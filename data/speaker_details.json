@@ -41,6 +41,14 @@
 			"abstract" : "Deep dive into the test approach, challenges encountered and decisions taken to test a CRM ecommerce replatfoming project for a leading UK company. The session will detail the new architecture, testing of the components (both individually and integrated), technologies used to support the test automation and reporting, along with cultural and technical challenges encountered along the way. Key takeaways are: Testing best practices in a microservices environment; Technical deep dive into implementation of tests; Technical challenges encountered; Cultural challenges with shifting an organization into a test automation mindset",
 			"bio" : "Steve is a test architect for a test consultancy. He has 24 years of experience in software testing across waterfall and agile delivery with a wide range of technologies, adept at developing novel solutions to complex problems in software delivery.",
 			"twitter" : "@ObjectiveTester"
+		},
+		{
+			"name"	: "Cole Walton",
+			"picture" : "images/speakers/cole-walton.jpeg",
+			"title"   : "",
+			"abstract" : "",
+			"bio" : "Cole is one of the Partnership Consultants at Northcoders, which operates across England. Northcoders is a training provider that helps people from all background access careers in tech. Cole joined Northcoders in 2021 and has helped the Northcoders graduates begin their careers in businesses such as Glean, Deloitte, Disney, SAGE and Wren Kitchens. He is passionate about diversifying talent pipelines into businesses to ultimately make them more accessible. He has a long history of working in the Equality and Diversity sector on a professional and voluntary basis. He is passionate about bringing inclusivity and accessibility into the tech sector and ensuring that there are no barriers to diverse candidates for businesses.",
+			"twitter" : "@northcoders"
 		}
 	]
 }
