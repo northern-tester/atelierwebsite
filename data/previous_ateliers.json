@@ -3,6 +3,19 @@
 	"previousAteliers":
 	[
 		{ 
+			"class"	: "atelierEightPointFive",
+			"eventName" : "Atelier VIII.5 - Wharf Chambers - Tuesday October 11th 2022",
+			"eventDescription" : "The Atelier gang defied the odds to bring the city of Leeds, a new, trimmed down version of the Test Atelier! There might have been one track, half the number of attendees but everything you hold dear about the Atelier was still shining brightly. Talks, gameshows, excellent vegan food which no one complained about, a few drinks and lots of laughter. Most importantly though, there was a DOG. Yes, a DOG. Immediately making Atelier 8.5 the greatest Atelier ever. That included a dog.",
+			"pictureOnePath" : "./images/previousateliers/atelier-eight-point-five-beth.jpeg",
+			"pictureOneAltText" : "Beth Marshall with the First Talk of the Day",
+			"pictureTwoPath" : "./images/previousateliers/atelier-eight-point-five-gimlet.jpeg",
+			"pictureTwoAltText" : "Gimlet the Atelier Mascot Dog",
+			"pictureThreePath" : "./images/previousateliers/atelier-eight-point-five-gwen.jpeg",
+			"pictureThreeAltText" : "Jay Harris Legend of Security",
+			"pictureFourPath" : "./images/previousateliers/atelier-eight-point-five-joe.jpeg",
+			"pictureFourAltText" : "Testing around the world in production by Joe Stead"
+		},
+		{ 
 			"class"	: "atelierEight",
 			"eventName" : "Atelier VIII - Wharf Chambers - Tuesday June 25th 2019",
 			"eventDescription" : "Holy mackerel! The Atelier returned with a summer edition, this time with a focus on security, mental health, communication, failure and many more. There were even two gameshows for the audience to enjoy. Someone said 'maybe the gameshows didn't add much value.' They added HILARITY and ARBITRARILY ENFORCED RULES. There should be more of hilarity in testing, but less rules arbitrarily enforced by despots drunk on power, definitions and semantics. All in all, an absolute blast had by many, learning by all. Shame about the rain, you can't trust the weather. It's grim up north you know.",
