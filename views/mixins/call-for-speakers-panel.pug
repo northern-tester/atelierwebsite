@@ -1,0 +1,48 @@
+mixin callForSpeakersPanel()
+    +panel-default("Calling All Contributors")
+        section(id='speakerguidance')
+            h3 We are looking for contributors to help us provide an action packed day! 
+        section(style="padding-top: 20px;")
+        section(id='furtherdetailstable')
+            table
+                    tr 
+                        td.icon 
+                            +icon("book")
+                        td.heading 
+                            b What topics are we interested in?
+                        td.details 
+                            p The Atelier welcomes all software development topics, directly testing related or otherwise. Attendees often ask for a range from security to devops to exploratory testing to diversity and inclusion.
+                    tr 
+                        td.icon 
+                            +icon("list-alt")
+                        td.heading 
+                            b What types of session are we looking for?
+                        td.details 
+                            p One-hour workshops, 30-minute track talks, 15-minute lightning talks, games, panels and anything else, we will support you to make it happen.
+                    tr 
+                        td.icon 
+                            +icon("blackboard")
+                        td.heading 
+                            b What spaces are available to speak in?
+                        td.details 
+                            li The Bar is downstairs, great for collaboration and relaxed sessions.
+                            li The Gig Room is downstairs in a lecture style, good for talks.
+                            li Upstairs there is a large, multipurpose space which suits lecture or workshop style.
+                    tr 
+                        td.icon 
+                            +icon("credit-card")
+                        td.heading 
+                            b What about expenses and payments?
+                        td.details 
+                            p Although most speakers are from the local area, we will pay reasonable travel expenses, train fares or car mileage with a maximum of £25. There is no provision for accommodation, apart from staying at an organisers house. The Atelier does not pay an honorarium for a session.
+        section(style="padding-top: 20px;")
+        section(id='submit an idea')
+            +a-btn("/callforpapers") 
+                value Submit an idea!
+            section(style="padding-top: 20px;")
+            p 
+                |For more information on being a speaker at the Leeds Testing Atelier, please have a look at our 
+                a(href="images/atelierspeakersguide.pdf") Speakers Guide
+                |, any feedback on the guide is appreciated. We take safety very seriously at the Atelier, striving to provide an inclusive learning environment for speakers, organisers and attendees alike. Please have a look at our 
+                a(href="images/ateliercodeofconduct.pdf") Code of Conduct 
+                |for more information.
