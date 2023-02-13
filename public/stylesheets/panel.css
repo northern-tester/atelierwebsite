@@ -4,18 +4,29 @@
     
 }
 
-.panel-danger>.panel-heading {
-    background-color: orange
-}
-
 .panel-title {
     color:black;
-    font-size: 24px;
+    font-size: 32px;
 }
 
-.btn-danger {
-    font-size: 28px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block
+#speakerguidance {
+    color: white;
+    font-size: small;
+}
+
+.glyphicon {
+    font-size: xx-large;
+}
+
+#furtherdetailstable > table, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.btn, btn-default {
+    display: block;
+    padding: 10px;
+    font-size: 32px;
+    justify-content: center;
 }

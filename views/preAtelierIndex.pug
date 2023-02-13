@@ -1,12 +1,12 @@
 include ../node_modules/pug-bootstrap/_bootstrap
 include mixins/nav-header
-include mixins/speaker-table
+include mixins/call-for-speakers-panel
 
 link(rel='stylesheet', href='/stylesheets/style.css')
 link(rel='stylesheet', href='/stylesheets/speakers.css')
 link(rel='stylesheet', href='/stylesheets/panel.css')
 link(rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1')
-script(src='https://js.tito.io/v1' async)
+script(src='https://js.tito.io/v2' async)
 meta(name='description', content='All the latest content, speakers, news and events from the Leeds Testing Atelier')
 
 block content
@@ -17,15 +17,14 @@ block content
 	section(style="padding-top: 20px;")
 	.container
 		div 
-			h3 On the 11th of October 2022, the fully independent, punk, Leeds Testing Atelier returns at the amazing Wharf Chambers for a day of learning, collaboration and laughs! 
-			tito-widget(event="testing-atelier/leeds-testing-atelier-85")
+			h3 On the 6th of June 2023, the fully independent, punk, Leeds Testing Atelier returns at the amazing Wharf Chambers for a day of learning, collaboration and laughs! 
+			//tito-widget(event="testing-atelier/leeds-testing-atelier-x")
 	
 		div
-			block speakers
-				h2 Check out our amazing speakers! This is gonna be great!
+			block callforspeakers
 					section(style="padding-top: 50px;")
-					section(id='speakers')
+					section(id='speakerguidance')
 						div.container
-							+speakerTable(speakers)
+							+callForSpeakersPanel()
 		footer
 			p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
