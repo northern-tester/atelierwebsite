@@ -1,6 +1,6 @@
 include ../node_modules/pug-bootstrap/_bootstrap
 include mixins/nav-header
-include mixins/speaker-table
+include mixins/call-for-speakers-panel
 
 link(rel='stylesheet', href='/stylesheets/style.css')
 link(rel='stylesheet', href='/stylesheets/speakers.css')
@@ -21,12 +21,10 @@ block content
 			tito-widget(event="testing-atelier/leeds-testing-atelier-x")
 	
 		div
-		div
-			block speakers
-				h2 Check out our awesome speakers!
+			block callforspeakers
 					section(style="padding-top: 50px;")
-					section(id='speakers')
+					section(id='speakerguidance')
 						div.container
-							+speakerTable(speakers)
+							+callForSpeakersPanel()
 		footer
 			p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang

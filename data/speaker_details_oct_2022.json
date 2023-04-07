@@ -1,0 +1,58 @@
+{	
+	"title": "Leeds Testing Atelier - Home",
+	"speakers":
+	[
+		{
+			"name"	: "Joe Stead",
+			"picture" : "images/speakers/joe.jpg",
+			"title"   : "Testing in production around the world! ",
+			"abstract" : "Everyone talks about \"testing in production\" these days, but what does it really mean? What if you've got software deployed in London and Sydney, how do you test that it's working in both places? In this session, we'll explore real, live, software tested in production whilst being deployed to multiple regions! We'll look at the tools a team may use to achieve this automatically and manually, and leave knowing that my software is working safely around the world!",
+			"bio" : "Joe is a VP of Engineering responsible for software running in Australia, The Netherlands, the UK and Switzerland. Previously, Joe has held consulting roles with various organisations around the world, helping teams grow and work more collaboratively as they tackle a cloud migration. Joe has taken an interest in the testing element of software since early in his career, Joe believes the most important job isn’t writing code, it’s shipping code that delivers value, and code only delivers value if it works and is accessible. Operability, Accessibility and Testability need to be first-class citizens in any software project. This is where software becomes interesting again. Not only does Joe appreciate the technical side of building good software, he sees value in focusing on the social side, allowing individuals and teams to thrive. Every single person is unique, with different stories to tell. Teams exist to accomplish more than an individual ever could, and with that we observe a plethora of social issues that need to be addressed. Building software is a socio-technical problem, and when you consider all the different aspects of that, it is incredibly interesting.",
+			"twitter" : "@Joe_Stead"
+		},
+		{
+			"name"	: "Christopher Chant",
+			"picture" : "images/speakers/choibot.jpeg",
+			"title"   : "Quest for Value",
+			"abstract" : "",
+			"bio" : "Christopher Chant is a determined and passionate test professional with experience across multiple domains. He has learned to embrace all parts of the development lifecycle as learning opportunities: working in business analysis, development, testing and coaching roles in an attempt to help teams grow and deliver. When not testing, Christopher spends his time running (not often enough), traveling all over the country to watch Nottingham Forest F.C. lose (occasionally they win), jealously looking at other people's dogs and playing board games.",
+			"twitter" : "@choibot"
+		},
+		{
+			"name"	: "Beth Marshall",
+			"picture" : "images/speakers/beth-marshall.jpg",
+			"title"   : "Testing Portfolios: A Guide",
+			"abstract" : "Are you struggling to break into automation, or only learning a limited amount in your current role? Have you ever been frustrated trying to remember code you'd written elsewhere that you couldn't take with you? Maybe you think either now or in the future you may want to persuade someone of the value of a particular thing, show how much you know about it or even persuade yourself that you can do it? A test portfolio could help with all of these things - and just like the Test Atelier, they are absolutely free. Join Beth Marshall as she discusses the who, what why how and where of Test Portfolios via the medium of donuts - you heard that right, donuts! If all goes to plan, you will leave with some real-life success stories, learn the pitfalls before you've made them and have all the tools you need to plan a Test Portfolio of your very own.",
+			"bio" : "Beth Marshall is a Quality Engineer with 15 years of skin in the game. Based in Leeds, UK, she is an active and proud member of the global software testing community, chosen as one of the “top 10 inspiring women in test to follow” by Angie Jones. Beth loves to learn, train and collaborate, and is a Technical Tutor for the Coders Guild as well as a Test Automation University instructor. She's also on the lookout for her next role to start 2023, so she'll be putting her money where her mouth is by using her own Test Automation Portfolio to help her return from a career break! Beth loves music, Rupauls Drag Race, and even trying her hand at learning new accents. You can read her blog at beththetester.com.",
+			"twitter" : "@Beth_AskHer"
+		},
+		{
+			"name"	: "Andy Burgin",
+			"picture" : "images/speakers/andy-burgin.jpg",
+			"title"   : "Curating a Platform Experience",
+			"abstract" : "In the DevOps and SRE community, there's a buzz about product-focused platform teams. Teams not only managing their platforms, pipelines and tooling as a product. But, helping development teams go fast by reducing time to market and operational complexity. There are lots of articles on why and how to build a platform, but they miss the details of one of the most important components – your users. One of the key principles of a platform team is curating a user experience – but what does that even mean? and more importantly, when you've worked that out, how do you do it? how do you know if it's a success? Andy is part of the Kubernetes platform squad at Sky Betting and Gaming, since its inception in 2016 the platform has been widely adopted across the business. In 2019 Andy was asked to head up a newly formed Platform Customer Experience team to help with some of the growing pains of a successful product and help increase its adoption. This talk explains what the customer experience team did, starting from scratch they now have attained glowing feedback and recommendations from across the business. Andy will explain the practical things that were done, what worked (and what didn't) and how the focus of the team has evolved over the past two years and what's next.",
+			"bio" : "Andy is Lead Platform Engineer at Sky Betting and Gaming. He considers himself a Kubernetes and Hadoop fettler, spending a far too much of his spare time making Raspberry Pis do things they shouldn't. He is a small part of the organising team for DevOpsDays London and has been running the DevOps meetup in Leeds for 8 years hosting over 40 events. He's attended and spoke at a bunch of DevOps conferences and in his own words is 'an all-round DevOps nuisance'.",
+			"twitter" : "@andyburgin"
+		},
+		{
+			"name"	: "Steve Mellor",
+			"picture" : "images/speakers/steve_mellor.jpeg",
+			"title"   : "Monolith to microservices - the approach to testing a CRM replatform project from the bottom up",
+			"abstract" : "Deep dive into the test approach, challenges encountered and decisions taken to test a CRM ecommerce replatfoming project for a leading UK company. The session will detail the new architecture, testing of the components (both individually and integrated), technologies used to support the test automation and reporting, along with cultural and technical challenges encountered along the way. Key takeaways are: Testing best practices in a microservices environment; Technical deep dive into implementation of tests; Technical challenges encountered; Cultural challenges with shifting an organization into a test automation mindset",
+			"bio" : "Steve is a test architect for a test consultancy. He has 24 years of experience in software testing across waterfall and agile delivery with a wide range of technologies, adept at developing novel solutions to complex problems in software delivery.",
+			"twitter" : "@ObjectiveTester"
+		},
+		{
+			"name"	: "Cole Walton",
+			"picture" : "images/speakers/cole-walton.jpeg",
+			"title"   : "",
+			"abstract" : "",
+			"bio" : "Cole is one of the Partnership Consultants at Northcoders, which operates across England. Northcoders is a training provider that helps people from all background access careers in tech. Cole joined Northcoders in 2021 and has helped the Northcoders graduates begin their careers in businesses such as Glean, Deloitte, Disney, SAGE and Wren Kitchens. He is passionate about diversifying talent pipelines into businesses to ultimately make them more accessible. He has a long history of working in the Equality and Diversity sector on a professional and voluntary basis. He is passionate about bringing inclusivity and accessibility into the tech sector and ensuring that there are no barriers to diverse candidates for businesses.",
+			"twitter" : "@northcoders"
+		}
+	]
+}
+
+
+
+
