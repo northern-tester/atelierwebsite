@@ -8,28 +8,10 @@
 		  "twitter":"@nimbleapproach"
 	   },
 	   {
-		  "name":"Corecom Consulting",
-		  "picture":"images/sponsors/corecom-logo.jpg",
-		  "about":"Corecom Consulting is an award-winning IT recruitment company. We serve a wide range of employers: from large scale international businesses to small and medium enterprises. We provide contract and permanent roles in a variety of IT specialisms.",
-		  "twitter":"@CorecomIT"
-	   },
-	   {
 		  "name":"Ministry of Testing",
 		  "picture":"images/sponsors/ministryoftest-logo.jpg",
 		  "about":"The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
 		  "twitter":"@ministryoftesting"
-	   },
-	   {
-		  "name":"Ady Stokes",
-		  "picture":"images/sponsors/ady.jpeg",
-		  "about":"I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles.",
-		  "twitter":"@CricketRulz"
-	   },
-	   {
-		  "name":"Infinity Works",
-		  "picture":"images/sponsors/infinityworks-logo.jpg",
-		  "about":"A collective of leading Engineers and Technologists who have the intelligence to devise the right solution, the skills to build it to drive real change in your organisation.",
-		  "twitter":"@InfinityWorks"
 	   },
 	   {
 		  "name":"The Coders Guild",
@@ -38,28 +20,10 @@
 		  "twitter":"@the_codersguild"
 	   },
 	   {
-		  "name":"IBM",
-		  "picture":"images/sponsors/ibm-logo.png",
-		  "about":"Together with our clients, we're using technologies like AI, cloud, blockchain & IoT to transform business, industries and the world. Let’s put smart to work.",
-		  "twitter":"@IBM"
-	   },
-	   {
-		  "name":"CAP HPI",
-		  "picture":"images/sponsors/cap-hpi-logo.jpg",
-		  "about":"Best of breed intelligence & independent decision support on buying, selling or running cars, vans, trucks & bikes.",
-		  "twitter":"@cap_hpi"
-	   },
-	   {
 		  "name":"Conflux",
 		  "picture":"images/sponsors/conflux-2021-conflux-logomark-nosubtitle-lime-sm.png",
 		  "about":"Expert-led group learning for adopting fast flow and Team Topologies.",
 		  "twitter":"@ConfluxHQ"
-	   },
-	   {
-		  "name":"Iliad Solutions",
-		  "picture":"images/sponsors/iliad-logo.png",
-		  "about":"As technology evolves, payment systems are becoming increasingly complex. Iliad Solutions lessens the risk when deploying new technology which protects your brand.",
-		  "twitter":"@iliad_solutions"
 	   },
 	   {
 		  "name":"emis health",
@@ -68,22 +32,28 @@
 		  "twitter":"@emishealth"
 	   },
 	   {
-		  "name":"Tony Holroyd",
-		  "picture":"images/sponsors/tonyh-logo.jpeg",
-		  "about":"Tony Holyroyd is an Atelier legend, providing sponsorship out of his own pocket, all to see the Leeds testing community thrive. Has no online presence, likes it that way.",
-		  "twitter":"@testingtony12"
-	   },
-	   {
-		  "name":"Hanzo Archives",
-		  "picture":"images/sponsors/hanzo_logo.jpeg",
-		  "about":"Solving the biggest challenges in enterprise ediscovery and compliance today - complete control of data created by collaboration apps and dynamic websites.",
-		  "twitter":"@gethanzo"
-	   },
-	   {
 		  "name":"Glean",
 		  "picture":"images/sponsors/glean_logo.jpeg",
 		  "about":"Glean is the antidote to information overload for improved student success.",
 		  "twitter":"@GleanNotes"
+	   },
+	   {
+		  "name":"Yepic",
+		  "picture":"images/sponsors/yepic.jpeg",
+		  "about":"The App for Tradespeople. The easy way to record your jobs using photos. Everything you need, organised in one place.",
+		  "twitter":"@testing_atelier"
+	   },
+	   { 
+		   "name"	: "Ten10",
+		   "picture" : "images/sponsors/ten10-logo.png",
+		   "about" : "Ten10 delivers software testing using the best people, processes and technology, enabling organisations to embrace innovation and change with confidence.",
+		   "twitter" : "@Ten10_UK"
+	   },
+	   { 
+		   "name"	: "Burns Sheehan",
+		   "picture" : "images/sponsors/burns_sheehan.jpeg",
+		   "about" : "We live, breathe and work in the tech community – so when you’re looking to hire talent and teams at pace, we have the inside knowledge you need.",
+		   "twitter" : "@BurnsSheehan"
 	   }
 	]
  }

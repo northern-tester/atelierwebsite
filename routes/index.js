@@ -7,6 +7,9 @@ var dotenv = require('dotenv');
 router.get('/', function(req, res, next) {
     dotenv.config();
 	switch(process.env.ATELIER_STATE) {
+    case 'cfp':
+        res.render('cfpAtelierIndex', speakerData);
+        break;
     case 'pre':
         res.render('preAtelierIndex', speakerData);
         break;
