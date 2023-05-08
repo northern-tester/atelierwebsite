@@ -54,6 +54,12 @@
 		   "picture" : "images/sponsors/burns_sheehan.jpeg",
 		   "about" : "We live, breathe and work in the tech community – so when you’re looking to hire talent and teams at pace, we have the inside knowledge you need.",
 		   "twitter" : "@BurnsSheehan"
+	   },
+	   { 
+		   "name"	: "Northcoders",
+		   "picture" : "images/sponsors/northcoders.jpeg",
+		   "about" : "A coding bootcamp experience like no other | Start your coding journey here | Birmingham, Manchester, Newcastle and Leeds.",
+		   "twitter" : "@northcoders"
 	   }
 	]
  }
