@@ -3,6 +3,19 @@
 	"previousAteliers":
 	[
 		{ 
+			"class"	: "atelierTen",
+			"eventName" : "Atelier X - Wharf Chambers - Tuesday June 6th 2023",
+			"eventDescription" : "This time we were back in full effect. Two tracks, a hundred or so attendees, speakers, sponsors and organisers filling Wharf with our combined joy for and knowledge of all things software testing. Talks and workshops on engineering management, games testing, mental health, security and so much more. Not to mention chaotic gameshows, CTO's trying to replace testers with ChatGPT, delicious coffee and a couple of cheeky lightning talks from the organisers. However, we are pleased to report another DOG. A very good dog. Making this the second greatest Atelier ever with a dog.",
+			"pictureOnePath" : "./images/previousateliers/atelier-ten-claire.jpeg",
+			"pictureOneAltText" : "Claire Reckless talks about her engineering management journey",
+			"pictureTwoPath" : "./images/previousateliers/atelier-ten-marianne.jpeg",
+			"pictureTwoAltText" : "Marianne Duijst facilitating a sketch noting workshop ",
+			"pictureThreePath" : "./images/previousateliers/atelier-ten-theo.jpeg",
+			"pictureThreeAltText" : "Theo Clarke introduces us to the world of video game QA",
+			"pictureFourPath" : "./images/previousateliers/atelier-ten-doggo-frank.jpeg",
+			"pictureFourAltText" : "Frank the dog enjoying being the real star of the Atelier"
+		},
+		{ 
 			"class"	: "atelierEightPointFive",
 			"eventName" : "Atelier VIII.5 - Wharf Chambers - Tuesday October 11th 2022",
 			"eventDescription" : "The Atelier gang defied the odds to bring the city of Leeds, a new, trimmed down version of the Test Atelier! There might have been one track, half the number of attendees but everything you hold dear about the Atelier was still shining brightly. Talks, gameshows, excellent vegan food which no one complained about, a few drinks and lots of laughter. Most importantly though, there was a DOG. Yes, a DOG. Immediately making Atelier 8.5 the greatest Atelier ever. That included a dog.",
