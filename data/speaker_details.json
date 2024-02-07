@@ -1,90 +1,13 @@
-{	
+{
 	"title": "Leeds Testing Atelier - Home",
-	"speakers":
-	[
+	"speakers": [
 		{
-			"name"	: "Christopher Chant",
-			"picture" : "images/speakers/choibot.jpeg",
-			"title"   : "Start your own rebellion: How to map your organisation and become a catalyst for change.",
-			"abstract" : "As you grow as a tester you start to realise that your organisation is another system which needs attention. No doubt you've come across a process that needs improving or heard complaints about how your organisation operates.I want you to be able to turn those complaints in to actionable information so you can help make positive change for you and everyone in your organisation. In this workshop we'll use a mapping technique to discover: Key relationships and how they might impact you changes in your organisation or processes. Constraints which block or amplify effective communication. Differences among people that contribute to positive change or conflict. Exchanges which can affect the flow of value.",
-			"bio" : "Christopher Chant is a determined and passionate professional with experience across multiple domains including working on complex, large-scale enterprise applications in a variety of roles most recently Head of Quality and Head of Production & Agile Transformation.",
-			"twitter" : "@choibot"
-		},
-		{
-			"name"	: "Lucy Llewellyn",
-			"picture" : "images/speakers/lucy_llewellyn.jpeg",
-			"title"   : "Back To Basics: Assumed Knowledge in Software Engineering",
-			"abstract" : "Technology is continually becoming a more diverse sector (as it should be!) which means people are coming from various educational backgrounds. So, the reality is that more and more engineers didn't study a technical degree where a lot of foundational knowledge can be gained.  This talk provides a brief walkthrough of various software engineering fundamentals and keywords (e.g. Big-O notation, OOP & Concurrency etc.) that are often assumed knowledge in an engineering role. As someone from a non-technical background working as an SEiT, I am working with these principles every day but felt I never had the base level understanding or language to be able to articulate what these principles mean and how they are applied to my code. This talk is a starting point at providing people with language/keywords they might come across in engineering and low level understanding of some foundational topics.",
-			"bio" : "I'm Lucy Llewellyn, a 26 year old Software Engineer in Test working at Sky Betting & Gaming. I did a biomedical sciences degree at Reading University and during this degree I took an optional module called \"Introduction into Bioinformatics\" where I learned some Python and had to build a Python project which plotted the location of various birds on an island. Even though ecology wasn't really my cup of tea, I quickly realised software engineering was. I secured a place on the Sky Betting & Gaming Tech Academy grad scheme for when I graduated. Through this I have had a little bit of experience in a variety of languages like react, Js, HTML, node JS, PHP and my actual role as an SEiT has seen me learning Java, Koltin and Swift. I started out building frontend web automation and backend API automation and in my current team I am building iOS app automation. I like that there are so many options when it comes to technology and always something new to learn. I love puzzles which keep my brain going, I am very much partial to a sudoku in particular and I find the coding is basically just one big puzzle so that's probably why I enjoy it so much. In addition to being an SEiT, I have also been learning iOS app development which I am very much enjoying. Now I've just got to think of a million pound idea and I'll be set for life haha.",
-			"twitter" : "@testing_atelier"
-		},
-		{
-			"name"	: "Anu Johar",
-			"picture" : "images/speakers/anu_johar.jpeg",
-			"title"   : "Expanded Uncertainty",
-			"abstract" : "How do you measure Test confidence? Of course, the most important thing is that you’re measuring it at all. In this session we will compare test confidence vs test coverage. The value in each of them and what are the right questions teams should ask themselves as part of release checklist. Is 100% test confidence even possible? This is the journey i am currently exploring and hope it will help others provide clarity with WHAT REALLY MATTERS!",
-			"bio" : "Anu is highly motivated and on a mission to engage and help testing community. Been in industry for last 20 years, she has got a broad experience and never felt shy to take up new challenges. DevOps fascinates her and how its been pulling us together. Loves to travel and learn the international cuisines.",
-			"twitter" : "@johar_anu"
-		},
-		{
-			"name"	: "Gem Hill",
-			"picture" : "images/speakers/gem.png",
-			"title"   : "Shame, failure, and finding your way through it",
-			"abstract" : "In the latter quarters of 2022, I failed. I was mentally and emotionally exhausted, and had some weird niggling health issues. I dropped the ball on some things at work, I panicked, I struggled to pick them back up again. My focus wavered, the shame båuilt, and I continued to let balls drop. I set expectations I couldn’t keep (and I knew this as was setting those expectations). I stopped doing the things I needed to do to succeed. I wasn’t keeping a to do list/focus area list. I wasn’t reflecting on my work. I was dissociated, ashamed, and desperately trying to keep it all running in the background. Keeping up a facade of competence, never letting myself ask for help. And finally people noticed. I got feedback that was really useful. It was kind, and supportive. People wanted me to succeed and knew that I could, but I wasn’t currently there. So how did I get back to where I wanted to be? I did a combination of things but the 3 that really set me up for success were: Rest, Reflection, Learning kind accountability. Through these I set myself up for success, allowed myself to ask for help, and got myself back to where I wanted to be. Shame can be a motivator for great change under certain circumstances, but you need to sit with it, to bring it out into the light. I’ll share concrete tips for getting through shame and stepping into success.",
-			"bio" : "Gem is a quality engineer by day, and is passionate about self care and mental health by night. They run SelfCare Backpack, and develop tools, resources, talks, and workshops around mental health and self care. They’re currently working towards becoming a qualified counsellor.",
-			"twitter" : "@gem_hill"
-		},
-		{
-			"name"	: "Richard Adams",
-			"picture" : "images/speakers/richard_adams.jpeg",
-			"title"   : "Let's Go Threat Modeling",
-			"abstract" : "Cybersecurity is an essential part of modern software and threat modeling is a great way to identify vulnerabilities. People may have heard of threat modeling and S.T.R.I.D.E. but often have the question, how do you actually get started? I will share how I introduced threat modeling to my team and how it is being used within my company. Within the talk people will hear the basic theory of threat modeling and also look at how we ran sessions, handle the results and how I convinced people to try it - using my Threat Agents card game. Finally I will make the case that not only is threat modeling for everyone on your team but as testers, we can be ideal people to get involved. If this was ran as a workshop then I'd provide enough decks people and work in groups of 4-6 people to play the \"Threat Agents\" game in order to get some hands-on experience of doing threat modeling.",
-			"bio" : "I am a Senior Test Engineer for Motorola Solutions in Edinburgh. This is my third stint as a tester, having also worked as a games designer and spent several years as a software developer. I am also a Cyber Champion at Motorola Solutions, which is how I developed a passion for cyber security. I've run both the workshop & talk at a couple of Ministry of Testing events as well as running at least a dozen testing and security based talks for my work so I have experience in speaking.",
-			"twitter" : "@OxygenAddictUK"
-		},
-		{
-			"name"	: "Claire Reckless",
-			"picture" : "images/speakers/claire_reckless.jpeg",
-			"title"   : "From QA to EM - Why software testers can make great engineering managers",
-			"abstract" : "In 2021 I moved into an Engineering Manager role, a completely new function within my company.  I went from a test lead role, looking after a small number of testers, to supporting engineers of all levels - from Junior to Tech Lead -  across testing and development. Initially I had a few fears; I don't have all the answers, I'm not necessarily the technical expert in the team. There were a lot of questions, would I lose the technical skills I did have? Would I be able to support people in the way they needed? How do I manage developers when I'm from a testing background? It's a steep learning curve, full of challenges and problems to solve. Being part of a completely new function we've also had to start from scratch and define how we'll operate as EM's. I'm learning a lot about supporting people, teams and managing myself. In this session, I  will talk about some of the highlights and lessons I've learned moving into an engineering management role, as well as some of the challenges, and what testers can bring to the role if they are looking to make a similar move. Takeaways : For testers thinking about future career moves, why an EM role might be worth considering. How to approach the EM role as a non developer. The skills testers have which can come in really useful as an engineering manager",
-			"bio" : "Claire is an Engineering Manager at Moneysupermarket, based in Manchester. She looks after multiple development teams and supports them to work together using effective practices to build great products, as well as supporting individual engineers with their career development. Previously a tester for more than 15 years, she has also worked in the financial and security sectors.  She's spoken at meetups and conferences both in the UK and in Europe,  and talked extensively about her feelings of imposter syndrome through her career.",
-			"twitter" : "@clairereckless"
-		},
-		{
-			"name"	: "Costa Giannakopoulos",
-			"picture" : "images/speakers/costa_giannakopoulos.jpeg",
-			"title"   : "Why we barred Cypress",
-			"abstract" : "I joined Collibra as a senior SDET just over 3 months ago and I was told to lead a task force on creating a brand new pipeline and end to end test framework for a migration to a brand new ui platform. The project requirements were locked down before I joined and I soon realised Cypress couldn’t solve our problems without the need to look for 3rd party solutions. I quickly challenged this choice in favour of playwright. My talk would be about the journey.",
-			"bio" : "I’m a tester and I absolutely love it. It’s what I was meant to do even though it’s something I fell into by luck. I have worked at MadeByPi, Sky, DAZN, Infinity Works/Accenture and now Collibra. I see myself as a quality engineer and quality coach as testing is everyone’s responsibility. My goal is to shepherd the team I am in and point them in the right direction of creating high quality software. I am a father of 3 amazing daughters. I also love playing 5 a side football and snooker.",
-			"twitter" : "@CostaGiann"
-		},
-		{
-			"name"	: "Theo Clarke",
-			"picture" : "images/speakers/theo_clarke.jpeg",
-			"title"   : "An Introduction to the World of Video Games QA",
-			"abstract" : "Hear about the exciting world of video games testing from a Leeds-based Senior QA tester and independent game developer with over 5 years experience in the industry! I will be giving the lowdown on games QA, highlighting the key differences between software/web and video games testing, listing some pros/cons, and providing advice and resources to help those interested in seeking a role in video games QA.",
-			"bio" : "I am Theo Clarke, a Senior Quality Analyst and multi-skilled independent game developer, with a Master's degree in Games Design from UCLan and 5+ years industry experience. I am credited on a dozen projects across mobile, PC and console, both professional and indie. As well as working full-time in QA, I always strive to develop my skills through personal projects, making my own games for various platforms, creating 2D/3D game art, attending industry events, hosting game jams and researching all manner of game-related topics from design to art to VR and beyond.",
-			"twitter" : "@theoclarke4L"
-		},
-		{
-			"name"	: "Marianne Duijst",
-			"picture" : "images/speakers/marianne_duijst.jpeg",
-			"title"   : "Sketchnoting Adventures: Improve Your Notetaking Skills",
-			"abstract" : "Sketchnoting is a creative way of taking notes of talks, trainings and meetings. Through a unique combination of text and graphics, sketchnotes highlight the core of the sessions, focus your attention and allow you to communicate ideas more quickly and widely. Visualisation helps wonders when brainstorming new ideas, such as test charters, product creation or retrospectives. There’s something about seeing your and your team’s ideas beautified on the page that really sparks your imagination and wild ideas. Luckily, you do not need to be an artist or a creative genius to harness the power of sketchnotes. Join me on this hands-on journey to improve your notetaking skills. Put pen to paper and experiment. Improve your attentive listening. Allow yourself time to slow down in order to speed up. Expand your visual library and combine visuals with text. Choose your constraints and dare to share your work. Learn how to harness the power of sketchnotes and visualisation in office. This workshop is suitable for everyone who is willing to experiment regardless of artistic skills.",
-			"bio" : "Marianne Duijst works as an Agile Quality Coach at Sogeti, and held previous roles as a Tester, Software Engineer, Scrum Master, Developer and High School Teacher. She is a frequent speaker at testing conferences around the world and enjoys speaking about critical thinking, work culture and being a Girl Scout. She often sketchnotes to share and learn. Her love for IT and the Testing profession comes from a love for puzzles, logic, and structure mixed together with her creative, writing and crocheting mind. She loves to explore, meet people from different countries and cultures, read voraciously and dream outrageously.",
-			"twitter" : "@marianneduijst"
-		},
-		{
-			"name"	: "Yong Yuen (Venjin) He and Andy Norton",
-			"picture" : "images/speakers/lta_logo.jpeg",
-			"title"   : "From me to we",
-			"abstract" : "What could \"work with, not after engineers\" look like in practice and what do we stand to gain? Yong and Andy talk us through their views on dev and test collaboration, the technical aspects and the soft skills that balance the scale in the mix match of expertise, roles and responsibilities.",
-			"bio" : "Yong is an Engineering Manager in Test with a quirky background and has worked in a variety of roles, industries and locations before entering the world of IT, starting from scratch within the Travel and Retail industry. Her position is currently within Booking.com’s Trips Business Unit, making it easier for everyone to experience the world. Coming from a diverse experience, she approaches software and quality testing through the eyes of a human being who seeks out practical solutions to everyday problems in the world of modern software development. As an accidental people-person, Yong enjoys connecting the dots with collaborators to deliver with higher standards. Andy is a Senior Engineering Manager, and over the last few years has worked at one of the UK's most successful unicorn start-ups, one of the big high-street retailers, and now at Y Combinator backed start-up Prolific - a company changing the way we do research online. At every step of this journey, he's focused on pragmatic ways of working, meaningful change that sticks, and working with teams to help them to get better at how they deliver. A big fan of the socio-technical side of engineering, he firmly understands that developing software is a people thing.",
-			"twitter" : "@testing_atelier"
+			"name": "Christopher Chant",
+			"picture": "images/speakers/choibot.jpeg",
+			"title": "Start your own rebellion: How to map your organisation and become a catalyst for change.",
+			"abstract": "As you grow as a tester you start to realise that your organisation is another system which needs attention. No doubt you've come across a process that needs improving or heard complaints about how your organisation operates.I want you to be able to turn those complaints in to actionable information so you can help make positive change for you and everyone in your organisation. In this workshop we'll use a mapping technique to discover: Key relationships and how they might impact you changes in your organisation or processes. Constraints which block or amplify effective communication. Differences among people that contribute to positive change or conflict. Exchanges which can affect the flow of value.",
+			"bio": "Christopher Chant is a determined and passionate professional with experience across multiple domains including working on complex, large-scale enterprise applications in a variety of roles most recently Head of Quality and Head of Production & Agile Transformation.",
+			"twitter": "@choibot"
 		}
 	]
 }
-
-
-
-
