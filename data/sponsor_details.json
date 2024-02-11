@@ -1,65 +1,53 @@
 {
-	"title":"Leeds Testing Atelier - Sponsor Us",
-	"sponsors":[
-	   {
-		  "name":"Nimble Approach",
-		  "picture":"images/sponsors/nimble-approach-logo.jpg",
-		  "about":"Nimble are a tightly knit collective of elite product & technology professionals who love what we do! We’ve taken a people first, quality-driven approach to growing our community by handpicking only people who have the right values, characteristics, and ability.",
-		  "twitter":"@nimbleapproach"
-	   },
-	   {
-		  "name":"Ministry of Testing",
-		  "picture":"images/sponsors/ministryoftest-logo.jpg",
-		  "about":"The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
-		  "twitter":"@ministryoftesting"
-	   },
-	   {
-		  "name":"The Coders Guild",
-		  "picture":"images/sponsors/coders-guild-logo.jpg",
-		  "about":"Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities for software development. A safe space offering community-driven, peer-reviewed and open-source knowledge share.",
-		  "twitter":"@the_codersguild"
-	   },
-	   {
-		  "name":"Conflux",
-		  "picture":"images/sponsors/conflux-2021-conflux-logomark-nosubtitle-lime-sm.png",
-		  "about":"Expert-led group learning for adopting fast flow and Team Topologies.",
-		  "twitter":"@ConfluxHQ"
-	   },
-	   {
-		  "name":"emis health",
-		  "picture":"images/sponsors/emishealth.jpg",
-		  "about":"We provide every health sector with innovative technologies, from market-leading clinical management systems to health analytics tools.",
-		  "twitter":"@emishealth"
-	   },
-	   {
-		  "name":"Glean",
-		  "picture":"images/sponsors/glean_logo.jpeg",
-		  "about":"Glean is the antidote to information overload for improved student success.",
-		  "twitter":"@GleanNotes"
-	   },
-	   {
-		  "name":"Yepic",
-		  "picture":"images/sponsors/yepic.jpeg",
-		  "about":"The App for Tradespeople. The easy way to record your jobs using photos. Everything you need, organised in one place.",
-		  "twitter":"@testing_atelier"
-	   },
-	   { 
-		   "name"	: "Ten10",
-		   "picture" : "images/sponsors/ten10-logo.png",
-		   "about" : "Ten10 delivers software testing using the best people, processes and technology, enabling organisations to embrace innovation and change with confidence.",
-		   "twitter" : "@Ten10_UK"
-	   },
-	   { 
-		   "name"	: "Burns Sheehan",
-		   "picture" : "images/sponsors/burns_sheehan.jpeg",
-		   "about" : "We live, breathe and work in the tech community – so when you’re looking to hire talent and teams at pace, we have the inside knowledge you need.",
-		   "twitter" : "@BurnsSheehan"
-	   },
-	   { 
-		   "name"	: "Northcoders",
-		   "picture" : "images/sponsors/northcoders.jpeg",
-		   "about" : "A coding bootcamp experience like no other | Start your coding journey here | Birmingham, Manchester, Newcastle and Leeds.",
-		   "twitter" : "@northcoders"
-	   }
+	"title": "Leeds Testing Atelier - Sponsor Us",
+	"sponsors": [
+		{
+			"name": "Tony Holroyd",
+			"picture": "images/sponsors/tonyh-logo.jpeg",
+			"about": "Tony Holyroyd is an Atelier legend, providing sponsorship out of his own pocket, all to see the Leeds testing community thrive. Has no online presence, likes it that way.",
+			"twitter": "@testing_atelier"
+		},
+		{
+			"name": "Scott Kenyon",
+			"picture": "images/sponsors/scott_kenyon.jpg",
+			"about": "I have been part of the testing community for many years focusing on communication and neurodiversity in testing. being diverse myself i bring a different perspective on my own testing I strongly believe in collaborative methods and using different thought techniques and people's perspectives to look at things from many angles.",
+			"twitter": "@ScottKTeaching"
+		},
+		{
+			"name": "Ady Stokes",
+			"picture": "images/sponsors/ady.jpeg",
+			"about": "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles.",
+			"twitter": "@a11y_ady"
+		},
+		{
+			"name": "Ministry of Testing",
+			"picture": "images/sponsors/ministryoftest-logo.jpg",
+			"about": "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
+			"twitter": "@ministryoftest"
+		},
+		{
+			"name": "The Coders Guild",
+			"picture": "images/sponsors/coders-guild-logo.jpg",
+			"about": "Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities for software development. A safe space offering community-driven, peer-reviewed and open-source knowledge share.",
+			"twitter": "@the_codersguild"
+		},
+		{
+			"name": "Conflux",
+			"picture": "images/sponsors/conflux-2021-conflux-logomark-nosubtitle-lime-sm.png",
+			"about": "Expert-led group learning for adopting fast flow and Team Topologies.",
+			"twitter": "@ConfluxHQ"
+		},
+		{
+			"name": "Glean",
+			"picture": "images/sponsors/glean_logo.jpeg",
+			"about": "Glean is the antidote to information overload for improved student success.",
+			"twitter": "@GleanNotes"
+		},
+		{
+			"name": "Ten10",
+			"picture": "images/sponsors/ten10-logo.png",
+			"about": "Ten10 delivers software testing using the best people, processes and technology, enabling organisations to embrace innovation and change with confidence.",
+			"twitter": "@Ten10_UK"
+		}
 	]
- }
+}
