@@ -2,12 +2,36 @@
 	"title": "Leeds Testing Atelier - Home",
 	"speakers": [
 		{
+			"name": "Melissa Rocks",
+			"picture": "images/speakers/melissa_rocks.jpeg",
+			"title": "Communication With Anxiety",
+			"abstract": "How is communication different with anxiety? Explore my anxiety, takeaways for the kind of things that can tell if you might have anxiety or just ways you can help day to day to make working with mental health and other neurodiversities struggles more inclusive.",
+			"bio": "I've been a tester for 6+ years and I really feel like I've found my niche, I love testing, specifically focusing on accessibility testing and being a champion around mental health in the workplace. I am also neurodivergent as I have dyspraxia and also struggled with my own mental health for many years. I love solving puzzles in all facets of life so outside of work I'm usually completing escape rooms, video gaming or board gaming. I also love a bit of crafting!",
+			"twitter": "@melrockstesting"
+		},
+		{
+			"name": "Emily O'Connor",
+			"picture": "images/speakers/emilyoc.jpeg",
+			"title": "How I Approached Testing An AI Chatbot Powered By Natural Language Processing",
+			"abstract": "Natural Language Processing (NLP) is rapidly evolving and has a huge ability to reshape many industries. This session will equip you with an introduction to NLP and the knowledge to test this type of AI effectively, preparing you for the future. The fact is that NLP, despite its complexities, can be tested in a straightforward manner.",
+			"bio": "Passionate Software Tester | Test Consultant | Automated Testing using TS in Playwright, Mocha, and Cypress",
+			"twitter": "@testing_atelier"
+		},
+		{
 			"name": "Christopher Chant",
 			"picture": "images/speakers/choibot.jpeg",
 			"title": "Start your own rebellion: How to map your organisation and become a catalyst for change.",
 			"abstract": "As you grow as a tester you start to realise that your organisation is another system which needs attention. No doubt you've come across a process that needs improving or heard complaints about how your organisation operates.I want you to be able to turn those complaints in to actionable information so you can help make positive change for you and everyone in your organisation. In this workshop we'll use a mapping technique to discover: Key relationships and how they might impact you changes in your organisation or processes. Constraints which block or amplify effective communication. Differences among people that contribute to positive change or conflict. Exchanges which can affect the flow of value.",
 			"bio": "Christopher Chant is a determined and passionate professional with experience across multiple domains including working on complex, large-scale enterprise applications in a variety of roles most recently Head of Quality and Head of Production & Agile Transformation.",
 			"twitter": "@choibot"
+		},
+		{
+			"name": "Jit Gosai",
+			"picture": "images/speakers/jit.jpeg",
+			"title": "Speed Vs Quality: Can you have both?",
+			"abstract": "In this talk, I’d like to cover the trap of working harder, which leads to a choice between speed or quality and the virtuous cycle of working smarter, which leads to both speed and quality. Working harder often makes people think they must choose speed and sacrifice quality or improve quality and forfeit speed. In the trap of working harder, I will detail how we stay late to get more done or take shortcuts by skipping review sessions or cutting testing. I’ll describe how they appear to speed up delivery in the short term, but in the long term, they lead to burnout, unmaintainable systems and longer delivery cycles. In the virtuous cycle of working smarter, I’ll detail how through improved collaboration, we can identify bottlenecks to delivery and alleviate them through experimentation. I’ll show how we can use the Theory of Constraints to spot bottlenecks and the core skills to help teams experiment more effectively. Working smarter will, in the short term, appear to limit your ability to deliver at speed or quality, but in the long term ends up giving you more of both. And finally, how to develop a joint team understanding of speed and quality by leveraging the DORA key metrics of lead time, deployment frequency, mean time to recovery and change failure rate. By showing how these link to the speed and quality of your product, you can use these metrics to keep you on the path of working smarter.",
+			"bio": "Jitesh’s expertise in testing spans over two decades. He currently works as the Principal Tester for the BBC, supporting teams to create high-quality products by fostering a Culture of Quality. He shares his experiences at conferences across Europe and in his newsletter https://qualityeng.substack.com/.",
+			"twitter": "@JitGo"
 		}
 	]
 }
