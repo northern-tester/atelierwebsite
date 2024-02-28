@@ -2,6 +2,14 @@
 	"title": "Leeds Testing Atelier - Home",
 	"speakers": [
 		{
+			"name": "Linzi Carlin",
+			"picture": "images/speakers/linzi_carlin.jpeg",
+			"title": "Software Testers Are My Favourite People",
+			"abstract": "From an engineer's perspective, testers bring value to a development team that goes far beyond simply ensuring that nothing is broken. Testers are frequently the voice of reason; the people who are prepared to ask the questions that no-one else will. They are usually the most comprehensive repositories of domain and system knowledge, are steadfast in their refusal to allow devs to get away with slapdash work, whilst at the same time exhibiting a refreshing lack of ego. As tempting as it is, this talk is not merely a love-letter to the testers in the audience, but seeks to explore how we as development teams can harness these qualities. I will examine how their unique skills impact team dynamics, and how these can be used to their best effect to drive team performance.",
+			"bio": "Engineer, speaker, teacher, mother, slightly odd. I like making stuff with yarn, green ticks on my unit tests, and long walks up steep hills. I dislike yappy dogs, toddlers, and people with egos bigger than mine.",
+			"twitter": "@testing_atelier"
+		},
+		{
 			"name": "Melissa Rocks",
 			"picture": "images/speakers/melissa_rocks.jpeg",
 			"title": "Communication With Anxiety",
@@ -32,6 +40,86 @@
 			"abstract": "In this talk, I’d like to cover the trap of working harder, which leads to a choice between speed or quality and the virtuous cycle of working smarter, which leads to both speed and quality. Working harder often makes people think they must choose speed and sacrifice quality or improve quality and forfeit speed. In the trap of working harder, I will detail how we stay late to get more done or take shortcuts by skipping review sessions or cutting testing. I’ll describe how they appear to speed up delivery in the short term, but in the long term, they lead to burnout, unmaintainable systems and longer delivery cycles. In the virtuous cycle of working smarter, I’ll detail how through improved collaboration, we can identify bottlenecks to delivery and alleviate them through experimentation. I’ll show how we can use the Theory of Constraints to spot bottlenecks and the core skills to help teams experiment more effectively. Working smarter will, in the short term, appear to limit your ability to deliver at speed or quality, but in the long term ends up giving you more of both. And finally, how to develop a joint team understanding of speed and quality by leveraging the DORA key metrics of lead time, deployment frequency, mean time to recovery and change failure rate. By showing how these link to the speed and quality of your product, you can use these metrics to keep you on the path of working smarter.",
 			"bio": "Jitesh’s expertise in testing spans over two decades. He currently works as the Principal Tester for the BBC, supporting teams to create high-quality products by fostering a Culture of Quality. He shares his experiences at conferences across Europe and in his newsletter https://qualityeng.substack.com/.",
 			"twitter": "@JitGo"
+		},
+		{
+			"name": "Philip Foxton",
+			"picture": "images/speakers/phil_fox.jpeg",
+			"title": "So your role has been made redundant? What next?",
+			"abstract": "The technology market is currently experiencing a downturn, resulting in a higher number of employees being made redundant. In this presentation, I will take the audience through a journey from job loss to accomplishment.",
+			"bio": "With over 30 years of experience working in IT, Phil has held many positions, from workshop engineer to team lead and manager, and eventually to Head of Operations. He has witnessed many things happen during his career, some of which went well, while others didn't. In his most recent position as Head of Operations for a video games company, Phil was unfortunately made redundant. After an exhaustive 4-month job search, he has decided that now is the perfect time to establish his own consultancy. His goal is to share his expertise with those who don't typically have access to it.",
+			"twitter": "@testing_atelier"
+		},
+		{
+			"name": "Steven Milne",
+			"picture": "images/speakers/steven_milne.jpeg",
+			"title": "What does good sound like?",
+			"abstract": "We all know what good looks like, but do we know what it sounds like? We've all seen flashy websites with beautiful designs and swish animations which create a great user experience. But what makes a great user experience when you can't see? In many cases what might visually look like a great experience might turn out to be confusing, complicated and sometimes downright unusable to a person with vision impairment, but this doesn't mean accessible websites need to look ugly. In this session we will explore some examples of almost accessible UI's through the perspective of a screen reader and we will try to imagine what the UI is trying to do. These UI's will be accessible enough that we will be able to understand what they are doing, but they will still fail an accessibility test and we'll find out why. By the end of this session we'll learn how to make an equally good user experience for both sighted and non-sighted people. This is suitable for anyone from design to development and testing as we're all responsible for making that experience as great as it can be!",
+			"bio": "Hi, I'm Steve and I've always been fascinated by machines and how we talk to them and how that's changed over time, from using punched paper cards in an old IBM 1401 to modern web browsers and apps on phones and tablets. Not only are these machines getting more powerful, but they are getting simpler and more accessible allowing them to change more peoples lives for the better. The internet has changed my life, how I talk to friends, how I entertain myself, how I learn. Everybody should have access to these benefits. This has lead me to my current role at Glean as the Lead UX Engineer where I get to help our engineering team realise the amazing experiences that our UX team designs and make sure those experiences are accessible, maintainable and scalable. Hopefully I can help you design, build and test amazing inclusive experiences too!",
+			"twitter": "@DrunkOnPancakes"
+		},
+		{
+			"name": "Elly Gausden",
+			"picture": "images/speakers/elly_gausden.jpeg",
+			"title": "The power and positivity of play in the workplace",
+			"abstract": "Roll up your sleeves and discover how play fosters creativity, sociability, inclusion and productivity at work. We all know that having fun at work is (or should be) a vital part of making where you work a good place to be. What you may not know is that playing, and being playful, brings lots of other benefits too. We learn better when we're being playful, and we're more likely to come up with new or creative ideas in a playful setting. It fosters sociability, creativity, inclusion and, if you're doing something with your hands, it calms anxiety and improves mental health. Come and learn about my journey to discover the power of play, and how I've introduced it in different teams I've worked with. After a quick intro, you'll be practising what I preach by jumping in to some creative, crafty, playful activities to show you how it works, and give you some ideas to take back to your own work places. There'll be glue, paper, scissors, pens, stickers, balloons, ping pong balls, paper clips, elastic bands, Lego, and lots more to play with while learning how to bring it to your teams. You don't have to be arty, crafty or have any experience doing this kind of thing, just an open mind, and willingness to have fun. Key take aways; Why playfulness works, How to gamify testing for non-testers, Prototyping with office supplies",
+			"bio": "I've been a tester (or in quality based roles) for over 25 years. I've always been more of a consumer rather than contributor to conferences for many reasons, but mostly I now realise due to undiagnosed ADHD and an inability to organise myself. I've fairly recently found my thing though, and that's bringing playfulness into learning and coaching. Coop have let me explore this aspect of things, firstly bringing in my crafty side to work with mindful crafting sessions, and then encouraging me to find new ways to help teams improve quality with novel workshops and fun coaching sessions.",
+			"twitter": "@anyanka_eg"
+		},
+		{
+			"name": "Clem Pickering",
+			"picture": "images/speakers/clem_pickering.jpeg",
+			"title": "Do you have a minute? A better approach to feedback culture",
+			"abstract": "Giving and receiving feedback is hard. Yet without a flow of effective feedback it’s hard to create a culture where people can learn and grow. Too often feedback is either reserved for formal reviews or when performance is already a real concern. This talk explores how to change this and establish a culture where feedback flows continuously, based on lessons learned in a tech company of 500+ people. We’ll explore the pre-conditions required for a feedback safe workplace, recipes for how to give feedback effectively and why it’s the combination of mechanisms and support that really enables continuous feedback rather than one thing in isolation. And if you’re a leader at a tech business, why effective feedback isn’t just great for individuals but also a crucial component of high-performing teams that deliver. Key takeaways: what psychological safety is and ways to foster it, recipes to use to construct effective feedback before you give it, practical ideas for how to build in feedback flows into working life",
+			"bio": "Clem is an independent coach and consultant focused on helping tech leaders have effective conversations and foster people-first culture. He combines a background in technology and consultancy with his ICF-accredited coaching practice to help organisations create the conditions for better communication, high-performing teams and inclusive, engaging company culture. Clem brings experience based on a career starting in software engineering and from a wide range of leadership roles spanning dev, test, architecture, people operations and tech academies. He’s known for his empathetic and warm style and strongly believes that organisations that put humanity first are also the most successful.",
+			"twitter": "@clem_pickering"
+		},
+		{
+			"name": "Samer Naqvi",
+			"picture": "images/speakers/samer_naqvi.jpeg",
+			"title": "Low Code/No Code Paradigm and the Future of Test Automation",
+			"abstract": "The integration of low code/no code paradigms with test automation heralds a transformative shift in software development. This talk explores the symbiotic relationship between these approaches, examining how they empower non-technical users to contribute to test automation. Highlighting potential pitfalls like limited customization options and scalability concerns and in the end future prospects and how they will transform the landscape of software development",
+			"bio": "I have over 16 years of extensive experience as a Test Architect, dedicated to enhancing QA practices and enabling teams to excel with the latest tools and methodologies. My primary goal is to elevate testing standards within organizations by implementing best practices and industry standards, ultimately transforming testing into a value-added asset. I am a very passionate Women in Tech advocate. Through speaking engagements at colleges, organizations, and conferences, I actively promote awareness and inspire the next generation of young women to embrace and thrive in technology.",
+			"twitter": "@samar_batool"
+		},
+		{
+			"name": "Bryan Elder",
+			"picture": "images/speakers/bryan_elder.png",
+			"title": "The Secret to Exploratory Testing Revealed",
+			"abstract": "In the ever-evolving landscape of software development, the role of exploratory testing has become paramount, bringing both challenges and opportunities to the forefront. Exploratory testing, with its emphasis on creativity and adaptability, encounters various obstacles in the testing journey. From unclear objectives to limited documentation, testers often grapple with navigating uncharted territories, making it imperative to address the inherent problems associated with this dynamic approach. To shed light on a profound perspective, we will delve into the Golden Circle of Testing, a conceptual framework inspired by Simon Sinek's influential model. By exploring the 'why,' 'how,' and 'what' of testing, we aim to uncover the deeper motivations behind our testing endeavors, fostering a clearer understanding of our mission and objectives. As we traverse through the intricacies of exploratory testing challenges and the Golden Circle, this presentation aims to equip you with valuable insights and actionable takeaways. Whether you are a seasoned tester or a novice in the field, prepare to glean practical strategies, enhance your testing practices, and leave with a renewed sense of purpose in the ever-evolving world of software testing. Let the exploration begin!",
+			"bio": "I’m a software test consultant with over 13 years’ experience at all levels from management to QA. Having worked across multiple sectors and industries, such as Government, charity, private, e-commerce sector and more. The experience gained has enabled me to work with amazing companies to deliver fantastic software solutions, develop, mentor and build great testing teams along with redesigning of delivery processes and more. This coupled with my ability to hit the ground running in many environments and coupled with the skills that I offer mean I help your company achieve its objectives, releasing the best quality product for the timescales available, whilst delivering process efficiency savings where possible. I help stressed out businesses test, build and implement bespoke, cost-effective software product testing solutions, so they can implement a testing function that lasts a lifetime, save money and focus on customer growth. I’m like Gandalf for testing, no bugs shall pass!",
+			"twitter": "@The_Mr_E_"
+		},
+		{
+			"name": "Colin Wren",
+			"picture": "images/speakers/colin_wren.jpeg",
+			"title": "Learning more about your product and codebase with User Flow Mapping",
+			"abstract": "As delivery teams we usual work with User Stories, they help remind us about the needs of user as we define and implement the changes we develop and are often used as the anchor for implementing bi-directional traceability between the tests and automated checks we carry out to ensure quality. Unless you've got a really mature Living Documentation system set up it's unlikely that the User Story is re-read to understand the initial need and there's less chance that a collective understanding of all the User Stories can give you insights into your product and your code. In his talk Colin shows how he used User Flow Mapping to carry out an archeological dig into the product and the codebase that the team he led were working on, encouraging collaboration between those in product, testing, development and operational support roles to build a shared understanding across the team members so they could manage the risks of making changes to a product no-one fully understood.",
+			"bio": "Colin is an Engineering Manager at Glean where he is found trying to live out his teenage dreams; playing Bass in the Glean Band, playing Guitar in the Glean Hard-Driving-Dad-Rock band and attempting to Skateboard. When he has to face being an adult and doing some work he is really passionate about traceability, validated learning and how best to build up a shared understanding within teams. Outside of work Colin is cares way too much about music (specifically Death Metal, Technical Death Metal, Brutal Slamming Death Metal and whatever the hell genre you'd class Igorrr as), he likes to build his own digital products (which may or may not have informed this talk) and he likes to attempt to take pictures of things.",
+			"twitter": "@testing_atelier"
+		},
+		{
+			"name": "Rachel Winter",
+			"picture": "images/speakers/lta_logo.jpeg",
+			"title": "How to test products and services through user research",
+			"abstract": "Testing products and services is a core part of being a user researcher. We draw on a range of methods to help understand what users aims are, get feedback on products and find opportunities to improve user experience. In this talk I'll go through some of the main methods we use, what we do with those findings, and share examples of how research helped us understand user behaviour. Finally, I'll talk about how user researchers and testers work compliments each other and how we can collaborate throughout projects.",
+			"bio": "Over the past 9 years working in different research areas, I have specialised in using creative and inclusive research methods to build products and services with users. I enjoy the whole research process, but especially figuring out which method to use to effectively get feedback on products. I am currently a lead user researcher working on public sector projects.",
+			"twitter": "@testing_atelier"
+		},
+		{
+			"name": "Leah King and Tracy Archibald",
+			"picture": "images/speakers/lta_logo.jpeg",
+			"title": "Killer Bugs and How to Squash Them",
+			"abstract": "‘Clinical safety’ can fill any test team with dread. Letting a bug slip through the net and make it out to Production is bad enough without worrying that a patient may come to harm as a result. Luckily, this talk is here to guide you through what we’ve learned at Medisoft about how to catch killer bugs before they go out the door and how to minimise risk to patients. We’ll walk through some real examples of varying degrees of clinical risk introduced by new features and bugs. You will learn: How is clinical risk graded? What level of risk is acceptable?, How do you foster a ‘clinical safety mindset’ in your test team? What strategies have we put in place to minimise risk through testing and triage?",
+			"bio": "Tracy is a Software Tester who is quite new to the industry and had a late start to her career. A background in dental nursing has given her a very user- and patient-centric approach to the testing of software. Leah is a Product Manager, who has spent more time watching videos of eyeballs being cut open on YouTube than she would care to admit. She’s passionate about designing and delivering software that makes a difference to patients and healthcare professionals. They both have pink hair at the moment – they promise that this is a coincidence and not a prerequisite for working at Medisoft.",
+			"twitter": "@princessleialee"
+		},
+		{
+			"name": "Joe Batt and Carl Smith",
+			"picture": "images/speakers/lta_logo.jpeg",
+			"title": "Navigating performance planning and design",
+			"abstract": "Join us as we delve into performance testing, focusing on how to effectively plan and design a performance strategy which is aligned to business growth plans. By focusing on planning and design phases, we aim to address potential pitfalls and equip you with techniques that ensure success regardless of industry or preferred tools. Our session will walk you through the step-by-step process of formulating robust performance non-functional requirements, offering valuable insights into test design techniques that yield meaningful performance insights. We'll also explore the relationship between performance and user experience (UX), allowing you to influence performance design.",
+			"bio": "Joe Batt (Principal Test Consultant @ Answer) and Carl Smith (Senior Test Engineer @ Answer) will talk you through their experience and tips for successful performance test planning.",
+			"twitter": "@testing_atelier"
 		}
 	]
 }
