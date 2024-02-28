@@ -48,6 +48,18 @@
 			"picture": "images/sponsors/ten10-logo.png",
 			"about": "Ten10 delivers software testing using the best people, processes and technology, enabling organisations to embrace innovation and change with confidence.",
 			"twitter": "@Ten10_UK"
+		},
+		{
+			"name": "Fruition IT",
+			"picture": "images/sponsors/fruition.png",
+			"about": "We're a team of individuals with a passion for connecting people with each other, candidates and companies - so they can inspire each other and make great things happen.",
+			"twitter": "@Fruition_IT"
+		},
+		{
+			"name": "Jet2",
+			"picture": "images/sponsors/jet2_logo.jpeg",
+			"about": "Join Jet2.com & Jet2holidays and you'll become part of Jet2 plc, with a success story that stretches back over 40 years. Since its first flight to Amsterdam from Leeds Bradford Airport in February 2003, Jet2.com has grown at a rapid but reliable pace.",
+			"twitter": "@jet2tweets"
 		}
 	]
 }
