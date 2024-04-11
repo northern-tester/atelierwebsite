@@ -42,11 +42,11 @@
 			"twitter": "@JitGo"
 		},
 		{
-			"name": "Philip Foxton",
-			"picture": "images/speakers/phil_fox.jpeg",
-			"title": "So your role has been made redundant? What next?",
-			"abstract": "The technology market is currently experiencing a downturn, resulting in a higher number of employees being made redundant. In this presentation, I will take the audience through a journey from job loss to accomplishment.",
-			"bio": "With over 30 years of experience working in IT, Phil has held many positions, from workshop engineer to team lead and manager, and eventually to Head of Operations. He has witnessed many things happen during his career, some of which went well, while others didn't. In his most recent position as Head of Operations for a video games company, Phil was unfortunately made redundant. After an exhaustive 4-month job search, he has decided that now is the perfect time to establish his own consultancy. His goal is to share his expertise with those who don't typically have access to it.",
+			"name": "Elliot Thurland",
+			"picture": "images/speakers/elliot_thurland.jpeg",
+			"title": "The Scandal",
+			"abstract": "A brief overview of the PostOffice scandal with a deeper dive into industry behaviours, visible themes and what this could mean for the future of tech development.",
+			"bio": "Test & Assurance Capability Lead from BJSS, Universtudied in York and now live there. Interested in agile software delivery and outside of work, Parkrunning.",
 			"twitter": "@testing_atelier"
 		},
 		{
@@ -83,7 +83,7 @@
 		},
 		{
 			"name": "Bryan Elder",
-			"picture": "images/speakers/lta_logo.jpeg",
+			"picture": "images/speakers/bryan_elder.jpeg",
 			"title": "The Secret to Exploratory Testing Revealed",
 			"abstract": "In the ever-evolving landscape of software development, the role of exploratory testing has become paramount, bringing both challenges and opportunities to the forefront. Exploratory testing, with its emphasis on creativity and adaptability, encounters various obstacles in the testing journey. From unclear objectives to limited documentation, testers often grapple with navigating uncharted territories, making it imperative to address the inherent problems associated with this dynamic approach. To shed light on a profound perspective, we will delve into the Golden Circle of Testing, a conceptual framework inspired by Simon Sinek's influential model. By exploring the 'why,' 'how,' and 'what' of testing, we aim to uncover the deeper motivations behind our testing endeavors, fostering a clearer understanding of our mission and objectives. As we traverse through the intricacies of exploratory testing challenges and the Golden Circle, this presentation aims to equip you with valuable insights and actionable takeaways. Whether you are a seasoned tester or a novice in the field, prepare to glean practical strategies, enhance your testing practices, and leave with a renewed sense of purpose in the ever-evolving world of software testing. Let the exploration begin!",
 			"bio": "I’m a software test consultant with over 13 years’ experience at all levels from management to QA. Having worked across multiple sectors and industries, such as Government, charity, private, e-commerce sector and more. The experience gained has enabled me to work with amazing companies to deliver fantastic software solutions, develop, mentor and build great testing teams along with redesigning of delivery processes and more. This coupled with my ability to hit the ground running in many environments and coupled with the skills that I offer mean I help your company achieve its objectives, releasing the best quality product for the timescales available, whilst delivering process efficiency savings where possible. I help stressed out businesses test, build and implement bespoke, cost-effective software product testing solutions, so they can implement a testing function that lasts a lifetime, save money and focus on customer growth. I’m like Gandalf for testing, no bugs shall pass!",
