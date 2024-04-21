@@ -114,11 +114,11 @@
 			"twitter": "@princessleialee"
 		},
 		{
-			"name": "Joe Batt and Carl Smith",
+			"name": "Joe Batt",
 			"picture": "images/speakers/lta_logo.jpeg",
 			"title": "Navigating performance planning and design",
 			"abstract": "Join us as we delve into performance testing, focusing on how to effectively plan and design a performance strategy which is aligned to business growth plans. By focusing on planning and design phases, we aim to address potential pitfalls and equip you with techniques that ensure success regardless of industry or preferred tools. Our session will walk you through the step-by-step process of formulating robust performance non-functional requirements, offering valuable insights into test design techniques that yield meaningful performance insights. We'll also explore the relationship between performance and user experience (UX), allowing you to influence performance design.",
-			"bio": "Joe Batt (Principal Test Consultant @ Answer) and Carl Smith (Senior Test Engineer @ Answer) will talk you through their experience and tips for successful performance test planning.",
+			"bio": "Joe Batt (Principal Test Consultant @ Answer) will talk you through his experience and provide tips for successful performance test planning.",
 			"twitter": "@testing_atelier"
 		},
 		{
