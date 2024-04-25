@@ -26,14 +26,6 @@
 			"twitter": "@testing_atelier"
 		},
 		{
-			"name": "Christopher Chant",
-			"picture": "images/speakers/choibot.jpeg",
-			"title": "Start your own rebellion: How to map your organisation and become a catalyst for change.",
-			"abstract": "As you grow as a tester you start to realise that your organisation is another system which needs attention. No doubt you've come across a process that needs improving or heard complaints about how your organisation operates.I want you to be able to turn those complaints in to actionable information so you can help make positive change for you and everyone in your organisation. In this workshop we'll use a mapping technique to discover: Key relationships and how they might impact you changes in your organisation or processes. Constraints which block or amplify effective communication. Differences among people that contribute to positive change or conflict. Exchanges which can affect the flow of value.",
-			"bio": "Christopher Chant is a determined and passionate professional with experience across multiple domains including working on complex, large-scale enterprise applications in a variety of roles most recently Head of Quality and Head of Production & Agile Transformation.",
-			"twitter": "@choibot"
-		},
-		{
 			"name": "Jit Gosai",
 			"picture": "images/speakers/jit.jpeg",
 			"title": "Speed Vs Quality: Can you have both?",
@@ -72,14 +64,6 @@
 			"abstract": "Giving and receiving feedback is hard. Yet without a flow of effective feedback it’s hard to create a culture where people can learn and grow. Too often feedback is either reserved for formal reviews or when performance is already a real concern. This talk explores how to change this and establish a culture where feedback flows continuously, based on lessons learned in a tech company of 500+ people. We’ll explore the pre-conditions required for a feedback safe workplace, recipes for how to give feedback effectively and why it’s the combination of mechanisms and support that really enables continuous feedback rather than one thing in isolation. And if you’re a leader at a tech business, why effective feedback isn’t just great for individuals but also a crucial component of high-performing teams that deliver. Key takeaways: what psychological safety is and ways to foster it, recipes to use to construct effective feedback before you give it, practical ideas for how to build in feedback flows into working life",
 			"bio": "Clem is an independent coach and consultant focused on helping tech leaders have effective conversations and foster people-first culture. He combines a background in technology and consultancy with his ICF-accredited coaching practice to help organisations create the conditions for better communication, high-performing teams and inclusive, engaging company culture. Clem brings experience based on a career starting in software engineering and from a wide range of leadership roles spanning dev, test, architecture, people operations and tech academies. He’s known for his empathetic and warm style and strongly believes that organisations that put humanity first are also the most successful.",
 			"twitter": "@clem_pickering"
-		},
-		{
-			"name": "Samer Naqvi",
-			"picture": "images/speakers/samer_naqvi.jpeg",
-			"title": "Low Code/No Code Paradigm and the Future of Test Automation",
-			"abstract": "The integration of low code/no code paradigms with test automation heralds a transformative shift in software development. This talk explores the symbiotic relationship between these approaches, examining how they empower non-technical users to contribute to test automation. Highlighting potential pitfalls like limited customization options and scalability concerns and in the end future prospects and how they will transform the landscape of software development",
-			"bio": "I have over 16 years of extensive experience as a Test Architect, dedicated to enhancing QA practices and enabling teams to excel with the latest tools and methodologies. My primary goal is to elevate testing standards within organizations by implementing best practices and industry standards, ultimately transforming testing into a value-added asset. I am a very passionate Women in Tech advocate. Through speaking engagements at colleges, organizations, and conferences, I actively promote awareness and inspire the next generation of young women to embrace and thrive in technology.",
-			"twitter": "@samar_batool"
 		},
 		{
 			"name": "Bryan Elder",
