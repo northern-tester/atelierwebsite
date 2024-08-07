@@ -1,55 +1,21 @@
 include ../node_modules/pug-bootstrap/_bootstrap
 include mixins/nav-header
+include mixins/call-for-speakers-panel
+
 link(rel='stylesheet', href='/stylesheets/style.css')
 link(rel='stylesheet', href='/stylesheets/callforpapers.css')
-script(src='https://www.google.com/recaptcha/api.js')
-script(type='text/javascript', src='/javascript/atelier.js')
+link(rel='stylesheet', href='/stylesheets/panel.css')
 meta(name='description', content='Our continuous call for papers is always open at the Leeds Testing Atelier!')
 
 block content
-    - var navitems = ["Sponsor Us","Previous Ateliers", "Code of Conduct"];
-    +navHeader(navitems)
-    section(style="padding-top: 75px;")
-        .container
-            div.row
-                div.col-lg-12.col-md-12.col-sm-12
-                    h2 Continuous Call for Papers!
-                    p The Atelier is every six months, so we need a continuous flow of amazing content to deliver. To help we have a continuous call for papers in place, so please submit whenever inspiration takes you!
-                    p 
-                        |For more information on being a speaker at the Leeds Testing Atelier, please have a look at our 
-                        a(href="images/atelierspeakersguide.pdf") Speakers Guide
-                        |, any feedback on the guide is appreciated. We take safety very seriously at the Atelier, striving to provide an inclusive learning environment for speakers, organisers and attendees alike. Please have a look at our 
-                        a(href="images/ateliercodeofconduct.pdf") Code of Conduct 
-                        |for more information.
-
-                div.col-lg-12.col-md-12.col-sm-12
-                    form(action="/callforpapers", method="post")
-                        div(data-role='fieldcontain').form-group
-                            fieldset(data-role='controlgroup')
-                            label(for='name') Name
-                            input(id='name',type='text',value='',placeholder='Name...',name='name', required).form-control
-                        div(data-role='fieldcontain').form-group
-                            fieldset(data-role='controlgroup')
-                            label(for='email') Email Address
-                            input(id='email',type='text',value='',placeholder='Give us an email you look at regularly...',name='email', required).form-control
-                        div(data-role='fieldcontain').form-group
-                            fieldset(data-role='controlgroup')
-                            label(for='twitter') Twitter Handle
-                            input(id='twitter',type='text',value='',placeholder='Your twitter handle, start with an @...',name='twitter').form-control
-                        div(data-role='fieldcontain').form-group
-                            fieldset(data-role='controlgroup')
-                            label(for='title') Session Title
-                            input(id='title',type='text',value='', placeholder='Snappy, inspiring title for your session...', name='title', required).form-control
-                        div(data-role='fieldcontain').form-group
-                            fieldset(data-role='controlgroup')
-                            label(for='abstract') Session Abstract
-                            textarea(id='abstract',type='text',value='',placeholder='Your amazing idea goes here, we especially like to see key takeaways from your session...',name='abstract', required).form-control
-                        div(data-role='fieldcontain').form-group
-                            fieldset(data-role='controlgroup')
-                            label(for='bio') Tell us about you!
-                            textarea(id='bio',type='text',value='',placeholder='Tell us a bit about yourself, your experiences and what makes you tick...',name='bio', required).form-control
-                        .g-recaptcha(data-sitekey=recaptchaPubKey, data-callback='recaptcha_callback', data-expired-callback='recaptcha_expired_callback')
-                        div(data-role='fieldcontain').form-group
-                            input(id='cfpSubmit', type='submit',value='Submit proposal', data-transition='fade', data-theme='c', disabled = true)
-            footer
-                p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
+	- var navitems = ["Sponsor Us","Previous Ateliers", "Code of Conduct"];
+	+navHeader(navitems)
+	.container
+			div
+				block callforspeakers
+						section(style="padding-top: 100px;")
+						section(id='speakerguidance')
+							div.container
+								+callForSpeakersPanel()
+	footer
+		p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
