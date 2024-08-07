@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node ./bin/www",
     "startwithenv": "node ./bin/www --env-file=.env",
-    "nodemon": "./node_modules/nodemon/bin/nodemon.js node bin/ww"
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js node bin/ww",
+    "runE2Etestslocal": "npx playwright test --project=local",
+    "runE2Etestsprod": "npx playwright test --project=production"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -24,6 +26,8 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.1.0",
     "nodemon": "^2.0.15"
   }
 }
