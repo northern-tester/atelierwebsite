@@ -12,18 +12,12 @@ block content
 	section(style="padding-top: 75px;")
 
 	.container
-		section(id='amazingsponsors')
-				h2 Check out our fabulous sponsors! They pay for your learning, beer and swag!
-				section(id='sponsors')
-					div.container
-						+sponsorTable(sponsors)
-
 		section(id='sponsorus')
 
 			h3 What am I getting myself into as a sponsor?
 
 			p 
-				|The Atelier is hosted at Wharf Chambers, a workers co-op in Leeds which fits our ethos.  We could originally only host 80 attendees but after expanding to the second floor of Wharf Chambers we can now hold 105 attendees. We are keen to provide a safe space for all involved in testing, however they choose to express themselves.
+				|The Atelier is hosted at The Tetley, Leeds, a former brewery HQ turned awesome event space. Previously hosted at Wharf Chambers, we could originally only host 100 attendees, but our new venue for 2025 will allow us to invite over 150 attendees. We are keen to provide a safe space for all involved in testing, however they choose to express themselves.
 				
 			p
 				|Here at the Atelier we value speaker diversity, therefore we encourage people from different backgrounds speaking, this covers gender, ethnicity and job role. The event has a variety of talks, workshops and panels.  Some of the past topics that our talks have covered are; a DBA talking about database unit testing, a tester talking about mobile automation, a recruiter on how to hire great testers, a developer teaching TDD, a build engineer on DevOps adoption, the list goes on. The Atelier is volunteer run and is a day with punk rock vibes by the community for the community. 
@@ -41,12 +35,13 @@ block content
 				+table-bordered(
 						[],
 					[
-						["Punk Venue","£550"],
-						["Lovely Vegan Food","£1000"],
+						["Our beautiful venue","£975"],
+						["Lovely Vegan Food","£1500"],
 						["Swag","£300"],
-						["Drinks","£550"],
+						["Tea, Coffee and keeping our attendees hydrated","£550"],
 						["Videos and Editing","£600"],
-						["Total","£3000"],
+						["Insurance", "£200"],
+						["Total","£4125"],
 					]
 				)
 
@@ -54,7 +49,7 @@ block content
 
 			div(class="benefits")
 				p
-					|We like to keep the event as low cost for us as well as the sponsors at a cost of £300 each. In return for sponsorship, you will receive the following:
+					|We like to keep the event as low cost for us as well as the sponsors at a cost of £350 each. In return for sponsorship, you will receive the following:
 
 					ul
 						li Logo and mention on the website
@@ -62,6 +57,10 @@ block content
 						li Shout outs on LinkedIn in the lead up to the event
 						li Two tickets that you can give to anyone in your company
 						li Offer the attendees swag from our sponsors
-
+		section(id='amazingsponsors')
+				h2 Check out our fabulous sponsors from our 2024 conference.  They pay for your learning, hydration and swag ❤️
+				section(id='sponsors')
+					div.container
+						+sponsorTable(sponsors)
 		footer
 			p Copyright &copy; #{new Date().getFullYear()} The Atelier Gang
