@@ -4,62 +4,62 @@
 		{
 			"name": "Tony Holroyd",
 			"picture": "images/sponsors/tonyh-logo.jpeg",
-			"about": "Tony Holyroyd is an Atelier legend, providing sponsorship out of his own pocket, all to see the Leeds testing community thrive. Has no online presence, likes it that way.",
-			"twitter": "@testing_atelier"
+			"about": "Tony Holyroyd is an Atelier legend, providing sponsorship out of his own pocket, all to see the Leeds testing community thrive. Has no online presence, likes it that way."
+		},
+		{
+			"name": "Leigh Rathbone",
+			"picture": "images/sponsors/leigh_rathbone.jpeg",
+			"about": "Leigh is absolute powerhouse of the testing community. The legendary Liverpool Tester Gathering will live forever in the memory, his hosting at TestBash, talks at testing conferences and beyond. Skilled, enthusiastic and outgoing, a superb leader of quality in teams and organisations."
 		},
 		{
 			"name": "Scott Kenyon",
 			"picture": "images/sponsors/scott_kenyon.jpg",
-			"about": "I have been part of the testing community for many years focusing on communication and neurodiversity in testing. being diverse myself i bring a different perspective on my own testing I strongly believe in collaborative methods and using different thought techniques and people's perspectives to look at things from many angles.",
-			"twitter": "@ScottKTeaching"
+			"about": "I have been part of the testing community for many years focusing on communication and neurodiversity in testing. being diverse myself i bring a different perspective on my own testing I strongly believe in collaborative methods and using different thought techniques and people's perspectives to look at things from many angles."
 		},
 		{
 			"name": "Ady Stokes",
 			"picture": "images/sponsors/ady.jpeg",
-			"about": "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles.",
-			"twitter": "@a11y_ady"
+			"about": "I’m passionate about exploring and testing software as part of the creation and development of useful applications. I strongly believe in collaborative methods and using different thinking techniques to look at things from all angles."
 		},
 		{
 			"name": "Ministry of Testing",
 			"picture": "images/sponsors/ministryoftest-logo.jpg",
-			"about": "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources.",
-			"twitter": "@ministryoftest"
+			"about": "The Ministry of Testing aims to change and lead within the software testing world.  We are doing this through a strong focus on learning, collaboration and resources."
 		},
 		{
 			"name": "The Coders Guild",
 			"picture": "images/sponsors/coders-guild-logo.jpg",
-			"about": "Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities for software development. A safe space offering community-driven, peer-reviewed and open-source knowledge share.",
-			"twitter": "@the_codersguild"
-		},
-		{
-			"name": "Conflux",
-			"picture": "images/sponsors/conflux-2021-conflux-logomark-nosubtitle-lime-sm.png",
-			"about": "Expert-led group learning for adopting fast flow and Team Topologies.",
-			"twitter": "@ConfluxHQ"
+			"about": "Promoting inclusion, diversity and equality through expert training, coaching and CPD opportunities for software development. A safe space offering community-driven, peer-reviewed and open-source knowledge share."
 		},
 		{
 			"name": "Glean",
 			"picture": "images/sponsors/glean_logo.jpeg",
-			"about": "Glean is the antidote to information overload for improved student success.",
-			"twitter": "@GleanNotes"
+			"about": "Glean is the antidote to information overload for improved student success."
 		},
 		{
-			"name": "Ten10",
-			"picture": "images/sponsors/ten10-logo.png",
-			"about": "Ten10 delivers software testing using the best people, processes and technology, enabling organisations to embrace innovation and change with confidence.",
-			"twitter": "@Ten10_UK"
-		},
-		{
-			"name": "Fruition IT",
-			"picture": "images/sponsors/fruition.png",
-			"about": "We're a team of individuals with a passion for connecting people with each other, candidates and companies - so they can inspire each other and make great things happen.",
-			"twitter": "@Fruition_IT"
-		},
-		{
-			"name": "Jet2",
-			"picture": "images/sponsors/jet2_logo.jpeg",
-			"about": "Join Jet2.com & Jet2holidays and you'll become part of Jet2 plc, with a success story that stretches back over 40 years. Since its first flight to Amsterdam from Leeds Bradford Airport in February 2003, Jet2.com has grown at a rapid but reliable pace.",
-			"twitter": "@jet2tweets"
-		}
+			"name":"Nimble Approach",
+			"picture":"images/sponsors/nimble-approach-logo.jpg",
+			"about":"Nimble are a tightly knit collective of elite product & technology professionals who love what we do! We’ve taken a people first, quality-driven approach to growing our community by handpicking only people who have the right values, characteristics, and ability."
+		 },
+		 {
+			"name":"Burendo",
+			"picture":"images/sponsors/burendo_consulting_logo.jpeg",
+			"about":"An award-winning consultancy delivering stand-out products and services through technology. We partner with organisations to accelerate value delivery and transform customer experiences."
+		 },
+		 {
+			"name":"John Lewis Partnership",
+			"picture":"images/sponsors/jlp_logo.jpeg",
+			"about":"Our Partnership is an ongoing experiment to find happier, more trusted ways of doing business, for the benefit of us all. We work together to create a successful business and a fairer, more sustainable future for Partners, customers, suppliers and communities."
+		 },
+		 {
+			"name":"Doza",
+			"picture":"images/sponsors/doza_consulting_logo.jpeg",
+			"about":"We share a common vision of wanting to deliver innovative solutions that drive meaningful value for businesses. The foundation for Digital Transformation is people. However you choose to work with us, we're always here to bring you real value and foster a friendly and collaborative culture."
+		 },
+		 {
+			"name":"WRK Digital",
+			"picture":"images/sponsors/wrk_digital_logo.jpeg",
+			"about":"WRK digital was founded to be a Trusted, Passionate and Authentic business, partnering some of the most exciting companies to scale their technology teams and disrupt our industry."
+		 }
 	]
 }

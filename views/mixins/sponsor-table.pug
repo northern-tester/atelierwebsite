@@ -5,6 +5,6 @@ mixin sponsorTable(sponsors)
                 td.mugshot
                     img.image(src='/'+sponsor.picture, alt=sponsor.name)
                 td.blurb
-                    h4.sponsor-name #{sponsor.name}
-                    a.twitter-follow-button(href="https://twitter.com/"+sponsor.twitter, data-show-count="false"): Follow #{sponsor.twitter}
-                    p.sponsor-about #{sponsor.about}
+                    h2.sponsor-name #{sponsor.name}
+                    h4.sponsor-about #{sponsor.about}
+            br

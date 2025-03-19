@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "startwithenv": "node ./bin/www --env-file=.env",
-    "nodemon": "./node_modules/nodemon/bin/nodemon.js node bin/ww"
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js node bin/www --env-file=.env"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
