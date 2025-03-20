@@ -21,6 +21,13 @@
 			"title": "Testing your assumptions - You are not your customer",
 			"abstract": "This talk goes over some of the assumptions development teams can make and how recognising them can help teams build better quality products - because you are not your customer.",
 			"bio": "Emily O'Connor is a Principal Test Engineer at Audacia, a consultancy that work across a variety of industries. Given each consultant cannot be an expert in each of them - Emily uses this to her advantage by identifying edge cases and test scenarios by recognising the fact that she is not often the companies typical users."
+		},
+		{
+			"name": "Stephen Platten",
+			"picture": "images/speakers/stephen-platten.jpg",
+			"title": "Stoicism & Software Testing: Ancient Philosophy Meets Modern Methods",
+			"abstract": "Testing is often chaos, uncertainty, changing requirements, constant defects, and a challenging stakeholder. What is the answer to this chaos? A 2000-year-old philosophy?? Stephen's talk will about Stoicism and how it's principles can be used to gain a different perspective on this chaos to make us happier testers.",
+			"bio": "Stephen is an award winning (European Software Testing awards, TESTA) tester and QA, with a passion for test improvement and development. I have worked in most aspects of electronic engineering/software engineering. He has a passion for testing and understanding complex applications, technologies, and projects. To quote him, \"I want to be the best manager, tester, and coach I can be, to be \"The Stoic Tester\""
 		}
 	]
 }
