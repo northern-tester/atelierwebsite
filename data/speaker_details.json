@@ -28,6 +28,13 @@
 			"title": "Stoicism & Software Testing: Ancient Philosophy Meets Modern Methods",
 			"abstract": "Testing is often chaos, uncertainty, changing requirements, constant defects, and a challenging stakeholder. What is the answer to this chaos? A 2000-year-old philosophy?? Stephen's talk will about Stoicism and how it's principles can be used to gain a different perspective on this chaos to make us happier testers.",
 			"bio": "Stephen is an award winning (European Software Testing awards, TESTA) tester and QA, with a passion for test improvement and development. I have worked in most aspects of electronic engineering/software engineering. He has a passion for testing and understanding complex applications, technologies, and projects. To quote him, \"I want to be the best manager, tester, and coach I can be, to be \"The Stoic Tester\""
+		},
+		{
+			"name": "Sorrel Harriet",
+			"picture": "images/speakers/sorrel.jpg",
+			"title": "Testing in the dark: Life as a research software engineer",
+			"abstract": "This short talk will give the audience an insight into the chaotic underworld that is research software engineering. It aims to ignite inter-contextual learning in areas like software design, testing, and supporting neurodiversity in teams. If you've ever been curious about engineering in an academic research context, this one's for you!",
+			"bio": "Having bounced around academia and the tech industry in various roles, Sorrel now works part-time as a research software engineer at Leeds University and part-time as a freelance learning coach and consultant to engineering teams. Much of what we do as engineers hinges on our capacity to learn, independently and collaboratively, yet learning to learn isn't a prominent feature of most curriculums. That's why she started her consultancy, where she can bring her research and teacher experience to support continuous learning."
 		}
 	]
 }
