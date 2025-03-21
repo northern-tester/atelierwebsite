@@ -14,6 +14,27 @@
 			"title": "AI Agents - Lets Talk...",
 			"abstract": "Let's talk about the latest hot topic in our industry - AI Agents. They might be coming for your job, entire workforces may be replaced by these super-smart chunks of code, so what does it mean for you? We'll also see one in action.",
 			"bio": "Andy is by day a Principal Platform Engineer at a gambling firm, by night an opensource AI contributor working with LLMs and AI applications running in Kubernetes. Currently working with K8sGPT to help analyse and diagnose faults on Kubernetes clusters. He also is a small part of the organizing team for DevOpsDays London and ran the DevOps meetup in Leeds for almost a decade hosting over 50 events. He’s attended and has spoken at a bunch of DevOps conferences and in his own words is \"an all-round DevOps nuisance\"."
+		},
+		{
+			"name": "Emily O'Connor",
+			"picture": "images/speakers/emilyoc.jpeg",
+			"title": "Testing your assumptions - You are not your customer",
+			"abstract": "This talk goes over some of the assumptions development teams can make and how recognising them can help teams build better quality products - because you are not your customer.",
+			"bio": "Emily O'Connor is a Principal Test Engineer at Audacia, a consultancy that work across a variety of industries. Given each consultant cannot be an expert in each of them - Emily uses this to her advantage by identifying edge cases and test scenarios by recognising the fact that she is not often the companies typical users."
+		},
+		{
+			"name": "Stephen Platten",
+			"picture": "images/speakers/stephen-platten.jpg",
+			"title": "Stoicism & Software Testing: Ancient Philosophy Meets Modern Methods",
+			"abstract": "Testing is often chaos, uncertainty, changing requirements, constant defects, and a challenging stakeholder. What is the answer to this chaos? A 2000-year-old philosophy?? Stephen's talk will about Stoicism and how it's principles can be used to gain a different perspective on this chaos to make us happier testers.",
+			"bio": "Stephen is an award winning (European Software Testing awards, TESTA) tester and QA, with a passion for test improvement and development. I have worked in most aspects of electronic engineering/software engineering. He has a passion for testing and understanding complex applications, technologies, and projects. To quote him, \"I want to be the best manager, tester, and coach I can be, to be \"The Stoic Tester\""
+		},
+		{
+			"name": "Sorrel Harriet",
+			"picture": "images/speakers/sorrel.jpg",
+			"title": "Testing in the dark: Life as a research software engineer",
+			"abstract": "This short talk will give the audience an insight into the chaotic underworld that is research software engineering. It aims to ignite inter-contextual learning in areas like software design, testing, and supporting neurodiversity in teams. If you've ever been curious about engineering in an academic research context, this one's for you!",
+			"bio": "Having bounced around academia and the tech industry in various roles, Sorrel now works part-time as a research software engineer at Leeds University and part-time as a freelance learning coach and consultant to engineering teams. Much of what we do as engineers hinges on our capacity to learn, independently and collaboratively, yet learning to learn isn't a prominent feature of most curriculums. That's why she started her consultancy, where she can bring her research and teacher experience to support continuous learning."
 		}
 	]
 }
