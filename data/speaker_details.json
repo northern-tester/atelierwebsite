@@ -35,6 +35,34 @@
 			"title": "Testing in the dark: Life as a research software engineer",
 			"abstract": "This short talk will give the audience an insight into the chaotic underworld that is research software engineering. It aims to ignite inter-contextual learning in areas like software design, testing, and supporting neurodiversity in teams. If you've ever been curious about engineering in an academic research context, this one's for you!",
 			"bio": "Having bounced around academia and the tech industry in various roles, Sorrel now works part-time as a research software engineer at Leeds University and part-time as a freelance learning coach and consultant to engineering teams. Much of what we do as engineers hinges on our capacity to learn, independently and collaboratively, yet learning to learn isn't a prominent feature of most curriculums. That's why she started her consultancy, where she can bring her research and teacher experience to support continuous learning."
+		},
+		{
+			"name": "Costa Giannakopoulos",
+			"picture": "images/speakers/costa_giannakopoulos.jpeg",
+			"title": "What the heck is subcutaneous testing?",
+			"abstract": "Ever wondered how you might reduce the number of UI tests you have and still cover the key scenarios? Costa will answer the question what the heck is subcutaneous testing? With loads of real examples of how Pactumjs makes this easy! ",
+			"bio": "I’m a tester and I absolutely love it. It’s what I was meant to do even though it’s something I fell into by luck. I have worked at MadeByPi, Sky, DAZN, Infinity Works/Accenture and now Collibra. I see myself as a quality engineer and quality coach as testing is everyone’s responsibility. My goal is to shepherd the team I am in and point them in the right direction of creating high quality software. I am a father of 3 amazing daughters. I also love playing 5 a side football and snooker."
+		},
+		{
+			"name": "Olawale Ibitoye",
+			"picture": "images/speakers/olawale_ibitoye.jpeg",
+			"title": "AI Ethics in SDLC",
+			"abstract": "The integration of artificial intelligence (AI) across diverse domains such as healthcare, transportation, and consumer services has transformed societal and technological landscapes. However, this rapid adoption also amplifies the ethical challenges posed by AI systems, including issues related to bias, privacy, transparency, and accountability. Addressing these challenges requires adoption of AI ethics throughout the software development lifecycle (SDLC) while fostering collaboration across diverse functional teams, including developers, designers, testers, and end-users.",
+			"bio": "My name is Olawale Ibitoye, and I am a tester with six years of testing experience. I also hold a master's degree in AI and data science. I enjoy discussing technology and ethics, and in my free time, I am an avid fan of sports, particularly football."
+		},
+		{
+			"name": "Kat Obring",
+			"picture": "images/speakers/kat_obring.jpeg",
+			"title": "From Gatekeepers to Coaches: Evolving the QA Role in Agile Teams",
+			"abstract": "Every agile team I ever worked on has at one time or another felt held back by their QA process, and often rightly so, because too many QAs have been trained to be gatekeepers, not enablers of safe releases. In this talk, you’ll hear how modern QA professionals can shift from being that bottleneck into quality coaches, finally breaking down silos and building stronger engineering culture. I’ll present practical strategies for implementing this shift, such as pair testing, collaborative code reviews and quality-focused workshops that will improve the entire team’s testing capabilities.",
+			"bio": "After 20 successful years in the software industry, I now teach teams and individuals shift-left testing strategies and leveraging DevOps practices to achieve speedy delivery with predictable quality. My tenure at companies such as Linden Lab (Second Life), Disney Online, Infinity Works, and Accenture has reinforced my belief that most technology challenges are fundamentally about people. Therefore, my focus is on developing processes and nurturing relationships that foster high-performing, contented teams. I emphasise that effective testing is a critical component of quality engineering that will speed up your delivery, not slow it down."
+		},
+		{
+			"name": "Chris Briggs",
+			"picture": "images/speakers/chris_briggs.jpeg",
+			"title": "The Good, The Right, and The Fitting: Moral Philosophy in Software Testing",
+			"abstract": "The future is now. Never before have we had such power to do harm—or to do good. But what is good? What is right? What is fitting—and for whom? Can we afford the luxury of thinking about morality in software testing? Can we afford not to? Quality Engineering often focuses on functional and non-functional attributes, ensuring performance, security, and usability. Even the broader, glue-work role of QEs tends to center on fulfilling business needs and meeting delivery goals. Yet, whether we acknowledge it or not, our work has an inherent moral dimension. This talk begins with an exploration of Aristotelian, Kantian, and Utilitarian ethics, introducing core philosophical concepts that we will then apply to real-world software testing dilemmas. The purpose of this talk is not to leave attendees with answers or definitive frameworks. Instead, attendees will leave with a conceptual scaffolding that enables them to critically examine their own domains, collaboratively assess ethical challenges, integrate moral reasoning into their decision-making, and hopefully, a lot of questions! Ethical testing isn’t only about avoiding harm in the present - but about doing good, now and in the future.",
+			"bio": "I fell into testing eight years and have loved the work ever since. I’ve been on a number of professional journeys; from manual to a hybrid of auto-manual testing, bare functional testing to considering all quality attributes, being a team member, to being a leader, and attending community events and conferences to now, speaking at them. With a lively and at times, derailing interest in the world I love to play with ideas and new perspectives. Otherwise I do enjoy a spot of cooking and crafting."
 		}
 	]
 }
