@@ -63,6 +63,34 @@
 			"title": "The Good, The Right, and The Fitting: Moral Philosophy in Software Testing",
 			"abstract": "The future is now. Never before have we had such power to do harm—or to do good. But what is good? What is right? What is fitting—and for whom? Can we afford the luxury of thinking about morality in software testing? Can we afford not to? Quality Engineering often focuses on functional and non-functional attributes, ensuring performance, security, and usability. Even the broader, glue-work role of QEs tends to center on fulfilling business needs and meeting delivery goals. Yet, whether we acknowledge it or not, our work has an inherent moral dimension. This talk begins with an exploration of Aristotelian, Kantian, and Utilitarian ethics, introducing core philosophical concepts that we will then apply to real-world software testing dilemmas. The purpose of this talk is not to leave attendees with answers or definitive frameworks. Instead, attendees will leave with a conceptual scaffolding that enables them to critically examine their own domains, collaboratively assess ethical challenges, integrate moral reasoning into their decision-making, and hopefully, a lot of questions! Ethical testing isn’t only about avoiding harm in the present - but about doing good, now and in the future.",
 			"bio": "I fell into testing eight years and have loved the work ever since. I’ve been on a number of professional journeys; from manual to a hybrid of auto-manual testing, bare functional testing to considering all quality attributes, being a team member, to being a leader, and attending community events and conferences to now, speaking at them. With a lively and at times, derailing interest in the world I love to play with ideas and new perspectives. Otherwise I do enjoy a spot of cooking and crafting."
+		},
+		{
+			"name": "Jit Gosai",
+			"picture": "images/speakers/jit.jpeg",
+			"title": "Psychological Safety for Staff+ Engineers",
+			"abstract": "Psychological safety is fundamental for successful teams as it allows people to take risks and feel confident that no one on the team would embarrass or punish anyone else for admitting mistakes, asking questions or offering new ideas. But taking those risks doesn't come naturally to people and needs to be nurtured. Why? Because people have a natural tendency to look up in the hierarchy as to what is and isn't acceptable. Therefore if we model behaviors that show that it is safe for interpersonal risk-taking, it helps others see that they, too, can take these risks. In this talk, I'd like to share what psychological safety is, why it matters to software teams and how Staff+ engineers can foster environments high in psychological safety.",
+			"bio": "Jitesh’s expertise in testing spans over two decades. He currently works as the Principal Tester for the BBC, supporting teams to create high-quality products by fostering a Culture of Quality. He shares his experiences at conferences across Europe and in his newsletter https://qualityeng.substack.com/."
+		},
+		{
+			"name": "Denny Thampi",
+			"picture": "images/speakers/denny_thampi.jpeg",
+			"title": "The Shift to Quality Engineering: Adapting Skills, Mindsets, and Practices",
+			"abstract": "Embedding quality in the entire product life cycle has become an essential part in the modern software development landscape. This talk explores the transformative shift from traditional QA to Quality Engineering, focusing on how teams can adapt their skills, mindset and practices to foster continuous quality. Learn how modern techniques such as shift left, automation and robust feedback loops help drive quality not only during development but also in monitoring, analytics and post production performance.",
+			"bio": "I am passionate about Quality Engineering, process improvement, and team collaboration. With almost 20 years of experience, I’ve helped teams move beyond traditional testing, embedding quality at every stage of development. I love working with people, mentoring testers to grow into quality engineers, and encouraging a collaborative, automation-first approach. My focus is always on making processes smoother, improving efficiency, and ensuring high-quality software delivery."
+		},
+		{
+			"name": "Melissa Rocks",
+			"picture": "images/speakers/melissa_rocks.jpeg",
+			"title": "Who Cares About Accessibility",
+			"abstract": "Accessibility? The history and use of it. Let's talk about why we want it to be regularly considered in tech, who it can help and how we can go about that.",
+			"bio": "I've been in testing for 8+ years now and my passion is inclusivity in the workplace, ranging from mental health to accessibility to neurodiversity considerations. Before facing my own physical disability struggles this was always something I was keen on but since I've experienced it more I can really give explanations of how small things can make all the difference to those with and without these considerations."
+		},
+		{
+			"name": "Mike Smith",
+			"picture": "images/speakers/mike_smith.jpeg",
+			"title": "Turning the Tide: Revitalising Testing in a Legacy-Driven World",
+			"abstract": "Legacy systems, siloed teams, and outdated Testing processes are challenges that many organisations face—but they don’t have to be roadblocks to quality and innovation. Drawing from my experience transforming Testing teams across complex environments, I'll share actionable strategies for rebuilding trust in testing, introducing modern practices, and aligning Testing efforts with business goals. From overcoming blame culture to navigating distributed teams across time zones, this talk will highlight the insights, techniques, and mindsets that can drive rapid improvement and lasting change.",
+			"bio": "Hiya, I’m Mike Smith, and I’ve been working in Test, development, and architecture for about 15 years. Currently as the Head of Testing at Ocean Technologies, I’m focused on turning struggling QA teams into empowered, high-performing Testing groups that really make a difference. The work often involves tackling tricky challenges like legacy systems, inefficient processes, and distributed teams and I love finding practical, people-focused solutions to these issues. Outside of work, I’m a lifelong gamer and content creator who’s passionate about building communities that are inclusive and thoughtful, especially when it comes to mental health. Whether it’s through gaming or my day job, I believe in creating spaces where people can exist and be themselves without judgement."
 		}
 	]
 }
