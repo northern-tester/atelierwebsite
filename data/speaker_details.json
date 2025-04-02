@@ -84,13 +84,6 @@
 			"title": "Who Cares About Accessibility",
 			"abstract": "Accessibility? The history and use of it. Let's talk about why we want it to be regularly considered in tech, who it can help and how we can go about that.",
 			"bio": "I've been in testing for 8+ years now and my passion is inclusivity in the workplace, ranging from mental health to accessibility to neurodiversity considerations. Before facing my own physical disability struggles this was always something I was keen on but since I've experienced it more I can really give explanations of how small things can make all the difference to those with and without these considerations."
-		},
-		{
-			"name": "Mike Smith",
-			"picture": "images/speakers/mike_smith.jpeg",
-			"title": "Turning the Tide: Revitalising Testing in a Legacy-Driven World",
-			"abstract": "Legacy systems, siloed teams, and outdated Testing processes are challenges that many organisations face—but they don’t have to be roadblocks to quality and innovation. Drawing from my experience transforming Testing teams across complex environments, I'll share actionable strategies for rebuilding trust in testing, introducing modern practices, and aligning Testing efforts with business goals. From overcoming blame culture to navigating distributed teams across time zones, this talk will highlight the insights, techniques, and mindsets that can drive rapid improvement and lasting change.",
-			"bio": "Hiya, I’m Mike Smith, and I’ve been working in Test, development, and architecture for about 15 years. Currently as the Head of Testing at Ocean Technologies, I’m focused on turning struggling QA teams into empowered, high-performing Testing groups that really make a difference. The work often involves tackling tricky challenges like legacy systems, inefficient processes, and distributed teams and I love finding practical, people-focused solutions to these issues. Outside of work, I’m a lifelong gamer and content creator who’s passionate about building communities that are inclusive and thoughtful, especially when it comes to mental health. Whether it’s through gaming or my day job, I believe in creating spaces where people can exist and be themselves without judgement."
 		}
 	]
 }
