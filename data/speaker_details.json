@@ -84,6 +84,27 @@
 			"title": "Who Cares About Accessibility",
 			"abstract": "Accessibility? The history and use of it. Let's talk about why we want it to be regularly considered in tech, who it can help and how we can go about that.",
 			"bio": "I've been in testing for 8+ years now and my passion is inclusivity in the workplace, ranging from mental health to accessibility to neurodiversity considerations. Before facing my own physical disability struggles this was always something I was keen on but since I've experienced it more I can really give explanations of how small things can make all the difference to those with and without these considerations."
+		},
+		{
+			"name": "Bryan Jones",
+			"picture": "images/speakers/bryan-jones.jpeg",
+			"title": "Why Testers are the True Rock Stars of IT",
+			"abstract": "We have all heard the negative comments in the past – “Just get any tester in”, “Anyone can test”, “Testers are just failed developers”, “Testing is easy”, “That costs too much, cut out some testing”. Well now’s the time to stand-up and put them right! Now is the time for us to celebrate what a Tester truly is! A good tester is not a Jack-of-All-Trades. They are a multi-faceted, cross-skilled, emotionally intelligent, critically thinking, risk aware, balanced Rock Star of IT. Software development is a social activity and testers are the glue that pulls it together. We provide so much value, both tangible and intangible, so let’s call it out. Using stories of personal experience in both IT and Rock Bands, this talk is part motivational speech, part personal development coaching, part career coaching, and part advice on how to be a Rock Star. But above all, this is a Celebration of what it means to be a Tester! WARNING: This presentation involves guitar playing, singing and audience participation.",
+			"bio": "I have been in testing for over 36 years, working in most of the industry sectors and having done every job in testing from machine code reviews to being the Director of Quality Engineering & Testing for a top 5 European Digital Transformation company. I am now a QAT Architect for 2i, a quality and testing consultancy. I present at conferences and IT community events. I am on the committee of BCS Edinburgh and the Scottish Testing Group. I also host the Quality Blether podcast. In Summary, I am a career testing professional with a lifetime obsession with testing and quality, not to mention an insatiable curiosity and learning addiction. When not talking about quality, I am a certified Psychotherapist and Hypnotherapist. I have also done impromptu street hypnosis.  I used to play bass in several bands, including an Irish Folk band and a Trash Metal band. I take part in off-road motorcycle rallies on my 1200cc BMW that weighs 250kg – not a practical rally bike! I also used to train and ride horses (a lot!), but my horse is now retired."
+		},
+		{
+			"name": "Bryan Elder",
+			"picture": "images/speakers/bryan_elder.jpeg",
+			"title": "Customers Are Not the Goal, They’re the Starting Point",
+			"abstract": "In the dynamic landscape of software development, the role of customers extends far beyond being mere recipients of the end product. Rather than viewing customers as a distant goal to achieve, successful software testing practices recognize them as the starting point for quality assurance. Let’s delve into why this perspective matters and how it impacts the software development lifecycle.",
+			"bio": "With well over a decade of diverse experience in software testing spanning various sectors such as Government, charity, private, and e-commerce, banking and more, I bring a wealth of expertise to the table. From management to QA, I've honed my skills in delivering exceptional software solutions and cultivating high-performing testing teams. My track record includes successful redesign and implementation of software delivery solutions, ensuring longevity and cost-effectiveness while prioritizing customer growth. My passion lies in witnessing both individuals and organizations flourish through effective training, mentoring, the seamless execution of testing strategies and successful delivery of tested code."
+		},
+		{
+			"name": "Steve Mellor",
+			"picture": "images/speakers/steve_mellor.jpeg",
+			"title": "Practical Prompting: Using AI to support testing and quality engineering",
+			"abstract": "Practical examples of using AI to accelerate key aspects of testing including general prompt engineering guidance as well as tried and tested prompts for analysis, test creation, data generation, and code development using both frontier and open-weight models and how you can protect sensitive data whilst still gaining maximum benefit from these tools.",
+			"bio": "Steve is a skilled technical professional with over 25 years of industry experience.  Adept at developing novel solutions to complex problems in software delivery, he supports Roq’s clients in understanding their challenges, implementing quality engineering solutions, providing consultancy and also performs technical testing including writing & reviewing code."
 		}
 	]
 }
