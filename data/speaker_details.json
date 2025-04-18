@@ -67,8 +67,8 @@
 		{
 			"name": "Jit Gosai",
 			"picture": "images/speakers/jit.jpeg",
-			"title": "Psychological Safety for Staff+ Engineers",
-			"abstract": "Psychological safety is fundamental for successful teams as it allows people to take risks and feel confident that no one on the team would embarrass or punish anyone else for admitting mistakes, asking questions or offering new ideas. But taking those risks doesn't come naturally to people and needs to be nurtured. Why? Because people have a natural tendency to look up in the hierarchy as to what is and isn't acceptable. Therefore if we model behaviors that show that it is safe for interpersonal risk-taking, it helps others see that they, too, can take these risks. In this talk, I'd like to share what psychological safety is, why it matters to software teams and how Staff+ engineers can foster environments high in psychological safety.",
+			"title": "Psychological safety: The link between speaking up, complexity and high performing teams",
+			"abstract": "Psychological safety is vital for high-performing engineering teams, but what it is and how it affects them is often misunderstood. In this talk, I'll share my journey in understanding this foundational aspect of teams and how we have attempted to apply the latest research to increase it.",
 			"bio": "Jitesh’s expertise in testing spans over two decades. He currently works as the Principal Tester for the BBC, supporting teams to create high-quality products by fostering a Culture of Quality. He shares his experiences at conferences across Europe and in his newsletter https://qualityeng.substack.com/."
 		},
 		{
