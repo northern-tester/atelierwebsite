@@ -2,6 +2,8 @@ atelier_website.sublime-project
 atelier_website.sublime-workspace
 npm-debug.log
 node_modules/
+test-results/
+playwright-report/
 logs/
 .vscode/
 config/slack.json

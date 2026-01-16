@@ -14,6 +14,104 @@
 			"title": "AI Agents - Lets Talk...",
 			"abstract": "Let's talk about the latest hot topic in our industry - AI Agents. They might be coming for your job, entire workforces may be replaced by these super-smart chunks of code, so what does it mean for you? We'll also see one in action.",
 			"bio": "Andy is by day a Principal Platform Engineer at a gambling firm, by night an opensource AI contributor working with LLMs and AI applications running in Kubernetes. Currently working with K8sGPT to help analyse and diagnose faults on Kubernetes clusters. He also is a small part of the organizing team for DevOpsDays London and ran the DevOps meetup in Leeds for almost a decade hosting over 50 events. He’s attended and has spoken at a bunch of DevOps conferences and in his own words is \"an all-round DevOps nuisance\"."
+		},
+		{
+			"name": "Emily O'Connor",
+			"picture": "images/speakers/emilyoc.jpeg",
+			"title": "Testing your assumptions - You are not your customer",
+			"abstract": "This talk goes over some of the assumptions development teams can make and how recognising them can help teams build better quality products - because you are not your customer.",
+			"bio": "Emily O'Connor is a Principal Test Engineer at Audacia, a consultancy that work across a variety of industries. Given each consultant cannot be an expert in each of them - Emily uses this to her advantage by identifying edge cases and test scenarios by recognising the fact that she is not often the companies typical users."
+		},
+		{
+			"name": "Stephen Platten",
+			"picture": "images/speakers/stephen-platten.jpg",
+			"title": "Stoicism & Software Testing: Ancient Philosophy Meets Modern Methods",
+			"abstract": "Testing is often chaos, uncertainty, changing requirements, constant defects, and a challenging stakeholder. What is the answer to this chaos? A 2000-year-old philosophy?? Stephen's talk will about Stoicism and how it's principles can be used to gain a different perspective on this chaos to make us happier testers.",
+			"bio": "Stephen is an award winning (European Software Testing awards, TESTA) tester and QA, with a passion for test improvement and development. I have worked in most aspects of electronic engineering/software engineering. He has a passion for testing and understanding complex applications, technologies, and projects. To quote him, \"I want to be the best manager, tester, and coach I can be, to be \"The Stoic Tester\""
+		},
+		{
+			"name": "Sorrel Harriet",
+			"picture": "images/speakers/sorrel.jpg",
+			"title": "Testing in the dark: Life as a research software engineer",
+			"abstract": "This short talk will give the audience an insight into the chaotic underworld that is research software engineering. It aims to ignite inter-contextual learning in areas like software design, testing, and supporting neurodiversity in teams. If you've ever been curious about engineering in an academic research context, this one's for you!",
+			"bio": "Having bounced around academia and the tech industry in various roles, Sorrel now works part-time as a research software engineer at Leeds University and part-time as a freelance learning coach and consultant to engineering teams. Much of what we do as engineers hinges on our capacity to learn, independently and collaboratively, yet learning to learn isn't a prominent feature of most curriculums. That's why she started her consultancy, where she can bring her research and teacher experience to support continuous learning."
+		},
+		{
+			"name": "Costa Giannakopoulos",
+			"picture": "images/speakers/costa_giannakopoulos.jpeg",
+			"title": "What the heck is subcutaneous testing?",
+			"abstract": "Ever wondered how you might reduce the number of UI tests you have and still cover the key scenarios? Costa will answer the question what the heck is subcutaneous testing? With loads of real examples of how Pactumjs makes this easy! ",
+			"bio": "I’m a tester and I absolutely love it. It’s what I was meant to do even though it’s something I fell into by luck. I have worked at MadeByPi, Sky, DAZN, Infinity Works/Accenture and now Collibra. I see myself as a quality engineer and quality coach as testing is everyone’s responsibility. My goal is to shepherd the team I am in and point them in the right direction of creating high quality software. I am a father of 3 amazing daughters. I also love playing 5 a side football and snooker."
+		},
+		{
+			"name": "Olawale Ibitoye",
+			"picture": "images/speakers/olawale_ibitoye.jpeg",
+			"title": "AI Ethics in SDLC",
+			"abstract": "The integration of artificial intelligence (AI) across diverse domains such as healthcare, transportation, and consumer services has transformed societal and technological landscapes. However, this rapid adoption also amplifies the ethical challenges posed by AI systems, including issues related to bias, privacy, transparency, and accountability. Addressing these challenges requires adoption of AI ethics throughout the software development lifecycle (SDLC) while fostering collaboration across diverse functional teams, including developers, designers, testers, and end-users.",
+			"bio": "My name is Olawale Ibitoye, and I am a tester with six years of testing experience. I also hold a master's degree in AI and data science. I enjoy discussing technology and ethics, and in my free time, I am an avid fan of sports, particularly football."
+		},
+		{
+			"name": "Kat Obring",
+			"picture": "images/speakers/kat_obring.jpeg",
+			"title": "From Gatekeepers to Coaches: Evolving the QA Role in Agile Teams",
+			"abstract": "Every agile team I ever worked on has at one time or another felt held back by their QA process, and often rightly so, because too many QAs have been trained to be gatekeepers, not enablers of safe releases. In this talk, you’ll hear how modern QA professionals can shift from being that bottleneck into quality coaches, finally breaking down silos and building stronger engineering culture. I’ll present practical strategies for implementing this shift, such as pair testing, collaborative code reviews and quality-focused workshops that will improve the entire team’s testing capabilities.",
+			"bio": "After 20 successful years in the software industry, I now teach teams and individuals shift-left testing strategies and leveraging DevOps practices to achieve speedy delivery with predictable quality. My tenure at companies such as Linden Lab (Second Life), Disney Online, Infinity Works, and Accenture has reinforced my belief that most technology challenges are fundamentally about people. Therefore, my focus is on developing processes and nurturing relationships that foster high-performing, contented teams. I emphasise that effective testing is a critical component of quality engineering that will speed up your delivery, not slow it down."
+		},
+		{
+			"name": "Chris Briggs",
+			"picture": "images/speakers/chris_briggs.jpeg",
+			"title": "The Good, The Right, and The Fitting: Moral Philosophy in Software Testing",
+			"abstract": "The future is now. Never before have we had such power to do harm—or to do good. But what is good? What is right? What is fitting—and for whom? Can we afford the luxury of thinking about morality in software testing? Can we afford not to? Quality Engineering often focuses on functional and non-functional attributes, ensuring performance, security, and usability. Even the broader, glue-work role of QEs tends to center on fulfilling business needs and meeting delivery goals. Yet, whether we acknowledge it or not, our work has an inherent moral dimension. This talk begins with an exploration of Aristotelian, Kantian, and Utilitarian ethics, introducing core philosophical concepts that we will then apply to real-world software testing dilemmas. The purpose of this talk is not to leave attendees with answers or definitive frameworks. Instead, attendees will leave with a conceptual scaffolding that enables them to critically examine their own domains, collaboratively assess ethical challenges, integrate moral reasoning into their decision-making, and hopefully, a lot of questions! Ethical testing isn’t only about avoiding harm in the present - but about doing good, now and in the future.",
+			"bio": "I fell into testing eight years and have loved the work ever since. I’ve been on a number of professional journeys; from manual to a hybrid of auto-manual testing, bare functional testing to considering all quality attributes, being a team member, to being a leader, and attending community events and conferences to now, speaking at them. With a lively and at times, derailing interest in the world I love to play with ideas and new perspectives. Otherwise I do enjoy a spot of cooking and crafting."
+		},
+		{
+			"name": "Jit Gosai",
+			"picture": "images/speakers/jit.jpeg",
+			"title": "Psychological safety: The link between speaking up, complexity and high performing teams",
+			"abstract": "Psychological safety is vital for high-performing engineering teams, but what it is and how it affects them is often misunderstood. In this talk, I'll share my journey in understanding this foundational aspect of teams and how we have attempted to apply the latest research to increase it.",
+			"bio": "Jitesh’s expertise in testing spans over two decades. He currently works as the Principal Tester for the BBC, supporting teams to create high-quality products by fostering a Culture of Quality. He shares his experiences at conferences across Europe and in his newsletter https://qualityeng.substack.com/."
+		},
+		{
+			"name": "Denny Thampi",
+			"picture": "images/speakers/denny_thampi.jpeg",
+			"title": "The Shift to Quality Engineering: Adapting Skills, Mindsets, and Practices",
+			"abstract": "Embedding quality in the entire product life cycle has become an essential part in the modern software development landscape. This talk explores the transformative shift from traditional QA to Quality Engineering, focusing on how teams can adapt their skills, mindset and practices to foster continuous quality. Learn how modern techniques such as shift left, automation and robust feedback loops help drive quality not only during development but also in monitoring, analytics and post production performance.",
+			"bio": "I am passionate about Quality Engineering, process improvement, and team collaboration. With almost 20 years of experience, I’ve helped teams move beyond traditional testing, embedding quality at every stage of development. I love working with people, mentoring testers to grow into quality engineers, and encouraging a collaborative, automation-first approach. My focus is always on making processes smoother, improving efficiency, and ensuring high-quality software delivery."
+		},
+		{
+			"name": "Melissa Rocks",
+			"picture": "images/speakers/melissa_rocks.jpeg",
+			"title": "Who Cares About Accessibility",
+			"abstract": "Accessibility? The history and use of it. Let's talk about why we want it to be regularly considered in tech, who it can help and how we can go about that.",
+			"bio": "I've been in testing for 8+ years now and my passion is inclusivity in the workplace, ranging from mental health to accessibility to neurodiversity considerations. Before facing my own physical disability struggles this was always something I was keen on but since I've experienced it more I can really give explanations of how small things can make all the difference to those with and without these considerations."
+		},
+		{
+			"name": "Bryan Jones",
+			"picture": "images/speakers/bryan-jones.jpeg",
+			"title": "Why Testers are the True Rock Stars of IT",
+			"abstract": "We have all heard the negative comments in the past – “Just get any tester in”, “Anyone can test”, “Testers are just failed developers”, “Testing is easy”, “That costs too much, cut out some testing”. Well now’s the time to stand-up and put them right! Now is the time for us to celebrate what a Tester truly is! A good tester is not a Jack-of-All-Trades. They are a multi-faceted, cross-skilled, emotionally intelligent, critically thinking, risk aware, balanced Rock Star of IT. Software development is a social activity and testers are the glue that pulls it together. We provide so much value, both tangible and intangible, so let’s call it out. Using stories of personal experience in both IT and Rock Bands, this talk is part motivational speech, part personal development coaching, part career coaching, and part advice on how to be a Rock Star. But above all, this is a Celebration of what it means to be a Tester! WARNING: This presentation involves guitar playing, singing and audience participation.",
+			"bio": "I have been in testing for over 36 years, working in most of the industry sectors and having done every job in testing from machine code reviews to being the Director of Quality Engineering & Testing for a top 5 European Digital Transformation company. I am now a QAT Architect for 2i, a quality and testing consultancy. I present at conferences and IT community events. I am on the committee of BCS Edinburgh and the Scottish Testing Group. I also host the Quality Blether podcast. In Summary, I am a career testing professional with a lifetime obsession with testing and quality, not to mention an insatiable curiosity and learning addiction. When not talking about quality, I am a certified Psychotherapist and Hypnotherapist. I have also done impromptu street hypnosis.  I used to play bass in several bands, including an Irish Folk band and a Trash Metal band. I take part in off-road motorcycle rallies on my 1200cc BMW that weighs 250kg – not a practical rally bike! I also used to train and ride horses (a lot!), but my horse is now retired."
+		},
+		{
+			"name": "Bryan Elder",
+			"picture": "images/speakers/bryan_elder.jpeg",
+			"title": "Customers Are Not the Goal, They’re the Starting Point",
+			"abstract": "In the dynamic landscape of software development, the role of customers extends far beyond being mere recipients of the end product. Rather than viewing customers as a distant goal to achieve, successful software testing practices recognize them as the starting point for quality assurance. Let’s delve into why this perspective matters and how it impacts the software development lifecycle.",
+			"bio": "With well over a decade of diverse experience in software testing spanning various sectors such as Government, charity, private, and e-commerce, banking and more, I bring a wealth of expertise to the table. From management to QA, I've honed my skills in delivering exceptional software solutions and cultivating high-performing testing teams. My track record includes successful redesign and implementation of software delivery solutions, ensuring longevity and cost-effectiveness while prioritizing customer growth. My passion lies in witnessing both individuals and organizations flourish through effective training, mentoring, the seamless execution of testing strategies and successful delivery of tested code."
+		},
+		{
+			"name": "Steve Mellor",
+			"picture": "images/speakers/steve_mellor.jpeg",
+			"title": "Practical Prompting: Using AI to support testing and quality engineering",
+			"abstract": "Practical examples of using AI to accelerate key aspects of testing including general prompt engineering guidance as well as tried and tested prompts for analysis, test creation, data generation, and code development using both frontier and open-weight models and how you can protect sensitive data whilst still gaining maximum benefit from these tools.",
+			"bio": "Steve is a skilled technical professional with over 25 years of industry experience.  Adept at developing novel solutions to complex problems in software delivery, he supports Roq’s clients in understanding their challenges, implementing quality engineering solutions, providing consultancy and also performs technical testing including writing & reviewing code."
+		},
+		{
+			"name": "Clem Pickering",
+			"picture": "images/speakers/clem_pickering.jpeg",
+			"title": "Empowered excellence: How using a software delivery self assessment can catalyze and drive a culture of excellence and performance",
+			"abstract": "Moving to a product-centric, fast flow operating model brings huge benefits for organizations of all sizes that use and offer software-enriched services: shorter time-to-value, increased operational efficiency, better connection to users, and increased financial transparency. But proven fast flow approaches like Team Topologies require significant shifts in capabilities and culture especially in terms of empowered teams. So what are the practices and approaches needed for ongoing, sustained success with digital services? What does it feel like to be part of an organisation that is set up for a fast flow of value? In this talk, Clem Pickering, Principal Consultant at Conflux, explores something as simple as a software delivery self assessment tool can be a catalyst to help individuals, teams and organizations take the first steps towards a performance-oriented culture that drives both better organizational outcomes and human wellbeing.",
+			"bio": "Clem is an independent coach and consultant focused on helping senior technology leaders increase both their impact and personal fulfilment through compassionate, people-focused leadership. He combines a background in technology and consultancy with his ICF-accredited coaching practice to help individuals and organizations create the conditions for better communication, high-performing teams and inclusive, engaging company culture. Along side his own business he also works as a Principal Consultant for Conflux, helping to create thriving organizations through Team Topologies, fast flow, and Adapt Together™ principles. Clem brings experience from a wide range of leadership roles spanning engineering, test, architecture, people operations and tech academies. He’s known for his empathetic and warm style and strongly believes that organisations that put humanity first are also the most successful."
 		}
 	]
 }

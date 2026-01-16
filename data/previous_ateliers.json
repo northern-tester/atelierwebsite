@@ -2,6 +2,19 @@
 	"title": "Previous Leeds Testing Ateliers",
 	"previousAteliers": [
 		{
+			"class": "atelierTwelve",
+			"eventName": "Atelier XII - The Tetley - Tuesday May 13th 2025",
+			"eventDescription": "We had wrestled with the question of trying a new venue for a while. The Tetley was an obvious choice, it had to be iconic and Leeds through and through. And what a day we had! A record breaking number of speakers, not to mention more attendees than ever. The glorious weather gave the Atelier a real festival of testing feeling, we even had a live podcast recording, a first for the Atelier. Lots for very wise talks about AI, psychological safety and quality engineering were balanced by the devilish Defend the Indefensible, celebrating terrible takes on software development.",
+			"pictureOnePath": "./images/previousateliers/atelier-twelve-podcast.jpeg",
+			"pictureOneAltText": "Ian Smith and Ash Winter recording a podcast live at the Atelier",
+			"pictureTwoPath": "./images/previousateliers/atelier-twelve-gizajobgoat.jpeg",
+			"pictureTwoAltText": "Gwen Diagram and the Giza Job Goat banner",
+			"pictureThreePath": "./images/previousateliers/atelier-twelve-diningroom.jpeg",
+			"pictureThreeAltText": "The dining room at The Tetley",
+			"pictureFourPath": "./images/previousateliers/atelier-twelve-thetetley.jpeg",
+			"pictureFourAltText": "The Tetley, a beautiful venue for the Atelier"
+		},
+		{
 			"class": "atelierEleven",
 			"eventName": "Atelier XI - Wharf Chambers - Tuesday April 23rd 2024",
 			"eventDescription": "Atelier XI was big. We had 15 speakers, 10 sponsors, 5 organisers, 3 dogs and 1 gameshow. Thats right, 3 dogs. One day, there will more dogs than organisers. Perhaps one day the Atelier will be entirely run and attended by dogs. We can but dream. The humans had the best of it though, treated to talks on team dynamics, communicating with anxiety, testing AI chatbots, accessibility, play, feedback, user flow mapping, user research and performance testing. And much more besides. Atelier XI was one to remember.",
