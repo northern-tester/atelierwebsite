@@ -1,6 +1,6 @@
 # Atelier Website
 
-> The Leeds Testing Atelier needs a website, and this might be it. Web development is for the clinically insane...
+> The Leeds Testing Atelier needs a website, and this might be it. Web development is for the clinically insane...!
 
 ## Table of Contents
 
