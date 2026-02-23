@@ -21,6 +21,34 @@
 			"title": "I Let an AI Agent Write My Test Strategy. Here’s What Happened.",
 			"abstract": "In this session, I will explore the practical capabilities of Generative AI and how it fits into the software lifecycle from a senior testing perspective. Moving beyond simple code snippets, we’ll look at what happens when you give an AI agent the keys to the repo. During this live demo, we will; Demo a functional web app built exclusively using Claude Code; Task the agent with analyzing its own repository to propose a test strategy and generate a suite of automated tests; Introduce breaking changes to the application to see how the agent adapts, \"self-heals\" the tests, or where it ultimately fails. This is a live demo, so anything could happen. While Claude is crunching its numbers, I’ll share thoughts and stories from a recent real-world engagement where we exclusively used Claude Code to develop and test a new greenfield application. We'll discuss the ROI, the frustrations, and why the \"Human in the Loop\" is still the most important part of the stack.",
 			"bio": "I fell into software testing over 15 years ago and have spent all that time in consultancy environments seeing different problems from different client perspectives. Mainly working in the test automation space I'm really excited about how AI is going to make my life so much easier or should I be worried that it's going to make me obsolete? Away from my desk I'm a husband, a dad, a football fan and a dog owner. I've also been known to go for the odd run."
+		},
+		{
+			"name"	: "Crispin Read",
+			"picture" : "images/speakers/crispin-read.jpg",
+			"title"   : "Testing for Social Mobility",
+			"abstract" : "Software testing is one of the most accessible routes into tech — but we’re still missing the people who’d thrive in it.\nAt The Coders Guild, we’re starting a new initiative this quarter called Find Your Hidden Testers helping companies uncover potential testers within their own organisations.",
+			"bio" : "Accidental Founder and CEO of The Coders Guild. Occasional government botherer. Long-time advocate for alternative pathways into tech and general social value busybody."
+		},
+		{
+			"name"	: "Richard Adams",
+			"picture" : "images/speakers/richard_adams.jpeg",
+			"title"   : "Let's Go Security Testing",
+			"abstract" : "Through a mix of slides/explanation and hands on exercises, we'll look at performing some basic security testing, like modifying client side validation, XSS and SQL injection. People would need laptops, although I could provide a couple and pairing would be advantageous.",
+			"bio" : "I'm a former quality coach with ~14years experience in software (plus 2 in games) across a mix of roles from testing to development. I'm really passionate about testing and quality."
+		},
+		{
+			"name": "Colin Wren",
+			"picture": "images/speakers/colin_wren.jpeg",
+			"title": "How testing saved my side-hustle",
+			"abstract": "Join Colin as he tells you the tale of building his first native iOS app, the struggles he encountered trying to build a new product on a new tech stack and how the simple act of writing test cases helped him succeed when everything seemed to be falling apart.",
+			"bio": "Colin is a Senior Software Engineer by day and wannabe Product Engineer at night. He helps run the LeedsJS and MoT Leeds meet-ups, and when not writing code, can be found failing to merge Chiptune and Doom Metal into some horrible hybrid that no one but him would ever want to listen to."
+		},
+		{
+			"name": "Stephen Platten",
+			"picture": "images/speakers/stephen-platten.jpg",
+			"title": "When Testing Feels Uncomfortable: Using Friction as a Quality Signal",
+			"abstract": "Good testing rarely feels smooth. This talk reframes discomfort, resistance, and uncertainty in testing as signals — not problems — and shows how experienced testers can use friction to guide better decisions, conversations, and outcomes.",
+			"bio": "Stephen is an award winning (European Software Testing awards, TESTA) tester and QA, with a passion for test improvement and development. I have worked in most aspects of electronic engineering/software engineering. He has a passion for testing and understanding complex applications, technologies, and projects. To quote him, \"I want to be the best manager, tester, and coach I can be, to be \"The Stoic Tester\""
 		}
 	]
 }
