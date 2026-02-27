@@ -49,6 +49,20 @@
 			"title": "When Testing Feels Uncomfortable: Using Friction as a Quality Signal",
 			"abstract": "Good testing rarely feels smooth. This talk reframes discomfort, resistance, and uncertainty in testing as signals — not problems — and shows how experienced testers can use friction to guide better decisions, conversations, and outcomes.",
 			"bio": "Stephen is an award winning (European Software Testing awards, TESTA) tester and QA, with a passion for test improvement and development. I have worked in most aspects of electronic engineering/software engineering. He has a passion for testing and understanding complex applications, technologies, and projects. To quote him, \"I want to be the best manager, tester, and coach I can be, to be \"The Stoic Tester\""
+		},
+		{
+			"name": "Lakshmi Damodar",
+			"picture": "images/speakers/lakshmi_damodar.jpg",
+			"title": "From Bugs to Bytes: Making Software Development sustainable for the future",
+			"abstract": "As software test professionals, we focus on eliminating bugs —but what about the hidden waste we create in the process? From excessive test environments to bloated databases and inefficient automation, software development often contributes to digital dumping, draining energy and resources. As software professionals, we must rethink how we build, test, and deploy—not just for functionality, but for sustainability.\nThis talk will be more of a discussion to explore the unintended impact of software development on our digital ecosystem, from data waste to inefficient cloud consumption. We’ll uncover how smart testing strategies, green coding practices, and optimized infrastructure can help us transition from reckless digital expansion to a more sustainable and efficient approach.\nLet's build better, test smarter, and drive change—because the future of tech should be more efficient and eco-friendlier.",
+			"bio": "I’ve been a software test professional for over 15 years, and throughout my journey, one belief has stayed strong “quality isn’t just a process, it’s a mindset”. It’s something that should be woven into the culture of a team and an organization, shaping the way we build, collaborate, and innovate.\nAt Leeds Beckett University, I work towards this goal every day, helping create robust, sustainable, and clean systems that don’t just meet expectations but exceed them. For me, testing isn’t just about finding issues—it’s about strengthening foundations, ensuring resilience, and driving long-term success."
+		},
+		{
+			"name": "Mark Nolan",
+			"picture": "images/speakers/mark_nolan.jpg",
+			"title": "Visual Regression Testing using VRT",
+			"abstract": "A quick conversation/discussion on using a tool called VRT to test and check for any changes to the UO.",
+			"bio": "Senior Tester at a non for profit scientific software company called Lhasa"
 		}
 	]
 }
