@@ -46,6 +46,11 @@ logger.token('id', function getId(){
 	return sessionId
 });
 
+app.use(function(req, res, next) {
+  res.header('X-Clacks-Overhead', 'GNU Terry Pratchett');
+  next();
+});
+
 // uncomment after placing your favicon in /public
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('[:date[clf]] :id :status :method :url :response-time ":user-agent"', {stream:accessLogStream}));
