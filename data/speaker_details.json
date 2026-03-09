@@ -61,8 +61,8 @@
 			"name": "Mark Nolan",
 			"picture": "images/speakers/mark_nolan.jpg",
 			"title": "Visual Regression Testing using VRT",
-			"abstract": "A quick conversation/discussion on using a tool called VRT to test and check for any changes to the UO.",
-			"bio": "Senior Tester at a non for profit scientific software company called Lhasa"
+			"abstract": "A short talk and discussion introducing Visual Regression Tracker, a tool that enables teams to implement visual regression testing within any automation framework.",
+			"bio": "Senior Quality Engineer at the non-profit scientific software company Lhasa Limited. Over the past eight years, I have worked on improving test automation, CI/CD pipelines, and quality engineering practices across complex data-driven systems."
 		}
 	]
 }
