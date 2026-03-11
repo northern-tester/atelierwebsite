@@ -61,8 +61,38 @@
 			"name": "Mark Nolan",
 			"picture": "images/speakers/mark_nolan.jpg",
 			"title": "Visual Regression Testing using VRT",
+			"abstract": "A quick conversation/discussion on using a tool called VRT to test and check for any changes to the UO.",
+			"bio": "Senior Tester at a non for profit scientific software company called Lhasa"
+		},
+		{
+			"name": "Udeme Jalekun",
+			"picture": "images/speakers/udeme_jalekun.jpeg",
+			"title": "Designing test strategies for fast-moving products teams: Balancing speed and depth of testing in startups without burning out QA teams",
+			"abstract": "When I first stepped into a fast‑growing product team, I thought the biggest challenge would be flaky tests or shifting requirements. Instead, it was watching a talented QA team slowly burn out under the weight of “just one more quick release”. Every sprint felt like a race: features landing late, testing squeezed into the final hours, and quality becoming a negotiation rather than a shared responsibility. We were moving fast, but not sustainably—and certainly not smartly.This talk tells the story of how we rebuilt our test strategy from the ground up to support both speed and depth, without sacrificing the well-being of the people doing the work. I’ll share the practical steps we took to move from reactive testing to intentional quality engineering: lightweight risk‑based models that guide where to go deep, rapid feedback loops that keep pace with product ambition, and collaborative practices that shift quality left without simply shifting the burden onto QA.",
+			"bio": "Udeme Jalekun is a senior QA Engineer at Raenest, a fast-growing, VC-backed fintech. She has driven quality initiatives for some of Africa's most widely used digital platforms through roles at Interswitch, Kippa, and VigiPay, ensuring reliability for millions of users in payments, lending, and tech-driven services. Recognized as one of the Top 21 QA Professionals in 2024 and featured in African tech media as “the woman making African software work”, Udeme combines deep technical expertise with strategic insight. A seasoned speaker at events like Test Fest and Test Drive, Udeme champions quality as a business advantage, blending practical frameworks with inspiring stories."
+		},
+		{
+			"name": "Clare Norman",
+			"picture": "images/speakers/clare_norman.jpeg",
+			"title": "Make it joyful: How to build products that make people smile",
+			"abstract": "“Have nothing in your house that you do not know to be useful or believe to be beautiful”. This is a quote by English textile designer William Morris who lived and designed in the late 1800s. But I think, why not both. Why can’t we have beautiful and functional items in our homes. I believe life is too short to be plain. I genuinely believe that we can apply the same philosophy to software. One of the ways we can do this is by injecting joy into user journeys so that we build and maintain software that not only serves a purpose but brings joys to its users.",
+			"bio": "My name is Clare and I am a human Venn diagram. Characteristics of my younger self included a love of puzzles and k'nex as well as arts & crafts. As an adult my favourite activities are typically either highly logical or creative in nature. My profession is the perfect combination of these. I entered the tech world as a tester around 9 years ago, happily ‘breaking’ systems (and developer’s hearts) for years. Now I use that experience of testing complex systems to coach software development teams in how to produce the best quality software systems. I am passionate about making software better for the humans that use it and I sit in the overlap between the computer (which operates on logic) and the human (who definitely don’t operate on logic all of the time). I am a colourful human. Not only do I dress colourfully but I live in a colourful world. William Morris, British Textile Designer said: 'Have nothing in your house that you do not know to be useful, or believe to be beautiful.' I have always striven to achieve both of these qualities for everything in my world. Outside of quality and testing you can often find me hiking, usually by the sea, North Devon and North East England are two of my favourite spots. I am a dedicated Auntie to a young nephew and niece. I also love to bake, travel, craft, lift weights, dance (ballet), journal and sketch."
+		},
+		{
+			"name": "Jennifer Rose",
+			"picture": "images/speakers/jennifer_rose.jpeg",
+			"title": "Leveraging AI in a Shift Left Environment",
+			"abstract": "Clear, concise requirements are key to building the right product. By putting quality at the heart of development from the outset and adopting a shift-left approach, teams can reduce ambiguity and improve delivery. This talk explores how AI can be used before development begins to support analysis and testing — without replacing the critical thinking and judgement that quality professionals bring.",
+			"bio": "I've been in QA for nearly 10 years, some time as a Senior, but largely as a solo QA in smaller organisations."
+		},
+		{
+			"name": "Adam Clarkson",
+			"picture": "images/speakers/adam_clarkson.jpeg",
+			"title": "Prepare for disaster: Testing your recovery process.",
+			"abstract": "This session introduces audiences to the concept of disaster recovery using examples of recent cyber attacks on M&S, JLR, and Coop. We will look at the ways in which you can prepare for such an attack through immutable backups, and most importantly, how to test your project's response if disaster strikes. Throughout the session we'll keep linking back to real life examples and resources that the audience can refer to on their projects, such as NHS Red Lines. There will also be an interactive activity where the audience is given a 'disaster' scenario and is asked to talk to their neighbours about how they would prepare for this.",
+			"bio": "I'm a Senior Test Engineer at Hippo from Leeds. I've been working in product and process quality for the past 10 years, originally starting my career in the steel industry working in labs and technical departments. For the past 7 years I've been working for software consultancies, on public and private sector web and mobile projects, more recently in quality lead roles."
 			"abstract": "A short talk and discussion introducing Visual Regression Tracker, a tool that enables teams to implement visual regression testing within any automation framework.",
 			"bio": "Senior Quality Engineer at the non-profit scientific software company Lhasa Limited. Over the past eight years, I have worked on improving test automation, CI/CD pipelines, and quality engineering practices across complex data-driven systems."
 		}
-	]
-}
+			]
+		}
