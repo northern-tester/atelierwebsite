@@ -91,6 +91,8 @@
 			"title": "Prepare for disaster: Testing your recovery process.",
 			"abstract": "This session introduces audiences to the concept of disaster recovery using examples of recent cyber attacks on M&S, JLR, and Coop. We will look at the ways in which you can prepare for such an attack through immutable backups, and most importantly, how to test your project's response if disaster strikes. Throughout the session we'll keep linking back to real life examples and resources that the audience can refer to on their projects, such as NHS Red Lines. There will also be an interactive activity where the audience is given a 'disaster' scenario and is asked to talk to their neighbours about how they would prepare for this.",
 			"bio": "I'm a Senior Test Engineer at Hippo from Leeds. I've been working in product and process quality for the past 10 years, originally starting my career in the steel industry working in labs and technical departments. For the past 7 years I've been working for software consultancies, on public and private sector web and mobile projects, more recently in quality lead roles."
+			"abstract": "A short talk and discussion introducing Visual Regression Tracker, a tool that enables teams to implement visual regression testing within any automation framework.",
+			"bio": "Senior Quality Engineer at the non-profit scientific software company Lhasa Limited. Over the past eight years, I have worked on improving test automation, CI/CD pipelines, and quality engineering practices across complex data-driven systems."
 		}
 			]
 		}
