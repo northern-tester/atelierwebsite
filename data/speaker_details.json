@@ -94,10 +94,10 @@
 		},
 		{
 			"name": "Josh Bray & Prad Mehta",
-			"picture": "images/speakers/josh-bray.jpeg",
+			"picture": "images/speakers/prad_and_josh.png",
 			"title": "Given I’m New to Automation, When I Start BDD, Then Chaos Becomes Manageable",
 			"abstract": "This talk chronicles a \"delightfully chaotic\" evolution from trial-and-error tool experimentation to a sophisticated, bank-wide automation ecosystem. After selecting Playwright as their primary driver, the team collaborated with developers and guilds to build dual frameworks and a robust BDD solution designed for technical and non-technical users alike. By pairing a custom TypeScript \"therapy\" course with AI-driven automation via Copilot, they successfully standardized their testing process, transforming a messy, \"marginally on fire\" journey into a scalable success story filled with practical lessons on BDD magic and organizational alignment.",
-			"bio": "Josh is a Senior Quality Engineer in the Homes Platform at Lloyds Banking Group, forged through two degree apprenticeships, an Apprentice of the Year win, and a heroic run to the National Apprenticeship Awards regional finals — achievements he promises not to bring up too often, unless the audience seems like they might clap.\n Prad is also a Senior Quality Engineer in the Homes Platform — and the other half of the Tech Enablers duo. With experience across a wide range of engineering challenges, he shares Josh’s mission of making quality engineering simpler, smarter, and significantly less painful."
+			"bio": "Josh is a Senior Quality Engineer in the Homes Platform at Lloyds Banking Group, forged through two degree apprenticeships, an Apprentice of the Year win, and a heroic run to the National Apprenticeship Awards regional finals — achievements he promises not to bring up too often, unless the audience seems like they might clap.\n Prad is also a Senior Quality Engineer in the Homes Platform — and the other half of the Tech Enablers duo. With experience across a wide range of engineering challenges, he shares Josh’s mission of making quality engineering simpler, smarter, and significantly less painful. Prad is a Senior Quality Engineer with 16 years in testing, long enough to remember when an “automation strategy” meant a spreadsheet and a lot of hope. Pad's worked across locked‑down legacy systems at the Ministry of Defence, ML‑driven banking platforms, and fast‑paced startups."
 		},
 		{
 			"name": "Bryan Jones",
