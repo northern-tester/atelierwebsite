@@ -58,13 +58,6 @@
 			"bio": "I’ve been a software test professional for over 15 years, and throughout my journey, one belief has stayed strong “quality isn’t just a process, it’s a mindset”. It’s something that should be woven into the culture of a team and an organization, shaping the way we build, collaborate, and innovate.\nAt Leeds Beckett University, I work towards this goal every day, helping create robust, sustainable, and clean systems that don’t just meet expectations but exceed them. For me, testing isn’t just about finding issues—it’s about strengthening foundations, ensuring resilience, and driving long-term success."
 		},
 		{
-			"name": "Mark Nolan",
-			"picture": "images/speakers/mark_nolan.jpg",
-			"title": "Visual Regression Testing using VRT",
-			"abstract": "A short talk and discussion introducing Visual Regression Tracker, a tool that enables teams to implement visual regression testing within any automation framework.",
-			"bio": "Senior Quality Engineer at the non-profit scientific software company Lhasa Limited. Over the past eight years, I have worked on improving test automation, CI/CD pipelines, and quality engineering practices across complex data-driven systems."
-		},
-		{
 			"name": "Udeme Jalekun",
 			"picture": "images/speakers/udeme_jalekun.jpeg",
 			"title": "Designing test strategies for fast-moving products teams: Balancing speed and depth of testing in startups without burning out QA teams",
