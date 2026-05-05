@@ -3,7 +3,7 @@
 > The Leeds Testing Atelier needs a website, and this might be it. Web development is for the clinically insane...!
 
 ## Table of Contents
-
+0000
 - [Install](#install)
 - [Usage](#usage)
 - [Contribute](#contribute)
@@ -17,11 +17,15 @@ node version required - v6.9.X and above
 Clone this mutha down, cd into atelier website and npm install
 In order for the Slack Call for Papers to work, please add config into config/slack_example.json and rename to slack.json, ask the authorities (mainly me :) ) for the Testing Atelier webhook, channel and user details.
 
-```
-
 ## Usage
 
-```
+To run the application locally without Docker, you need to create a `.env` file in the root directory to set the application state:
+
+1. Create a `.env` file:
+2. Add the following line: `ATELIER_STATE=pre`
+
+Available states are `cfp`, `pre`, `post`, or `no`.
+
 npm start - will start the application on port 3000 - navigate to http://localhost:3000
 env PORT={port_number} npm start will start on http://localhost:{port_number}
 
