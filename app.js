@@ -11,7 +11,6 @@ var generateSafeId = require('generate-safe-id');
 var index = require('./routes/index');
 var callforpapers = require('./routes/callforpapers');
 var previousateliers = require('./routes/previousateliers');
-var thankyou = require('./routes/thankyou');
 var sponsors = require('./routes/sponsors');
 var robot = require('./routes/robot');
 
@@ -25,8 +24,8 @@ app.set('views', path.join(__dirname, 'views'));
 var logDirectory = path.join(__dirname, 'logs');
 
 //Create a rotating write stream
-var accessLogStream = rfs('access.log', {
-	interval: '1d', 
+var accessLogStream = rfs.createStream('access.log', {
+	interval: '1d',
 	path: logDirectory
 });
 
@@ -35,10 +34,12 @@ app.set('trust proxy', 1) // trust first proxy
 var sessionId;
 app.use(session({
   genid: function(_req) {
-  	sessionId = generateSafeId();
-    return sessionId; // use UUIDs for session IDs 
+    sessionId = generateSafeId();
+    return sessionId; // use UUIDs for session IDs
   },
-  secret: 'atelier'
+  secret: 'atelier',
+  resave: false,
+  saveUninitialized: false
 }));
 
 //Lets set our log stream to have the same token as the cookie
@@ -63,7 +64,6 @@ app.use('/', index);
 app.use('/sponsors', sponsors);
 app.use('/callforpapers', callforpapers);
 app.use('/previousateliers', previousateliers);
-app.use('/thankyou', thankyou);
 app.use('/robot', robot);
 
 // catch 404 and forward to error handler

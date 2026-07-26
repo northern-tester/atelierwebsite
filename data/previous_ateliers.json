@@ -2,6 +2,19 @@
 	"title": "Previous Leeds Testing Ateliers",
 	"previousAteliers": [
 		{
+			"class": "atelierThirteen",
+			"eventName": "Atelier XIII - The Tetley - Tuesday May 12th 2026",
+			"eventDescription": "The only thing to let us down was the weather. We had a superb array of speakers, sponsors and more attendees than ever  (and some pretty good organisers) for the thirteenth edition of the Atelier. After being resigned to having to find a new venue, our friends at The Tetley excelled once again, treating the test community to sustenance to match the heady content offered by our speakers. Plenty of AI, plenty of being a human too, which is the way it should be despite what our big tech overlords think.",
+			"pictureOnePath": "./images/previousateliers/atelier-thirteen-defend.jpg",
+			"pictureOneAltText": "Defend the Indefensible, a gameshow where you defend terrible takes on software development",
+			"pictureTwoPath": "./images/previousateliers/atelier-thirteen-all-smiles.jpg",
+			"pictureTwoAltText": "Smiling attendees at the Atelier, enjoying the talks and workshops",
+			"pictureThreePath": "./images/previousateliers/atelier-thirteen-chat.jpg",
+			"pictureThreeAltText": "Two attendees catching up and chatting about the talks and workshops at the Atelier",
+			"pictureFourPath": "./images/previousateliers/atelier-thirteen-udeme.jpg",
+			"pictureFourAltText": "Udeme on stage at the Atelier."
+		},
+		{
 			"class": "atelierTwelve",
 			"eventName": "Atelier XII - The Tetley - Tuesday May 13th 2025",
 			"eventDescription": "We had wrestled with the question of trying a new venue for a while. The Tetley was an obvious choice, it had to be iconic and Leeds through and through. And what a day we had! A record breaking number of speakers, not to mention more attendees than ever. The glorious weather gave the Atelier a real festival of testing feeling, we even had a live podcast recording, a first for the Atelier. Lots for very wise talks about AI, psychological safety and quality engineering were balanced by the devilish Defend the Indefensible, celebrating terrible takes on software development.",
