@@ -1,10 +1,8 @@
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
-var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var rfs = require('rotating-file-stream');
 var session = require('express-session');
 var generateSafeId = require('generate-safe-id');
 
@@ -20,31 +18,26 @@ var app = express();
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
-//Get the log directory
-var logDirectory = path.join(__dirname, 'logs');
-
-//Create a rotating write stream
-var accessLogStream = rfs.createStream('access.log', {
-	interval: '1d',
-	path: logDirectory
-});
-
 //Cookie setup
 app.set('trust proxy', 1) // trust first proxy 
-var sessionId;
 app.use(session({
   genid: function(_req) {
-    sessionId = generateSafeId();
-    return sessionId; // use UUIDs for session IDs
+    return generateSafeId(); // use UUIDs for session IDs
   },
   secret: 'atelier',
   resave: false,
   saveUninitialized: false
 }));
 
-//Lets set our log stream to have the same token as the cookie
-logger.token('id', function getId(){
-	return sessionId
+//Log each request to the console, tagged with the session id
+app.use(function(req, res, next) {
+  var start = process.hrtime.bigint();
+  res.on('finish', function() {
+    var ms = Number(process.hrtime.bigint() - start) / 1e6;
+    console.log('[' + new Date().toISOString() + '] ' + req.sessionID + ' ' + res.statusCode + ' ' +
+      req.method + ' ' + req.originalUrl + ' ' + ms.toFixed(3) + ' "' + (req.get('user-agent') || '-') + '"');
+  });
+  next();
 });
 
 app.use(function(req, res, next) {
@@ -54,7 +47,6 @@ app.use(function(req, res, next) {
 
 // uncomment after placing your favicon in /public
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('[:date[clf]] :id :status :method :url :response-time ":user-agent"', {stream:accessLogStream}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
