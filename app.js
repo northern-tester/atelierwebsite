@@ -10,7 +10,6 @@ var index = require('./routes/index');
 var callforpapers = require('./routes/callforpapers');
 var previousateliers = require('./routes/previousateliers');
 var sponsors = require('./routes/sponsors');
-var robot = require('./routes/robot');
 
 var app = express();
 
@@ -56,7 +55,6 @@ app.use('/', index);
 app.use('/sponsors', sponsors);
 app.use('/callforpapers', callforpapers);
 app.use('/previousateliers', previousateliers);
-app.use('/robot', robot);
 
 // catch 404 and forward to error handler
 app.use(function(_req, _res, next, err) {
